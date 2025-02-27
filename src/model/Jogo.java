@@ -3,7 +3,8 @@ package model;
 import java.util.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
-
+import java.io.*;
+import java.text.*;
 //Implementação da classe Jogo
 
 public class Jogo{
@@ -99,5 +100,64 @@ public LocalDate FormatDate(String date){
     return d; 
 }
 
+public String toString(){
+    return "\nID: " + id + 
+           "\ntitle: " + title +
+           "\nrelease_date: "+  releaseDate +
+           "\nrating: "+ rating +
+           "\nnumber_of_reviews: " + NumberOfReviews +
+           "\ngenres: " + genres +
+           "\nplays: " + plays +
+           "\ncountry: " + country;
+        }
 
+// Esse método vai retornar as informações de um registro como um fluxo de Bytes        
+
+public byte[] toByteArray() throws IOException{
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+    /*O DataOutput stream ajuda na escrita do fluxo de bytes, já que a classe ByteArrayOutputStream faz isso somente
+     * de forma isolada
+     */
+    DataOutputStream dos = new DataOutputStream(baos);
+    dos.writeInt(id);
+    dos.writeUTF(title);
+    /*
+     * A decisão de salvar a data como String é porque a calsse DataOutputStream só escreve tipos primitivos, dentro das alternativas
+     * achamos melhor o uso da String porque facilita a ligibilidade e a transformação entre eles é muito prática usando o LocalDate.
+     */
+    dos.writeUTF(releaseDate.toString());
+    dos.writeFloat(rating);
+    dos.writeUTF(NumberOfReviews);
+    //Escrever o tamanho do meu array
+    dos.writeInt(genres != null ? genres.length : 0);
+    if(genres != null){
+        for(String s : genres){
+            dos.writeUTF(s);
+        }
+    }
+    dos.writeUTF(plays);
+    dos.writeUTF(country);
+    
+    return baos.toByteArray();
+}
+
+// Lê as informações de um fluxo de Bytes
+public void fromByteArray(byte[] ba) throws IOException{
+ ByteArrayInputStream bais = new ByteArrayInputStream(ba);
+ DataInputStream dis = new DataInputStream(bais);
+
+ id = dis.readInt();
+ title = dis.readUTF();
+ // Transforma a String em um LocalDate
+ releaseDate = LocalDate.parse(dis.readUTF());
+ rating = dis.readFloat();
+ NumberOfReviews = dis.readUTF();
+ int genresSize = dis.readInt();
+ genres = new String[genresSize];
+ for (int i = 0; i < genresSize; i++) {
+    genres[i] = dis.readUTF();
+}
+ plays = dis.readUTF();
+ country = dis.readUTF();
+ }
 }
