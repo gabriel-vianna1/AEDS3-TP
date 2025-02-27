@@ -1,10 +1,8 @@
 package model;
 
-import java.util.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.io.*;
-import java.text.*;
 //Implementação da classe Jogo
 
 public class Jogo{
@@ -92,7 +90,7 @@ public void setCountry(String country){
  * padrão da classe usada, permitindo usar a classe LocalDate e facilitando o uso de datas
  */
 
-public LocalDate FormatDate(String date){
+public static LocalDate FormatDate(String date){
     
     DateTimeFormatter format = DateTimeFormatter.ofPattern("MMM dd, yyyy");
     LocalDate d = LocalDate.parse(date, format);

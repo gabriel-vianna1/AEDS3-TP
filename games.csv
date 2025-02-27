@@ -1,0 +1,31 @@
+Index,Title,Release Date,Rating,Number of Reviews,Genres,Plays,Country
+0,Elden Ring,"Feb 25, 2022",4.5,3.9K,"['Adventure', 'RPG']",17K,JPN
+1,Hades,"Dec 10, 2019",4.3,2.9K,"['Adventure', 'Brawler', 'Indie', 'RPG']",21K,USA
+2,The Legend of Zelda: Breath of the Wild,"Mar 03, 2017",4.4,4.3K,"['Adventure', 'RPG']",30K,JPN
+3,Undertale,"Sep 15, 2015",4.2,3.5K,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",28K,USA
+4,Hollow Knight,"Feb 24, 2017",4.4,3K,"['Adventure', 'Indie', 'Platform']",21K,AUS
+5,Minecraft,"Nov 18, 2011",4.3,2.3K,"['Adventure', 'Simulator']",33K,JPN
+6,Omori,"Dec 25, 2020",4.2,1.6K,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",7.2K,AUS
+7,Metroid Dread,"Oct 07, 2021",4.3,2.1K,"['Adventure', 'Platform']",9.2K,JPN
+8,Among Us,"Jun 15, 2018",3,867,"['Indie', 'Strategy']",25K,CAN
+9,NieR: Automata,"Feb 23, 2017",4.3,2.9K,"['Brawler', 'RPG']",18K,USA
+10,Persona 5 Royal,"Oct 31, 2019",4.4,2.7K,"['Adventure', 'RPG', 'Turn Based Strategy']",12K,AUS
+11,Stray,"Jul 19, 2022",3.7,1.5K,"['Adventure', 'Indie']",7.7K,AUS
+12,God of War,"Apr 20, 2018",4.2,2.9K,"['Adventure', 'Brawler', 'RPG']",21K,USA
+13,Portal 2,"Apr 18, 2011",4.4,2.9K,"['Adventure', 'Platform', 'Puzzle', 'Shooter']",29K,JPN
+14,Bloodborne,"Mar 24, 2015",4.5,3.4K,"['Adventure', 'RPG']",17K,JPN
+15,Celeste,"Jan 25, 2018",4.2,2.8K,"['Adventure', 'Indie', 'Platform']",20K,JPN
+16,Yakuza 0,"Mar 12, 2015",4.4,2.7K,"['Adventure', 'Brawler', 'RPG', 'Simulator']",15K,AUS
+17,Red Dead Redemption 2,"Oct 26, 2018",4.4,2.9K,"['Adventure', 'RPG', 'Shooter']",19K,USA
+18,Portal,"Oct 10, 2007",4.1,2K,"['Platform', 'Puzzle', 'Shooter']",28K,AUS
+19,Super Mario Odyssey,"Oct 27, 2017",4.2,2.9K,"['Adventure', 'Platform']",25K,JPN
+20,Pokémon Legends: Arceus,"Jan 28, 2022",3.7,1.6K,"['Adventure', 'RPG', 'Turn Based Strategy']",9.1K,JPN
+21,Hi-Fi Rush,"Jan 25, 2023",4.3,926,"['Adventure', 'Brawler', 'Music', 'Platform']",3K,AUS
+22,Metal Gear Rising: Revengeance,"Feb 19, 2013",4.1,2.1K,"['Adventure', 'Brawler', 'Shooter', 'Strategy']",14K,AUS
+23,Grand Theft Auto V,"Sep 17, 2013",3.8,2.1K,"['Adventure', 'Shooter']",30K,JPN
+24,Cyberpunk 2077,"Dec 09, 2020",3.3,1.5K,"['Adventure', 'RPG', 'Shooter']",13K,JPN
+25,God of War Ragnarök,"Nov 09, 2022",4.4,1.7K,"['Adventure', 'Brawler']",5.3K,JPN
+26,Xenoblade Chronicles 3,"Jul 29, 2022",4.4,1.4K,"['Adventure', 'RPG']",3.9K,JPN
+27,Kirby and the Forgotten Land,"Mar 25, 2022",4.2,1.6K,"['Adventure', 'Platform']",5.9K,AUS
+28,Disco Elysium: The Final Cut,"May 01, 2020",4.6,1.1K,"['Adventure', 'Indie', 'RPG']",6K,USA
+29,Marvel's Spider-Man,"Sep 07, 2018",4.1,2.5K,"['Adventure', 'Brawler']",21K,USA
