@@ -1,24 +1,27 @@
-package model.crud;
+package crud;
+
 import java.io.*;
 import java.util.*;
 
+import produtos.*;
 
-import model.Jogo;
+
 
 public class ImportadorCSV {
-    protected String caminho = "games.csv";
+   // protected static String caminho = "games.csv";
 
 
     //Método que vai retornar todos os registros da nossa base dados em uma lista 
 
-    public List<Jogo> CriarLista(){
+    public static List<Jogo> CriarLista(){
         List<Jogo> listaJogos = new ArrayList<>();
 
         try{
           
-            RandomAccessFile raf = new RandomAccessFile(caminho, "rw");
+            RandomAccessFile raf = new RandomAccessFile("games.csv", "r");
+           
             //Pula a linha que vai corresponder ao cabeçalho(metadado) do arquivo
-            raf.readLine();
+            raf.readLine();   
             String linha;
            
 
@@ -51,12 +54,24 @@ public class ImportadorCSV {
         try{
         jogo.setId(Integer.parseInt(atributos[0]));
         jogo.setTitle(atributos[1]);
-        
-        // Tira as aspas que estão armazenadas junto com a data
-        atributos[2] = atributos[2].replaceAll("^\"|\"$", "").trim();
-        jogo.setReleaseDate(Jogo.FormatDate(atributos[2]));
 
-        jogo.setRating(Float.parseFloat(atributos[3]));
+
+        if (atributos[2] != null) {
+            //Tira as aspas que estão armazenadas na data
+            atributos[2] = atributos[2].replaceAll("^\"|\"$", "").trim();
+            jogo.setReleaseDate(Jogo.FormatDate(atributos[2]));
+        } else {
+            jogo.setReleaseDate(null);  // Ou algum valor padrão
+        }
+        
+    
+
+        if (!atributos[3].isEmpty()) {
+            jogo.setRating(Float.parseFloat(atributos[3]));
+        } else {
+            jogo.setRating(0.0f); //valor padrão caso esteja vazio
+        }
+        
         jogo.setReviews(atributos[4]);
 
         if(atributos[5] != null){
@@ -79,9 +94,9 @@ public class ImportadorCSV {
   * Esse método vai vai receber a lista de objetos Jogo criada pelo método e
   * criar um novo arquivo que vai conter esses mesmo objetos, porém escritos em formato de fluxo de Bytes.
   */
-    public void criaByteArq(List<Jogo> lista)throws Exception{
-        if(lista == null){
-            throw new Exception("Lista nula, impossível continuar");}
+    public static void criaByteArq(List<Jogo> lista)throws Exception{
+        if(lista == null || lista.isEmpty()){
+            throw new Exception("Lista nula ou vazia, impossível continuar");}
         // cria um novo arquivo para a escrita de bytes
         try (FileOutputStream fos = new FileOutputStream("games.db");
              DataOutputStream dos = new DataOutputStream(fos)) {
@@ -92,9 +107,13 @@ public class ImportadorCSV {
              //Escreve o tamanho de cada 
              dos.writeInt(ba.length);
              dos.write(ba);  
+             dos.flush();
         }
+
         }catch(IOException e){
          e.printStackTrace();   
         }
+
+
     }
 }

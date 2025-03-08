@@ -1,0 +1,1513 @@
+Index,Title,Release Date,Rating,Number of Reviews,Genres,Plays,Country
+0,Elden Ring,"Feb 25, 2022",4.5,3.9K,"['Adventure', 'RPG']",17K,JPN
+1,Hades,"Dec 10, 2019",4.3,2.9K,"['Adventure', 'Brawler', 'Indie', 'RPG']",21K,USA
+2,The Legend of Zelda: Breath of the Wild,"Mar 03, 2017",4.4,4.3K,"['Adventure', 'RPG']",30K,JPN
+3,Undertale,"Sep 15, 2015",4.2,3.5K,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",28K,USA
+4,Hollow Knight,"Feb 24, 2017",4.4,3K,"['Adventure', 'Indie', 'Platform']",21K,AUS
+5,Minecraft,"Nov 18, 2011",4.3,2.3K,"['Adventure', 'Simulator']",33K,JPN
+6,Omori,"Dec 25, 2020",4.2,1.6K,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",7.2K,AUS
+7,Metroid Dread,"Oct 07, 2021",4.3,2.1K,"['Adventure', 'Platform']",9.2K,JPN
+8,Among Us,"Jun 15, 2018",3,867,"['Indie', 'Strategy']",25K,CAN
+9,NieR: Automata,"Feb 23, 2017",4.3,2.9K,"['Brawler', 'RPG']",18K,USA
+10,Persona 5 Royal,"Oct 31, 2019",4.4,2.7K,"['Adventure', 'RPG', 'Turn Based Strategy']",12K,AUS
+11,Stray,"Jul 19, 2022",3.7,1.5K,"['Adventure', 'Indie']",7.7K,AUS
+12,God of War,"Apr 20, 2018",4.2,2.9K,"['Adventure', 'Brawler', 'RPG']",21K,USA
+13,Portal 2,"Apr 18, 2011",4.4,2.9K,"['Adventure', 'Platform', 'Puzzle', 'Shooter']",29K,JPN
+14,Bloodborne,"Mar 24, 2015",4.5,3.4K,"['Adventure', 'RPG']",17K,JPN
+15,Celeste,"Jan 25, 2018",4.2,2.8K,"['Adventure', 'Indie', 'Platform']",20K,JPN
+16,Yakuza 0,"Mar 12, 2015",4.4,2.7K,"['Adventure', 'Brawler', 'RPG', 'Simulator']",15K,AUS
+17,Red Dead Redemption 2,"Oct 26, 2018",4.4,2.9K,"['Adventure', 'RPG', 'Shooter']",19K,USA
+18,Portal,"Oct 10, 2007",4.1,2K,"['Platform', 'Puzzle', 'Shooter']",28K,AUS
+19,Super Mario Odyssey,"Oct 27, 2017",4.2,2.9K,"['Adventure', 'Platform']",25K,JPN
+20,Pokémon Legends: Arceus,"Jan 28, 2022",3.7,1.6K,"['Adventure', 'RPG', 'Turn Based Strategy']",9.1K,JPN
+21,Hi-Fi Rush,"Jan 25, 2023",4.3,926,"['Adventure', 'Brawler', 'Music', 'Platform']",3K,AUS
+22,Metal Gear Rising: Revengeance,"Feb 19, 2013",4.1,2.1K,"['Adventure', 'Brawler', 'Shooter', 'Strategy']",14K,AUS
+23,Grand Theft Auto V,"Sep 17, 2013",3.8,2.1K,"['Adventure', 'Shooter']",30K,JPN
+24,Cyberpunk 2077,"Dec 09, 2020",3.3,1.5K,"['Adventure', 'RPG', 'Shooter']",13K,JPN
+25,God of War Ragnarök,"Nov 09, 2022",4.4,1.7K,"['Adventure', 'Brawler']",5.3K,JPN
+26,Xenoblade Chronicles 3,"Jul 29, 2022",4.4,1.4K,"['Adventure', 'RPG']",3.9K,JPN
+27,Kirby and the Forgotten Land,"Mar 25, 2022",4.2,1.6K,"['Adventure', 'Platform']",5.9K,AUS
+28,Disco Elysium: The Final Cut,"May 01, 2020",4.6,1.1K,"['Adventure', 'Indie', 'RPG']",6K,USA
+29,Marvel's Spider-Man,"Sep 07, 2018",4.1,2.5K,"['Adventure', 'Brawler']",21K,USA
+30,Dark Souls III,"Mar 24, 2016",4.2,2.4K,"['Adventure', 'RPG']",19K,JPN
+31,NieR Replicant ver.1.22474487139...,"Apr 22, 2021",4.2,1.5K,"['Adventure', 'RPG']",6.7K,USA
+32,Super Mario 64,"Jun 23, 1996",4.1,2.6K,"['Adventure', 'Platform']",21K,JPN
+33,Super Smash Bros. Ultimate,"Dec 07, 2018",4.1,2.5K,"['Fighting', 'Platform']",25K,AUS
+34,Cuphead,"Sep 29, 2017",4.1,1.9K,"['Arcade', 'Indie', 'Platform', 'Shooter']",18K,AUS
+35,Sekiro: Shadows Die Twice,"Mar 22, 2019",4.4,2.3K,"['Adventure', 'Brawler']",14K,JPN
+36,Final Fantasy VII,"Jan 31, 1997",4.2,2.9K,"['Adventure', 'RPG', 'Turn Based Strategy']",15K,USA
+37,Persona 4 Golden,"Jun 15, 2012",4.2,1.9K,"['Adventure', 'RPG', 'Simulator', 'Visual Novel']",13K,USA
+38,Genshin Impact,"Sep 28, 2020",2.6,653,"['Adventure', 'RPG']",14K,CAN
+39,Signalis,"Oct 27, 2022",4.2,820,"['Adventure', 'Indie']",2.2K,CAN
+40,Resident Evil Village,"May 06, 2021",3.9,1.8K,"['Adventure', 'Shooter']",9.9K,CAN
+41,Super Mario Galaxy,"Nov 01, 2007",4.3,2.7K,"['Adventure', 'Platform']",21K,JPN
+42,Fallout: New Vegas,"Oct 19, 2010",4.3,2K,"['RPG', 'Shooter']",16K,CAN
+43,Outer Wilds,"May 28, 2019",4.6,1.8K,"['Adventure', 'Indie', 'Puzzle', 'Simulator']",7.7K,AUS
+44,Resident Evil 2,"Jan 25, 2019",4.3,2.5K,"['Adventure', 'Shooter']",15K,AUS
+45,Doom,"May 12, 2016",4,1.8K,['Shooter'],18K,CAN
+46,Shin Megami Tensei V,"Nov 12, 2021",3.8,1.1K,"['Adventure', 'RPG', 'Turn Based Strategy']",4.1K,JPN
+47,Bayonetta,"Oct 29, 2009",3.9,1.7K,"['Brawler', 'Shooter']",13K,JPN
+48,Stardew Valley,"Feb 26, 2016",4.1,1.7K,"['Indie', 'RPG', 'Simulator', 'Strategy']",20K,JPN
+49,The Last of Us Part II,"Jun 19, 2020",4.1,2.5K,"['Adventure', 'Shooter']",13K,AUS
+50,Silent Hill 2,"Sep 24, 2001",4.5,2.2K,"['Adventure', 'Puzzle']",8.6K,CAN
+51,The Witcher 3: Wild Hunt,"May 19, 2015",4.3,2K,"['Adventure', 'RPG']",17K,CAN
+52,Persona 5,"Sep 15, 2016",4.1,1.8K,"['Adventure', 'RPG', 'Turn Based Strategy']",16K,JPN
+53,Doom Eternal,"Mar 19, 2020",4.2,1.9K,['Shooter'],12K,AUS
+54,The Elder Scrolls V: Skyrim,"Nov 10, 2011",3.7,1.7K,"['Adventure', 'RPG']",22K,CAN
+55,Neon White,"Jun 16, 2022",4.1,868,"['Indie', 'Platform', 'Shooter', 'Visual Novel']",2.9K,AUS
+56,Devil May Cry 5,"Mar 08, 2019",4.3,1.9K,"['Adventure', 'Brawler']",12K,AUS
+57,Overwatch 2,"Oct 04, 2022",2.7,491,['Shooter'],6.6K,USA
+58,Resident Evil 4,"Jan 11, 2005",4.3,2.3K,['Shooter'],14K,CAN
+59,Final Fantasy VII Remake,"Apr 10, 2020",4.1,2K,"['Adventure', 'RPG']",12K,JPN
+60,Sonic Frontiers,"Nov 08, 2022",3.6,974,"['Adventure', 'Platform']",2.9K,JPN
+61,Inscryption,"Oct 19, 2021",4.1,1K,"['Adventure', 'Card & Board Game', 'Indie', 'Puzzle', 'Strategy']",5.4K,JPN
+62,Tunic,"Mar 16, 2022",3.9,891,"['Adventure', 'Indie', 'Puzzle', 'RPG']",3.4K,USA
+63,Dark Souls,"Sep 22, 2011",4.3,2.1K,"['Adventure', 'RPG']",14K,JPN
+64,The Legend of Zelda: Ocarina of Time,"Nov 21, 1998",4.3,2.2K,"['Adventure', 'RPG']",17K,JPN
+65,Deltarune: Chapter 2,"Sep 17, 2021",4.3,737,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",7.5K,JPN
+66,Chrono Trigger,"Mar 11, 1995",4.5,1.9K,"['Adventure', 'RPG']",9.1K,AUS
+67,Metal Gear Solid 2: Sons of Liberty,"Nov 13, 2001",4.4,1.8K,['Adventure'],10K,JPN
+68,Super Mario World,"Nov 21, 1990",4.2,2.1K,"['Adventure', 'Platform']",18K,JPN
+69,Death Stranding,"Nov 08, 2019",3.9,1.6K,"['Adventure', 'RPG', 'Shooter']",9.4K,CAN
+70,Marvel's Spider-Man: Miles Morales,"Nov 12, 2020",3.9,1.6K,"['Adventure', 'Brawler']",9.9K,CAN
+71,Dark Souls: Remastered,"May 23, 2018",4.3,1.4K,"['Adventure', 'RPG']",11K,JPN
+72,EarthBound,"Aug 27, 1994",4.2,1.9K,"['Adventure', 'RPG', 'Turn Based Strategy']",9K,JPN
+73,Castlevania: Symphony of the Night,"Mar 20, 1997",4.4,1.9K,"['Adventure', 'Platform', 'RPG']",9.1K,USA
+74,Super Metroid,"Mar 19, 1994",4.3,2.2K,"['Adventure', 'Platform', 'Shooter']",11K,JPN
+75,Super Mario Bros.,"Sep 13, 1985",3.5,1.5K,"['Adventure', 'Platform']",18K,JPN
+76,The Legend of Zelda: Majora's Mask,"Apr 27, 2000",4.4,2.2K,['Adventure'],13K,JPN
+77,Star Wars Jedi: Fallen Order,"Nov 15, 2019",3.7,1.4K,['Adventure'],13K,USA
+78,The Last of Us,"Jun 14, 2013",4.2,2K,"['Adventure', 'Shooter']",17K,USA
+79,Terraria,"May 16, 2011",4,1.3K,"['Adventure', 'Indie', 'Platform', 'RPG', 'Strategy']",18K,CAN
+80,Resident Evil 7: Biohazard,"Jan 24, 2017",3.9,1.8K,"['Adventure', 'Shooter']",13K,CAN
+81,Metal Gear Solid V: The Phantom Pain,"Sep 01, 2015",3.8,1.5K,"['Adventure', 'Shooter', 'Tactical']",14K,CAN
+82,Overwatch,"May 24, 2016",3.2,957,"['Shooter', 'Strategy']",19K,JPN
+83,Half-Life 2,"Nov 16, 2004",4.2,1.7K,['Shooter'],15K,AUS
+84,Fire Emblem: Three Houses,"Jul 25, 2019",4,1.7K,"['Adventure', 'RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']",12K,AUS
+85,Grand Theft Auto: San Andreas,"Oct 26, 2004",4.1,1.5K,"['Adventure', 'Racing', 'Shooter']",19K,USA
+86,13 Sentinels: Aegis Rim,"Nov 28, 2019",4.4,1.2K,"['Adventure', 'Simulator', 'Strategy', 'Tactical']",3.7K,CAN
+87,Persona 3 FES,"Apr 19, 2007",4.1,1.4K,"['RPG', 'Simulator', 'Visual Novel']",8.4K,AUS
+88,Devil May Cry,"Aug 23, 2001",3.5,1.2K,['Brawler'],10K,USA
+89,Mario Kart 8 Deluxe,"Apr 28, 2017",4,1.5K,"['Arcade', 'Racing']",19K,AUS
+90,Fire Emblem Engage,"Jan 20, 2023",3.9,593,"['Adventure', 'RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']",1.6K,JPN
+91,Pokémon Violet,"Nov 18, 2022",3.5,753,"['Adventure', 'RPG', 'Turn Based Strategy']",3.4K,USA
+92,Hotline Miami,"Oct 23, 2012",4,1.4K,"['Arcade', 'Indie', 'Shooter']",14K,CAN
+93,Pizza Tower,"Jan 26, 2023",4.5,363,"['Indie', 'Platform']",1.2K,JPN
+94,Psychonauts 2,"Aug 24, 2021",4.2,1.2K,"['Adventure', 'Platform']",4.3K,CAN
+95,Metroid Prime Remastered,"Feb 08, 2023",4.5,372,"['Adventure', 'Platform', 'Shooter']",1.1K,JPN
+96,Halo Infinite,"Nov 15, 2021",3.3,972,"['Adventure', 'Shooter']",6.4K,CAN
+97,Batman: Arkham Asylum,"Aug 25, 2009",3.9,1.4K,"['Adventure', 'Brawler']",17K,AUS
+98,Super Mario Sunshine,"Jul 19, 2002",3.7,1.7K,"['Adventure', 'Platform']",14K,AUS
+99,Mother 3,"Apr 20, 2006",4.5,1.6K,"['RPG', 'Turn Based Strategy']",5.7K,CAN
+100,MultiVersus,"Jul 19, 2022",2.8,480,['Fighting'],5.6K,JPN
+101,Xenoblade Chronicles: Definitive Edition,"May 29, 2020",4.3,1.4K,['RPG'],7.4K,JPN
+102,Half-Life,"Nov 19, 1998",4,1.3K,"['Adventure', 'Puzzle', 'Shooter']",13K,AUS
+103,Marvel's Guardians of the Galaxy,"Oct 26, 2021",3.8,1.1K,"['Adventure', 'RPG', 'Shooter']",5.1K,AUS
+104,Danganronpa: Trigger Happy Havoc,"Nov 25, 2010",3.5,1K,"['Adventure', 'Point-and-Click', 'Visual Novel']",12K,CAN
+105,Cult of the Lamb,"Aug 11, 2022",3.6,589,"['Adventure', 'Brawler', 'Indie', 'RPG', 'Simulator', 'Strategy']",2.8K,AUS
+106,Sonic Mania,"Aug 15, 2017",4,1.3K,"['Adventure', 'Platform']",12K,AUS
+107,Horizon Zero Dawn,"Feb 28, 2017",3.6,1.2K,"['Adventure', 'RPG', 'Shooter']",13K,CAN
+108,Left 4 Dead 2,"Nov 17, 2009",3.9,1.1K,['Shooter'],19K,JPN
+109,League of Legends,"Oct 27, 2009",2.1,484,"['MOBA', 'RPG', 'Strategy']",13K,AUS
+110,Control,"Aug 27, 2019",3.6,1.3K,"['Adventure', 'Shooter']",9.6K,CAN
+111,Doki Doki Literature Club!,"Sep 22, 2017",3.3,783,"['Adventure', 'Indie', 'Visual Novel']",14K,USA
+112,Batman: Arkham City,"Oct 18, 2011",4.1,1.6K,"['Adventure', 'Brawler']",16K,CAN
+113,Yakuza Kiwami,"Jan 21, 2016",3.7,1.2K,"['Adventure', 'Brawler', 'RPG']",9.7K,JPN
+114,Phoenix Wright: Ace Attorney,"Sep 15, 2005",4.1,1.3K,"['Adventure', 'Point-and-Click', 'Puzzle', 'Visual Novel']",12K,JPN
+115,Team Fortress 2,"Oct 09, 2007",3.9,955,['Shooter'],16K,USA
+116,Xenoblade Chronicles 2,"Dec 01, 2017",3.9,1.4K,"['Adventure', 'RPG']",7.4K,AUS
+117,Splatoon 3,"Sep 09, 2022",4.1,840,"['Platform', 'Shooter']",3.5K,JPN
+118,Chrome Dino,"Sep 01, 2014",3.5,124,['Arcade'],14K,AUS
+119,Katana Zero,"Apr 18, 2019",4.1,1.1K,"['Adventure', 'Arcade', 'Indie', 'Platform', 'Strategy']",9.3K,JPN
+120,Life is Strange,"Jan 29, 2015",3.4,1.4K,"['Adventure', 'RPG']",15K,AUS
+121,Dark Souls II: Scholar of the First Sin,"Apr 02, 2015",3.5,988,"['Adventure', 'RPG']",11K,JPN
+122,Deathloop,"Sep 14, 2021",3.5,897,"['Adventure', 'Shooter']",4.2K,USA
+123,Shadow of the Colossus,"Oct 18, 2005",4.4,1.5K,"['Adventure', 'Platform', 'Puzzle']",10K,CAN
+124,Teenage Mutant Ninja Turtles: Shredder's Revenge,"Jun 16, 2022",3.8,880,"['Arcade', 'Brawler', 'Indie']",3.5K,USA
+125,Sifu,"Feb 08, 2022",3.8,633,"['Brawler', 'Indie']",2.7K,JPN
+126,Super Mario Bros. 3,"Oct 23, 1988",4,1.6K,['Platform'],14K,USA
+127,Dishonored,"Oct 09, 2012",3.9,1.1K,"['Adventure', 'RPG']",14K,JPN
+128,Metal Gear Solid 3: Snake Eater,"Nov 17, 2004",4.5,1.5K,"['Adventure', 'Shooter', 'Tactical']",9.2K,CAN
+129,Journey,"Mar 13, 2012",3.9,1.5K,"['Adventure', 'Platform']",12K,JPN
+130,Kingdom Hearts,"Mar 28, 2002",3.6,1.3K,"['Adventure', 'RPG']",12K,JPN
+131,Titanfall 2,"Oct 28, 2016",4.1,1.3K,"['Adventure', 'Shooter']",12K,USA
+132,Doom,"Dec 10, 1993",4,1.4K,['Shooter'],11K,USA
+133,Live A Live,"Jul 22, 2022",4.1,555,['RPG'],1.1K,JPN
+134,The Last of Us Remastered,"Jul 26, 2014",4.3,1.1K,"['Adventure', 'Shooter']",12K,AUS
+135,Sonic the Hedgehog,"Jun 23, 1991",3.1,1.1K,['Platform'],12K,JPN
+136,Rocket League,"Jul 06, 2015",3.4,917,"['Indie', 'Racing', 'Sport']",17K,CAN
+137,Batman: Arkham Knight,"Jun 23, 2015",3.7,1.2K,"['Adventure', 'Brawler']",13K,USA
+138,Bayonetta 3,"Oct 28, 2022",3.7,690,['Brawler'],1.6K,JPN
+139,Disco Elysium,"Oct 15, 2019",4.6,1.1K,"['Adventure', 'RPG', 'Turn Based Strategy']",4K,USA
+140,Guilty Gear: Strive,"Jun 11, 2021",3.9,810,['Fighting'],5.5K,JPN
+141,Wii Sports,"Nov 19, 2006",3.7,775,"['Simulator', 'Sport']",18K,JPN
+142,Hogwarts Legacy,"Feb 10, 2023",3.5,474,"['Adventure', 'RPG']",1.4K,USA
+143,Mario Kart Wii,"Apr 10, 2008",3.9,1K,['Racing'],19K,JPN
+144,Resident Evil 3,"Apr 03, 2020",3.2,1.3K,"['Adventure', 'Shooter']",8.4K,USA
+145,Unpacking,"Nov 02, 2021",3.6,751,"['Indie', 'Point-and-Click', 'Puzzle', 'Simulator']",4.9K,CAN
+146,Red Dead Redemption,"May 18, 2010",4.2,1.5K,"['Adventure', 'RPG', 'Shooter']",13K,JPN
+147,Tales of Arise,"Sep 10, 2021",3.6,650,"['Adventure', 'RPG']",3.1K,JPN
+148,Deltarune: Chapter 1,"Oct 31, 2018",3.9,591,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",11K,JPN
+149,Dead Space,"Jan 27, 2023",4.3,501,"['Adventure', 'RPG', 'Shooter']",1.3K,AUS
+150,Tomb Raider,"Mar 04, 2013",3.5,896,"['Adventure', 'Platform', 'Puzzle', 'Shooter']",15K,AUS
+151,Super Mario Galaxy 2,"May 23, 2010",4.3,1.8K,"['Adventure', 'Platform']",13K,USA
+152,Donkey Kong Country,"Nov 18, 1994",3.9,1.3K,"['Adventure', 'Platform']",11K,USA
+153,What Remains of Edith Finch,"Apr 24, 2017",4,1.4K,"['Adventure', 'Indie', 'Puzzle']",8.6K,CAN
+154,Monster Hunter Rise,"Mar 26, 2021",4,789,"['Adventure', 'Brawler', 'RPG']",5.7K,JPN
+155,Pokémon Emerald,"Sep 16, 2004",4,1.2K,"['Adventure', 'RPG', 'Turn Based Strategy']",16K,JPN
+156,NEO: The World Ends with You,"Jul 26, 2021",4.2,725,"['Brawler', 'RPG']",2.5K,USA
+157,Assassin's Creed II,"Nov 17, 2009",3.8,1.3K,"['Adventure', 'Platform']",16K,USA
+158,Pokémon Scarlet,"Nov 18, 2022",3.5,596,"['Adventure', 'RPG', 'Turn Based Strategy']",2.6K,JPN
+159,Dead Space,"Oct 14, 2008",4,1.2K,['Shooter'],9.6K,JPN
+160,New Super Mario Bros.,"May 15, 2006",3.5,991,"['Adventure', 'Platform']",16K,JPN
+161,Shadow of the Colossus,"Feb 06, 2018",4.1,1.1K,"['Adventure', 'Platform', 'Puzzle']",7.8K,JPN
+162,Horizon Forbidden West,"Feb 18, 2022",3.8,830,"['Adventure', 'RPG']",2.7K,CAN
+163,God of War,"Mar 22, 2005",3.6,981,"['Adventure', 'Brawler', 'Strategy']",11K,AUS
+164,Detroit: Become Human,"May 25, 2018",3.5,1K,"['Adventure', 'Puzzle']",11K,USA
+165,Final Fantasy XV,"Nov 29, 2016",3.3,1.1K,"['Adventure', 'RPG']",11K,CAN
+166,Persona 5 Strikers,"Feb 20, 2020",3.7,993,"['Adventure', 'Brawler', 'RPG']",5.1K,USA
+167,Limbo,"Jul 21, 2010",3.5,965,"['Adventure', 'Indie', 'Platform', 'Puzzle']",13K,CAN
+168,Pokémon Platinum,"Sep 13, 2008",4.1,1.4K,"['Adventure', 'RPG', 'Turn Based Strategy']",14K,JPN
+169,Stranger of Paradise: Final Fantasy Origin,"Mar 18, 2022",3.6,607,"['Adventure', 'RPG']",1.6K,USA
+170,Killer7,"Jun 09, 2005",4.3,1.2K,"['Adventure', 'Shooter']",2.8K,USA
+171,Grand Theft Auto IV,"Apr 29, 2008",3.8,1.1K,"['Adventure', 'Racing', 'Shooter']",14K,USA
+172,Metroid: Zero Mission,"Feb 09, 2004",4,1.2K,"['Adventure', 'Platform', 'Shooter']",7.5K,USA
+173,Final Fantasy X,"Jul 19, 2001",4.1,1.5K,"['Adventure', 'RPG']",8.5K,USA
+174,Danganronpa 2: Goodbye Despair,"Jul 26, 2012",3.9,972,"['Adventure', 'Point-and-Click', 'Visual Novel']",9.9K,CAN
+175,Final Fantasy IX,"Jul 07, 2000",4.3,1.6K,"['RPG', 'Turn Based Strategy']",6.8K,JPN
+176,Halo 3,"Sep 25, 2007",4.2,1.6K,['Shooter'],12K,JPN
+177,Metroid Fusion,"Nov 17, 2002",4,1.3K,"['Adventure', 'Platform', 'Shooter']",7.9K,JPN
+178,Final Fantasy VI,"Apr 02, 1994",4.4,1.6K,"['Adventure', 'RPG']",6.1K,JPN
+179,VA-11 Hall-A: Cyberpunk Bartender Action,"Jun 21, 2016",4.1,940,"['Adventure', 'Indie', 'Simulator', 'Visual Novel']",5.4K,AUS
+180,Dead Cells,"Aug 06, 2018",3.8,802,"['Adventure', 'Indie', 'Platform']",9.2K,JPN
+181,Far Cry 3,"Nov 28, 2012",3.7,983,"['Adventure', 'Shooter']",14K,JPN
+182,The Stanley Parable: Ultra Deluxe,"Apr 27, 2022",4.1,592,"['Adventure', 'Simulator']",3.2K,AUS
+183,SuperHot,"Feb 25, 2016",3.7,835,"['Fighting', 'Indie', 'Puzzle', 'Shooter', 'Tactical']",12K,CAN
+184,Plants vs. Zombies,"May 05, 2009",3.7,719,"['Puzzle', 'Real Time Strategy', 'Simulator', 'Strategy', 'Tactical']",14K,JPN
+185,Ori and the Blind Forest,"Mar 11, 2015",3.9,780,"['Adventure', 'Platform', 'Puzzle']",7.9K,JPN
+186,Demon's Souls,"Nov 12, 2020",3.9,880,"['Adventure', 'RPG']",4.1K,JPN
+187,A Plague Tale: Innocence,"May 14, 2019",3.7,852,"['Adventure', 'RPG']",5.4K,JPN
+188,The Legend of Zelda: Link's Awakening,"Sep 20, 2019",3.9,1.1K,['Adventure'],7.6K,JPN
+189,Assassin's Creed,"Nov 13, 2007",2.9,801,"['Adventure', 'Platform']",13K,CAN
+190,Judgment,"Dec 13, 2018",4.1,890,"['Adventure', 'RPG']",3.1K,USA
+191,Call of Duty: Black Ops,"Nov 09, 2010",3.7,920,['Shooter'],14K,USA
+192,Ratchet & Clank: Rift Apart,"Jun 11, 2021",4,906,"['Adventure', 'Platform', 'Shooter']",3.7K,CAN
+193,Pokémon Black,"Sep 18, 2010",4,1K,"['Adventure', 'RPG', 'Turn Based Strategy']",12K,JPN
+194,The Stanley Parable,"Oct 17, 2013",3.8,767,"['Adventure', 'Indie']",10K,JPN
+195,The Legend of Zelda,"Feb 21, 1986",3.2,1.2K,['Adventure'],9.3K,CAN
+196,AI: The Somnium Files - Nirvana Initiative,"Jun 23, 2022",3.9,455,"['Adventure', 'Puzzle', 'Visual Novel']",1.5K,JPN
+197,Ghost Trick: Phantom Detective,"Jun 19, 2010",4.4,830,"['Adventure', 'Puzzle']",3.6K,CAN
+198,Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition,"Sep 27, 2019",4.2,880,"['Adventure', 'RPG']",4.7K,USA
+199,Paper Mario: The Thousand-Year Door,"Jul 22, 2004",4.4,1.3K,"['Adventure', 'RPG', 'Turn Based Strategy']",6.7K,JPN
+200,God of War II,"Mar 13, 2007",4,936,"['Adventure', 'Brawler', 'Platform']",9.3K,USA
+201,Mass Effect 2,"Jan 26, 2010",4.3,1.3K,"['Adventure', 'RPG', 'Shooter']",9.6K,USA
+202,Forza Horizon 5,"Nov 09, 2021",3.8,589,['Racing'],4.6K,CAN
+203,Metal Gear Solid V: Ground Zeroes,"Mar 18, 2014",3.3,650,"['Adventure', 'RPG', 'Shooter', 'Strategy']",9.5K,JPN
+204,No More Heroes III,"Aug 27, 2021",3.9,604,['Brawler'],1.6K,USA
+205,Banjo-Kazooie,"Jun 29, 1998",4,1.2K,"['Adventure', 'Platform']",7.4K,CAN
+206,Astro's Playroom,"Nov 12, 2020",4,914,"['Adventure', 'Platform']",5.7K,JPN
+207,Call of Duty: Black Ops II,"Nov 12, 2012",3.8,903,['Shooter'],13K,CAN
+208,The Legend of Zelda: Skyward Sword HD,"Jul 16, 2021",3.8,639,"['Adventure', 'RPG']",3.7K,JPN
+209,Mega Man X,"Dec 17, 1993",4.1,1.2K,"['Adventure', 'Platform', 'Shooter']",6.9K,JPN
+210,Subnautica,"Jan 23, 2018",3.8,712,"['Adventure', 'Indie']",7.2K,USA
+211,Returnal,"Apr 30, 2021",4,725,['Shooter'],2.4K,CAN
+212,New Super Mario Bros. Wii,"Nov 12, 2009",3.5,859,"['Adventure', 'Platform']",13K,JPN
+213,Citizen Sleeper,"May 05, 2022",4.1,492,"['Adventure', 'Indie', 'RPG']",1.2K,AUS
+214,Yakuza 3 Remastered,"Aug 09, 2018",3.3,755,"['Adventure', 'RPG', 'Simulator']",4.3K,USA
+215,Garry's Mod,"Dec 24, 2004",3.8,478,"['Indie', 'Simulator']",12K,CAN
+216,Wolfenstein: The New Order,"May 20, 2014",3.6,794,"['Adventure', 'Shooter']",8.4K,CAN
+217,Deus Ex,"Jun 26, 2000",4.4,899,"['RPG', 'Shooter']",3.8K,CAN
+218,BioShock 2,"Feb 09, 2010",3.6,687,"['Adventure', 'RPG', 'Shooter']",9.1K,CAN
+219,Soul Hackers 2,"Aug 25, 2022",3.1,337,['RPG'],750,AUS
+220,Enter the Gungeon,"Apr 05, 2016",3.6,632,"['Adventure', 'Arcade', 'Indie', 'Shooter']",8.9K,JPN
+221,The House in Fata Morgana,"Dec 27, 2012",4.4,544,"['Adventure', 'Indie', 'Visual Novel']",1.7K,USA
+222,Shovel Knight,"Jun 26, 2014",4,761,"['Adventure', 'Indie', 'Platform']",8.5K,USA
+223,Firewatch,"Feb 09, 2016",3.7,926,"['Adventure', 'Indie']",7.8K,AUS
+224,Dark Souls II,"Mar 11, 2014",3.3,815,"['Adventure', 'RPG']",6.7K,JPN
+225,Blasphemous,"Sep 10, 2019",3.7,647,"['Adventure', 'Brawler', 'Indie', 'Platform', 'RPG']",4.2K,AUS
+226,Final Fantasy XIV Online,"Aug 27, 2013",3.7,643,"['Adventure', 'RPG', 'Strategy']",5.9K,USA
+227,Immortality,"Aug 30, 2022",3.9,461,"['Indie', 'Point-and-Click', 'Simulator']",1.2K,JPN
+228,Resident Evil 6,"Oct 02, 2012",2.5,888,"['Adventure', 'Shooter']",7.8K,AUS
+229,Devil May Cry 3: Dante's Awakening,"Feb 17, 2005",4.2,909,"['Adventure', 'Brawler', 'Shooter']",6.1K,USA
+230,The Last of Us Part I,"Sep 01, 2022",4.4,395,"['Adventure', 'Shooter']",1.4K,USA
+231,Super Meat Boy,"Oct 20, 2010",3.5,605,"['Adventure', 'Indie', 'Platform']",10K,AUS
+232,Mass Effect Legendary Edition,"May 14, 2021",4.5,581,"['Adventure', 'RPG', 'Shooter', 'Strategy']",2.8K,JPN
+233,Helltaker,"May 11, 2020",3.3,419,"['Adventure', 'Indie', 'Puzzle']",7.5K,USA
+234,Pokémon Sword,"Nov 15, 2019",2.9,837,"['Adventure', 'RPG']",9.7K,AUS
+235,Crash Bandicoot N. Sane Trilogy,"Jun 30, 2017",3.8,654,"['Adventure', 'Platform']",7.7K,AUS
+236,Tetris,"Nov 01, 1989",4.1,688,"['Arcade', 'Puzzle']",9.6K,JPN
+237,Valorant,"Jun 02, 2020",2.5,291,"['Shooter', 'Tactical']",8.2K,USA
+238,Super Mario 3D World,"Nov 21, 2013",3.9,1.1K,"['Adventure', 'Platform']",9.6K,JPN
+239,Uncharted 3: Drake's Deception,"Nov 01, 2011",3.6,941,"['Adventure', 'Platform', 'Shooter']",11K,USA
+240,Phoenix Wright: Ace Attorney - Trials and Tribulations,"Mar 31, 2006",4.4,995,"['Adventure', 'Visual Novel']",6.6K,JPN
+241,Yume Nikki,"Jun 26, 2004",4,770,"['Adventure', 'Indie']",4K,USA
+242,Max Payne,"Jul 23, 2001",3.9,786,['Shooter'],6.3K,CAN
+243,Five Nights at Freddy's,"Aug 08, 2014",2.9,460,"['Adventure', 'Indie', 'Point-and-Click', 'Simulator', 'Strategy']",8.4K,AUS
+244,Donkey Kong Country 2: Diddy's Kong Quest,"Nov 21, 1995",4.2,1.2K,"['Adventure', 'Platform']",6.6K,JPN
+245,Pokémon White,"Sep 18, 2010",4.1,814,"['Adventure', 'RPG', 'Turn Based Strategy']",9K,JPN
+246,Outlast,"Sep 04, 2013",3.3,547,"['Adventure', 'Indie']",7.5K,JPN
+247,Hitman 3,"Jan 20, 2021",4.1,702,"['Adventure', 'Shooter', 'Tactical']",3.3K,CAN
+248,Sable,"Sep 23, 2021",3.5,433,"['Adventure', 'Indie', 'Platform', 'Puzzle', 'RPG']",1.3K,CAN
+249,Super Smash Bros. for Wii U,"Nov 21, 2014",3.5,684,"['Fighting', 'Platform']",11K,USA
+250,Kirby's Adventure,"Mar 23, 1993",3.6,718,['Platform'],6K,CAN
+251,Tekken 7,"Feb 18, 2015",3.8,663,['Fighting'],6.6K,JPN
+252,Umineko: When They Cry Chiru,"Sep 15, 2009",4.6,324,"['Adventure', 'Visual Novel']",1.7K,CAN
+253,Kingdom Hearts II Final Mix,"Mar 29, 2007",4.5,704,"['Adventure', 'Brawler', 'Platform', 'RPG', 'Shooter']",4.4K,JPN
+254,Superliminal,"Nov 12, 2019",3.6,487,"['Adventure', 'Indie', 'Puzzle', 'Shooter']",3.8K,AUS
+255,Death Stranding: Director's Cut,"Sep 24, 2021",4.2,334,['Adventure'],1.3K,USA
+256,Persona 4,"Jul 10, 2008",4,815,"['RPG', 'Simulator', 'Visual Novel']",5.7K,USA
+257,Wordle,"Jun 21, 2021",3.2,118,"['Puzzle', 'Quiz/Trivia']",3K,AUS
+258,The Sims 4,"Sep 02, 2014",3,458,"['RPG', 'Simulator']",8.3K,AUS
+259,Far Cry 4,"Nov 18, 2014",3.2,558,"['Adventure', 'Shooter', 'Tactical']",8.5K,CAN
+260,Sonic Forces,"Nov 07, 2017",1.9,650,"['Adventure', 'Platform', 'Strategy']",5K,JPN
+261,To the Moon,"Nov 01, 2011",3.9,671,"['Adventure', 'Indie', 'Point-and-Click', 'Puzzle', 'RPG']",4.7K,CAN
+262,Baba is You,"Mar 13, 2019",4,545,"['Indie', 'Puzzle', 'Strategy']",4.6K,CAN
+263,The Witcher 3: Wild Hunt - Game of the Year Edition,"Aug 29, 2016",4.5,475,"['Adventure', 'RPG']",6K,JPN
+264,Super Smash Bros.,"Jan 21, 1999",3.4,688,"['Fighting', 'Platform']",9.8K,JPN
+265,Super Mario 64 DS,"Nov 21, 2004",3.6,614,"['Adventure', 'Platform']",9.1K,USA
+266,Halo 4,"Nov 06, 2012",3,674,['Shooter'],7.6K,CAN
+267,Middle-earth: Shadow of Mordor,"Sep 30, 2014",3.4,524,"['Adventure', 'Brawler', 'RPG']",8.4K,JPN
+268,Mega Man 2,"Jun 02, 1989",3.6,857,"['Adventure', 'Platform']",6.1K,CAN
+269,Phoenix Wright: Ace Attorney Trilogy,"Apr 17, 2014",4.3,516,"['Adventure', 'Puzzle', 'Simulator', 'Visual Novel']",4K,USA
+270,Infamous: Second Son,"Mar 21, 2014",3.4,668,"['Adventure', 'Platform', 'Shooter']",7.6K,AUS
+271,Star Wars: Knights of the Old Republic,"Jul 15, 2003",4.2,839,"['Adventure', 'RPG']",5.3K,AUS
+272,No More Heroes 2: Desperate Struggle,"Jan 26, 2010",3.5,608,"['Adventure', 'Brawler']",3.2K,CAN
+273,Kirby Super Star Ultra,"Sep 22, 2008",4.3,743,"['Adventure', 'Platform']",5.8K,AUS
+274,"Flower, Sun, and Rain","May 02, 2001",4.3,466,"['Adventure', 'Puzzle']",632,USA
+275,Katamari Damacy,"Mar 18, 2004",4.2,939,"['Adventure', 'Puzzle']",4.1K,JPN
+276,Shadow the Hedgehog,"Nov 15, 2005",2.4,584,"['Adventure', 'Platform', 'Shooter']",5.6K,CAN
+277,Ōkami HD,"Oct 30, 2012",4.2,527,"['Adventure', 'RPG']",3.3K,CAN
+278,Metroid: Samus Returns,"Sep 15, 2017",3.6,674,"['Adventure', 'Platform']",3.9K,JPN
+279,Life is Strange: True Colors,"Sep 10, 2021",3.6,566,['Adventure'],2.3K,CAN
+280,Pokémon Black Version 2,"Jun 23, 2012",4.2,776,"['Adventure', 'RPG', 'Turn Based Strategy']",7.6K,AUS
+281,Needy Streamer Overload,"Jan 21, 2022",3.5,216,"['Adventure', 'Indie', 'Point-and-Click', 'RPG', 'Simulator', 'Visual Novel']",1.2K,JPN
+282,Borderlands,"Oct 20, 2009",3.1,484,"['RPG', 'Shooter']",9.1K,CAN
+283,Hollow Knight: Voidheart Edition,"Sep 25, 2018",4.5,462,"['Adventure', 'Indie', 'Platform']",3.9K,AUS
+284,Klonoa: Door to Phantomile,"Dec 11, 1997",4.1,648,['Platform'],2.2K,AUS
+285,Shadow of the Tomb Raider,"Sep 14, 2018",3.3,522,"['Adventure', 'Shooter']",4.8K,JPN
+286,Mario & Luigi: Bowser's Inside Story,"Sep 14, 2009",4.2,837,"['Platform', 'RPG']",6.6K,JPN
+287,Ghostrunner,"Oct 27, 2020",3.5,486,"['Adventure', 'Platform', 'Shooter']",3.3K,JPN
+288,Watch Dogs 2,"Nov 15, 2016",3.3,554,"['Adventure', 'Shooter']",6.6K,CAN
+289,Mass Effect 3,"Mar 06, 2012",3.7,777,"['Adventure', 'RPG', 'Shooter']",7.3K,CAN
+290,Goat Simulator,"Apr 01, 2014",2.4,337,"['Adventure', 'Indie', 'Simulator']",8.4K,USA
+291,The Elder Scrolls V: Skyrim - Special Edition,"Oct 27, 2016",4,439,"['Adventure', 'RPG']",6.5K,USA
+292,Far Cry 5,"Mar 26, 2018",3,558,"['Adventure', 'Shooter']",6.6K,USA
+293,Call of Duty: Modern Warfare 3,"Nov 08, 2011",3.2,587,"['Adventure', 'Shooter', 'Tactical']",10K,USA
+294,Friday Night Funkin',"Nov 01, 2020",2.8,203,['Music'],4.5K,AUS
+295,Osu!,"Sep 16, 2007",3.1,187,"['Indie', 'Music']",7.3K,USA
+296,The Legend of Zelda: Twilight Princess,"Nov 19, 2006",4.1,642,"['Adventure', 'RPG']",6K,JPN
+297,Bloodborne: The Old Hunters,"Nov 24, 2015",4.6,266,"['Adventure', 'RPG']",4.4K,JPN
+298,Fire Emblem Warriors: Three Hopes,"Jun 24, 2022",3.6,360,"['Brawler', 'RPG', 'Simulator', 'Strategy', 'Tactical']",1.1K,JPN
+299,Super Smash Bros. for Nintendo 3DS,"Sep 13, 2014",3.3,545,['Fighting'],10K,JPN
+300,The Legend of Heroes: Trails to Azure,"Sep 29, 2011",4.5,519,"['Adventure', 'RPG', 'Strategy', 'Turn Based Strategy']",1.4K,USA
+301,Super Mario RPG: Legend of the Seven Stars,"Mar 09, 1996",4,832,"['Adventure', 'Platform', 'RPG']",4.4K,USA
+302,Astral Chain,"Aug 30, 2019",3.6,568,"['Adventure', 'Brawler']",3.6K,JPN
+303,DmC: Devil May Cry,"Jan 15, 2013",3,432,"['Adventure', 'Brawler']",6.3K,JPN
+304,Dragon Age: Origins,"Nov 03, 2009",4,712,['RPG'],6.1K,CAN
+305,Vagrant Story,"Feb 10, 2000",4,503,"['Adventure', 'RPG']",1K,USA
+306,Amnesia: The Dark Descent,"Sep 08, 2010",3.5,525,"['Adventure', 'Indie', 'Puzzle']",4.7K,USA
+307,Monster Hunter Rise: Sunbreak,"Jun 29, 2022",4.3,217,"['Brawler', 'RPG']",1.1K,JPN
+308,Super Mario Maker 2,"Jun 28, 2019",3.7,689,['Platform'],6.6K,JPN
+309,Fire Emblem: The Blazing Blade,"Apr 25, 2003",3.7,609,"['RPG', 'Strategy', 'Tactical']",3.9K,AUS
+310,LEGO Marvel Super Heroes,"Sep 30, 2013",3.6,522,"['Adventure', 'Brawler', 'Puzzle']",6K,USA
+311,Sonic Colors,"Nov 11, 2010",3.4,609,"['Adventure', 'Platform']",5.1K,CAN
+312,Pokémon Moon,"Nov 18, 2016",3.3,648,"['Adventure', 'RPG', 'Strategy', 'Turn Based Strategy']",7.9K,AUS
+313,Zelda II: The Adventure of Link,"Jan 14, 1987",2.6,756,"['Adventure', 'RPG']",4.5K,JPN
+314,Battlefield 4,"Oct 29, 2013",3.5,431,['Shooter'],7.1K,USA
+315,Dragon Ball Z: Budokai Tenkaichi 3,"Oct 04, 2007",3.9,435,['Fighting'],6.6K,AUS
+316,WarioWare: Get It Together!,"Sep 09, 2021",3.5,399,['Arcade'],2.2K,JPN
+317,Beyond: Two Souls,"Oct 08, 2013",2.7,433,['Adventure'],5.4K,CAN
+318,Digimon Survive,"Jul 28, 2022",3.4,167,"['Adventure', 'RPG', 'Simulator', 'Strategy', 'Turn Based Strategy']",454,JPN
+319,Spiritfarer,"Aug 18, 2020",3.9,513,"['Adventure', 'Indie', 'Platform', 'Simulator']",2.3K,AUS
+320,Little Nightmares II,"Feb 10, 2021",4,569,"['Adventure', 'Platform', 'Puzzle']",2.5K,AUS
+321,The Evil Within 2,"Oct 12, 2017",3.7,541,"['Adventure', 'RPG', 'Shooter']",2.7K,USA
+322,Bloons TD 6,"Jun 14, 2018",3.8,241,"['Strategy', 'Tactical']",4.1K,CAN
+323,Sayonara Wild Hearts,"Sep 19, 2019",3.9,725,"['Adventure', 'Arcade', 'Indie', 'Music']",3.1K,JPN
+324,Metro 2033 Redux,"Aug 26, 2014",3.6,363,"['Adventure', 'RPG', 'Shooter']",3.9K,AUS
+325,Melty Blood: Type Lumina,"Sep 29, 2021",3.6,194,"['Fighting', 'Visual Novel']",1.8K,JPN
+326,Elden Ring,"Feb 25, 2022",4.5,3.9K,"['Adventure', 'RPG']",17K,JPN
+327,Hades,"Dec 10, 2019",4.3,2.9K,"['Adventure', 'Brawler', 'Indie', 'RPG']",21K,USA
+328,The Legend of Zelda: Breath of the Wild,"Mar 03, 2017",4.4,4.3K,"['Adventure', 'RPG']",30K,JPN
+329,Undertale,"Sep 15, 2015",4.2,3.5K,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",28K,USA
+330,Hollow Knight,"Feb 24, 2017",4.4,3K,"['Adventure', 'Indie', 'Platform']",21K,AUS
+331,Minecraft,"Nov 18, 2011",4.3,2.3K,"['Adventure', 'Simulator']",33K,AUS
+332,Omori,"Dec 25, 2020",4.2,1.6K,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",7.2K,JPN
+333,Metroid Dread,"Oct 07, 2021",4.3,2.1K,"['Adventure', 'Platform']",9.2K,JPN
+334,Among Us,"Jun 15, 2018",3,867,"['Indie', 'Strategy']",25K,AUS
+335,NieR: Automata,"Feb 23, 2017",4.3,2.9K,"['Brawler', 'RPG']",18K,AUS
+336,Persona 5 Royal,"Oct 31, 2019",4.4,2.7K,"['Adventure', 'RPG', 'Turn Based Strategy']",12K,AUS
+337,Stray,"Jul 19, 2022",3.7,1.5K,"['Adventure', 'Indie']",7.7K,JPN
+338,God of War,"Apr 20, 2018",4.2,2.9K,"['Adventure', 'Brawler', 'RPG']",21K,CAN
+339,Portal 2,"Apr 18, 2011",4.4,2.9K,"['Adventure', 'Platform', 'Puzzle', 'Shooter']",29K,USA
+340,Bloodborne,"Mar 24, 2015",4.5,3.4K,"['Adventure', 'RPG']",17K,JPN
+341,Celeste,"Jan 25, 2018",4.2,2.8K,"['Adventure', 'Indie', 'Platform']",20K,USA
+342,Yakuza 0,"Mar 12, 2015",4.4,2.7K,"['Adventure', 'Brawler', 'RPG', 'Simulator']",15K,USA
+343,Red Dead Redemption 2,"Oct 26, 2018",4.4,2.9K,"['Adventure', 'RPG', 'Shooter']",19K,CAN
+344,Portal,"Oct 10, 2007",4.1,2K,"['Platform', 'Puzzle', 'Shooter']",28K,AUS
+345,Super Mario Odyssey,"Oct 27, 2017",4.2,2.9K,"['Adventure', 'Platform']",25K,JPN
+346,Pokémon Legends: Arceus,"Jan 28, 2022",3.7,1.6K,"['Adventure', 'RPG', 'Turn Based Strategy']",9.1K,JPN
+347,Hi-Fi Rush,"Jan 25, 2023",4.3,926,"['Adventure', 'Brawler', 'Music', 'Platform']",3K,CAN
+348,Metal Gear Rising: Revengeance,"Feb 19, 2013",4.1,2.1K,"['Adventure', 'Brawler', 'Shooter', 'Strategy']",14K,AUS
+349,Grand Theft Auto V,"Sep 17, 2013",3.8,2.1K,"['Adventure', 'Shooter']",30K,USA
+350,Cyberpunk 2077,"Dec 09, 2020",3.3,1.5K,"['Adventure', 'RPG', 'Shooter']",13K,JPN
+351,God of War Ragnarök,"Nov 09, 2022",4.4,1.7K,"['Adventure', 'Brawler']",5.3K,CAN
+352,Xenoblade Chronicles 3,"Jul 29, 2022",4.4,1.4K,"['Adventure', 'RPG']",3.9K,CAN
+353,Kirby and the Forgotten Land,"Mar 25, 2022",4.2,1.6K,"['Adventure', 'Platform']",5.9K,AUS
+354,Disco Elysium: The Final Cut,"May 01, 2020",4.6,1.1K,"['Adventure', 'Indie', 'RPG']",6K,USA
+355,Marvel's Spider-Man,"Sep 07, 2018",4.1,2.5K,"['Adventure', 'Brawler']",21K,AUS
+356,Dark Souls III,"Mar 24, 2016",4.2,2.4K,"['Adventure', 'RPG']",19K,JPN
+357,NieR Replicant ver.1.22474487139...,"Apr 22, 2021",4.2,1.5K,"['Adventure', 'RPG']",6.7K,JPN
+358,Super Mario 64,"Jun 23, 1996",4.1,2.6K,"['Adventure', 'Platform']",21K,JPN
+359,Super Smash Bros. Ultimate,"Dec 07, 2018",4.1,2.5K,"['Fighting', 'Platform']",25K,CAN
+360,Cuphead,"Sep 29, 2017",4.1,1.9K,"['Arcade', 'Indie', 'Platform', 'Shooter']",18K,USA
+361,Sekiro: Shadows Die Twice,"Mar 22, 2019",4.4,2.3K,"['Adventure', 'Brawler']",14K,JPN
+362,Final Fantasy VII,"Jan 31, 1997",4.2,2.9K,"['Adventure', 'RPG', 'Turn Based Strategy']",15K,AUS
+363,Persona 4 Golden,"Jun 15, 2012",4.2,1.9K,"['Adventure', 'RPG', 'Simulator', 'Visual Novel']",13K,USA
+364,Genshin Impact,"Sep 28, 2020",2.6,653,"['Adventure', 'RPG']",14K,JPN
+365,Signalis,"Oct 27, 2022",4.2,820,"['Adventure', 'Indie']",2.2K,USA
+366,Resident Evil Village,"May 06, 2021",3.9,1.8K,"['Adventure', 'Shooter']",9.9K,JPN
+367,Super Mario Galaxy,"Nov 01, 2007",4.3,2.7K,"['Adventure', 'Platform']",21K,USA
+368,Fallout: New Vegas,"Oct 19, 2010",4.3,2K,"['RPG', 'Shooter']",16K,USA
+369,Outer Wilds,"May 28, 2019",4.6,1.8K,"['Adventure', 'Indie', 'Puzzle', 'Simulator']",7.7K,USA
+370,Resident Evil 2,"Jan 25, 2019",4.3,2.5K,"['Adventure', 'Shooter']",15K,USA
+371,Doom,"May 12, 2016",4,1.8K,['Shooter'],18K,CAN
+372,Shin Megami Tensei V,"Nov 12, 2021",3.8,1.1K,"['Adventure', 'RPG', 'Turn Based Strategy']",4.1K,USA
+373,Bayonetta,"Oct 29, 2009",3.9,1.7K,"['Brawler', 'Shooter']",13K,AUS
+374,Stardew Valley,"Feb 26, 2016",4.1,1.7K,"['Indie', 'RPG', 'Simulator', 'Strategy']",20K,AUS
+375,The Last of Us Part II,"Jun 19, 2020",4.1,2.5K,"['Adventure', 'Shooter']",13K,JPN
+376,Silent Hill 2,"Sep 24, 2001",4.5,2.2K,"['Adventure', 'Puzzle']",8.6K,CAN
+377,The Witcher 3: Wild Hunt,"May 19, 2015",4.3,2K,"['Adventure', 'RPG']",17K,CAN
+378,Persona 5,"Sep 15, 2016",4.1,1.8K,"['Adventure', 'RPG', 'Turn Based Strategy']",16K,AUS
+379,Doom Eternal,"Mar 19, 2020",4.2,1.9K,['Shooter'],12K,AUS
+380,The Elder Scrolls V: Skyrim,"Nov 10, 2011",3.7,1.7K,"['Adventure', 'RPG']",22K,JPN
+381,Neon White,"Jun 16, 2022",4.1,868,"['Indie', 'Platform', 'Shooter', 'Visual Novel']",2.9K,JPN
+382,Devil May Cry 5,"Mar 08, 2019",4.3,1.9K,"['Adventure', 'Brawler']",12K,USA
+383,Overwatch 2,"Oct 04, 2022",2.7,491,['Shooter'],6.6K,CAN
+384,Resident Evil 4,"Jan 11, 2005",4.3,2.3K,['Shooter'],14K,CAN
+385,Final Fantasy VII Remake,"Apr 10, 2020",4.1,2K,"['Adventure', 'RPG']",12K,JPN
+386,Sonic Frontiers,"Nov 08, 2022",3.6,974,"['Adventure', 'Platform']",2.9K,JPN
+387,Inscryption,"Oct 19, 2021",4.1,1K,"['Adventure', 'Card & Board Game', 'Indie', 'Puzzle', 'Strategy']",5.4K,JPN
+388,Tunic,"Mar 16, 2022",3.9,891,"['Adventure', 'Indie', 'Puzzle', 'RPG']",3.4K,AUS
+389,Dark Souls,"Sep 22, 2011",4.3,2.1K,"['Adventure', 'RPG']",14K,JPN
+390,The Legend of Zelda: Ocarina of Time,"Nov 21, 1998",4.3,2.2K,"['Adventure', 'RPG']",17K,JPN
+391,Vampire Survivors,"Dec 17, 2021",3.7,836,"['Arcade', 'Indie', 'RPG']",6.1K,AUS
+392,Batman: Arkham City,"Oct 18, 2011",4.1,1.6K,"['Adventure', 'Brawler']",16K,JPN
+393,Yakuza Kiwami,"Jan 21, 2016",3.7,1.2K,"['Adventure', 'Brawler', 'RPG']",9.7K,CAN
+394,Phoenix Wright: Ace Attorney,"Sep 15, 2005",4.1,1.3K,"['Adventure', 'Point-and-Click', 'Puzzle', 'Visual Novel']",12K,CAN
+395,Team Fortress 2,"Oct 09, 2007",3.9,955,['Shooter'],16K,JPN
+396,Xenoblade Chronicles 2,"Dec 01, 2017",3.9,1.4K,"['Adventure', 'RPG']",7.4K,USA
+397,Splatoon 3,"Sep 09, 2022",4.1,840,"['Platform', 'Shooter']",3.5K,JPN
+398,Chrome Dino,"Sep 01, 2014",3.5,124,['Arcade'],14K,USA
+399,Katana Zero,"Apr 18, 2019",4.1,1.1K,"['Adventure', 'Arcade', 'Indie', 'Platform', 'Strategy']",9.3K,CAN
+400,Life is Strange,"Jan 29, 2015",3.4,1.4K,"['Adventure', 'RPG']",15K,CAN
+401,Dark Souls II: Scholar of the First Sin,"Apr 02, 2015",3.5,988,"['Adventure', 'RPG']",11K,JPN
+402,Deathloop,"Sep 14, 2021",3.5,897,"['Adventure', 'Shooter']",4.2K,CAN
+403,Shadow of the Colossus,"Oct 18, 2005",4.4,1.5K,"['Adventure', 'Platform', 'Puzzle']",10K,JPN
+404,Teenage Mutant Ninja Turtles: Shredder's Revenge,"Jun 16, 2022",3.8,880,"['Arcade', 'Brawler', 'Indie']",3.5K,USA
+405,Psychonauts,"Apr 19, 2005",4,1.2K,"['Adventure', 'Platform']",7.1K,AUS
+406,Fallout 4,"Nov 09, 2015",3.1,1K,"['RPG', 'Shooter']",16K,AUS
+407,Uncharted 4: A Thief's End,"May 10, 2016",4.1,1.8K,"['Adventure', 'Shooter']",14K,CAN
+408,The Legend of Zelda: A Link to the Past,"Nov 21, 1991",4.1,1.7K,"['Adventure', 'Puzzle', 'RPG']",13K,USA
+409,Silent Hill,"Feb 23, 1999",4.1,1.3K,"['Adventure', 'Puzzle']",6.8K,JPN
+410,Super Smash Bros. Brawl,"Jan 31, 2008",3.8,1.3K,"['Fighting', 'Platform']",19K,JPN
+411,Borderlands 2,"Sep 18, 2012",3.5,1.1K,"['RPG', 'Shooter']",16K,JPN
+412,No More Heroes,"Dec 06, 2007",4,1.2K,"['Adventure', 'Brawler']",5.6K,CAN
+413,Ghost of Tsushima,"Jul 17, 2020",4.1,1.4K,"['Adventure', 'Brawler', 'RPG']",8.5K,CAN
+414,Sifu,"Feb 08, 2022",3.8,633,"['Brawler', 'Indie']",2.7K,CAN
+415,Super Mario Bros. 3,"Oct 23, 1988",4,1.6K,['Platform'],14K,JPN
+416,Dishonored,"Oct 09, 2012",3.9,1.1K,"['Adventure', 'RPG']",14K,AUS
+417,Metal Gear Solid 3: Snake Eater,"Nov 17, 2004",4.5,1.5K,"['Adventure', 'Shooter', 'Tactical']",9.2K,USA
+418,Journey,"Mar 13, 2012",3.9,1.5K,"['Adventure', 'Platform']",12K,AUS
+419,Kingdom Hearts,"Mar 28, 2002",3.6,1.3K,"['Adventure', 'RPG']",12K,CAN
+420,Titanfall 2,"Oct 28, 2016",4.1,1.3K,"['Adventure', 'Shooter']",12K,AUS
+421,Doom,"Dec 10, 1993",4,1.4K,['Shooter'],11K,JPN
+422,Live A Live,"Jul 22, 2022",4.1,555,['RPG'],1.1K,CAN
+423,The Last of Us Remastered,"Jul 26, 2014",4.3,1.1K,"['Adventure', 'Shooter']",12K,CAN
+424,Sonic the Hedgehog,"Jun 23, 1991",3.1,1.1K,['Platform'],12K,AUS
+425,Rocket League,"Jul 06, 2015",3.4,917,"['Indie', 'Racing', 'Sport']",17K,CAN
+426,Batman: Arkham Knight,"Jun 23, 2015",3.7,1.2K,"['Adventure', 'Brawler']",13K,AUS
+427,Bayonetta 3,"Oct 28, 2022",3.7,690,['Brawler'],1.6K,AUS
+428,Disco Elysium,"Oct 15, 2019",4.6,1.1K,"['Adventure', 'RPG', 'Turn Based Strategy']",4K,AUS
+429,Guilty Gear: Strive,"Jun 11, 2021",3.9,810,['Fighting'],5.5K,AUS
+430,Wii Sports,"Nov 19, 2006",3.7,775,"['Simulator', 'Sport']",18K,JPN
+431,Hogwarts Legacy,"Feb 10, 2023",3.5,474,"['Adventure', 'RPG']",1.4K,USA
+432,Mario Kart Wii,"Apr 10, 2008",3.9,1K,['Racing'],19K,JPN
+433,Resident Evil 3,"Apr 03, 2020",3.2,1.3K,"['Adventure', 'Shooter']",8.4K,JPN
+434,Unpacking,"Nov 02, 2021",3.6,751,"['Indie', 'Point-and-Click', 'Puzzle', 'Simulator']",4.9K,JPN
+435,Red Dead Redemption,"May 18, 2010",4.2,1.5K,"['Adventure', 'RPG', 'Shooter']",13K,AUS
+436,Tales of Arise,"Sep 10, 2021",3.6,650,"['Adventure', 'RPG']",3.1K,JPN
+437,Deltarune: Chapter 1,"Oct 31, 2018",3.9,591,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",11K,JPN
+438,Dead Space,"Jan 27, 2023",4.3,501,"['Adventure', 'RPG', 'Shooter']",1.3K,JPN
+439,Tomb Raider,"Mar 04, 2013",3.5,896,"['Adventure', 'Platform', 'Puzzle', 'Shooter']",15K,USA
+440,Super Mario Galaxy 2,"May 23, 2010",4.3,1.8K,"['Adventure', 'Platform']",13K,CAN
+441,Donkey Kong Country,"Nov 18, 1994",3.9,1.3K,"['Adventure', 'Platform']",11K,JPN
+442,What Remains of Edith Finch,"Apr 24, 2017",4,1.4K,"['Adventure', 'Indie', 'Puzzle']",8.6K,JPN
+443,Monster Hunter Rise,"Mar 26, 2021",4,789,"['Adventure', 'Brawler', 'RPG']",5.7K,AUS
+444,Pokémon Emerald,"Sep 16, 2004",4,1.2K,"['Adventure', 'RPG', 'Turn Based Strategy']",16K,JPN
+445,NEO: The World Ends with You,"Jul 26, 2021",4.2,725,"['Brawler', 'RPG']",2.5K,USA
+446,Assassin's Creed II,"Nov 17, 2009",3.8,1.3K,"['Adventure', 'Platform']",16K,AUS
+447,Pokémon Scarlet,"Nov 18, 2022",3.5,596,"['Adventure', 'RPG', 'Turn Based Strategy']",2.6K,JPN
+448,Dead Space,"Oct 14, 2008",4,1.2K,['Shooter'],9.6K,USA
+449,New Super Mario Bros.,"May 15, 2006",3.5,991,"['Adventure', 'Platform']",16K,JPN
+450,Shadow of the Colossus,"Feb 06, 2018",4.1,1.1K,"['Adventure', 'Platform', 'Puzzle']",7.8K,CAN
+451,Horizon Forbidden West,"Feb 18, 2022",3.8,830,"['Adventure', 'RPG']",2.7K,AUS
+452,Ori and the Blind Forest,"Mar 11, 2015",3.9,780,"['Adventure', 'Platform', 'Puzzle']",7.9K,USA
+453,Demon's Souls,"Nov 12, 2020",3.9,880,"['Adventure', 'RPG']",4.1K,JPN
+454,A Plague Tale: Innocence,"May 14, 2019",3.7,852,"['Adventure', 'RPG']",5.4K,JPN
+455,The Legend of Zelda: Link's Awakening,"Sep 20, 2019",3.9,1.1K,['Adventure'],7.6K,JPN
+456,Assassin's Creed,"Nov 13, 2007",2.9,801,"['Adventure', 'Platform']",13K,CAN
+457,Judgment,"Dec 13, 2018",4.1,890,"['Adventure', 'RPG']",3.1K,USA
+458,Call of Duty: Black Ops,"Nov 09, 2010",3.7,920,['Shooter'],14K,AUS
+459,Ratchet & Clank: Rift Apart,"Jun 11, 2021",4,906,"['Adventure', 'Platform', 'Shooter']",3.7K,CAN
+460,Pokémon Black,"Sep 18, 2010",4,1K,"['Adventure', 'RPG', 'Turn Based Strategy']",12K,JPN
+461,The Stanley Parable,"Oct 17, 2013",3.8,767,"['Adventure', 'Indie']",10K,CAN
+462,The Legend of Zelda,"Feb 21, 1986",3.2,1.2K,['Adventure'],9.3K,AUS
+463,AI: The Somnium Files - Nirvana Initiative,"Jun 23, 2022",3.9,455,"['Adventure', 'Puzzle', 'Visual Novel']",1.5K,AUS
+464,Ghost Trick: Phantom Detective,"Jun 19, 2010",4.4,830,"['Adventure', 'Puzzle']",3.6K,JPN
+465,Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition,"Sep 27, 2019",4.2,880,"['Adventure', 'RPG']",4.7K,JPN
+466,Paper Mario: The Thousand-Year Door,"Jul 22, 2004",4.4,1.3K,"['Adventure', 'RPG', 'Turn Based Strategy']",6.7K,JPN
+467,God of War II,"Mar 13, 2007",4,936,"['Adventure', 'Brawler', 'Platform']",9.3K,USA
+468,Mass Effect 2,"Jan 26, 2010",4.3,1.3K,"['Adventure', 'RPG', 'Shooter']",9.6K,AUS
+469,Forza Horizon 5,"Nov 09, 2021",3.8,589,['Racing'],4.6K,USA
+470,Metal Gear Solid V: Ground Zeroes,"Mar 18, 2014",3.3,650,"['Adventure', 'RPG', 'Shooter', 'Strategy']",9.5K,CAN
+471,No More Heroes III,"Aug 27, 2021",3.9,604,['Brawler'],1.6K,AUS
+472,Banjo-Kazooie,"Jun 29, 1998",4,1.2K,"['Adventure', 'Platform']",7.4K,JPN
+473,Astro's Playroom,"Nov 12, 2020",4,914,"['Adventure', 'Platform']",5.7K,AUS
+474,Call of Duty: Black Ops II,"Nov 12, 2012",3.8,903,['Shooter'],13K,CAN
+475,The Legend of Zelda: Skyward Sword HD,"Jul 16, 2021",3.8,639,"['Adventure', 'RPG']",3.7K,JPN
+476,Mega Man X,"Dec 17, 1993",4.1,1.2K,"['Adventure', 'Platform', 'Shooter']",6.9K,USA
+477,Subnautica,"Jan 23, 2018",3.8,712,"['Adventure', 'Indie']",7.2K,USA
+478,Returnal,"Apr 30, 2021",4,725,['Shooter'],2.4K,CAN
+479,New Super Mario Bros. Wii,"Nov 12, 2009",3.5,859,"['Adventure', 'Platform']",13K,JPN
+480,Citizen Sleeper,"May 05, 2022",4.1,492,"['Adventure', 'Indie', 'RPG']",1.2K,USA
+481,Yakuza 3 Remastered,"Aug 09, 2018",3.3,755,"['Adventure', 'RPG', 'Simulator']",4.3K,USA
+482,Garry's Mod,"Dec 24, 2004",3.8,478,"['Indie', 'Simulator']",12K,JPN
+483,Wolfenstein: The New Order,"May 20, 2014",3.6,794,"['Adventure', 'Shooter']",8.4K,USA
+484,Deus Ex,"Jun 26, 2000",4.4,899,"['RPG', 'Shooter']",3.8K,USA
+485,BioShock 2,"Feb 09, 2010",3.6,687,"['Adventure', 'RPG', 'Shooter']",9.1K,USA
+486,Soul Hackers 2,"Aug 25, 2022",3.1,337,['RPG'],750,JPN
+487,Enter the Gungeon,"Apr 05, 2016",3.6,632,"['Adventure', 'Arcade', 'Indie', 'Shooter']",8.9K,CAN
+488,The House in Fata Morgana,"Dec 27, 2012",4.4,544,"['Adventure', 'Indie', 'Visual Novel']",1.7K,JPN
+489,Shovel Knight,"Jun 26, 2014",4,761,"['Adventure', 'Indie', 'Platform']",8.5K,CAN
+490,Firewatch,"Feb 09, 2016",3.7,926,"['Adventure', 'Indie']",7.8K,USA
+491,Dark Souls II,"Mar 11, 2014",3.3,815,"['Adventure', 'RPG']",6.7K,JPN
+492,Blasphemous,"Sep 10, 2019",3.7,647,"['Adventure', 'Brawler', 'Indie', 'Platform', 'RPG']",4.2K,CAN
+493,Final Fantasy XIV Online,"Aug 27, 2013",3.7,643,"['Adventure', 'RPG', 'Strategy']",5.9K,JPN
+494,Immortality,"Aug 30, 2022",3.9,461,"['Indie', 'Point-and-Click', 'Simulator']",1.2K,USA
+495,Resident Evil 6,"Oct 02, 2012",2.5,888,"['Adventure', 'Shooter']",7.8K,JPN
+496,Devil May Cry 3: Dante's Awakening,"Feb 17, 2005",4.2,909,"['Adventure', 'Brawler', 'Shooter']",6.1K,CAN
+497,The Last of Us Part I,"Sep 01, 2022",4.4,395,"['Adventure', 'Shooter']",1.4K,CAN
+498,Super Meat Boy,"Oct 20, 2010",3.5,605,"['Adventure', 'Indie', 'Platform']",10K,USA
+499,Mass Effect Legendary Edition,"May 14, 2021",4.5,581,"['Adventure', 'RPG', 'Shooter', 'Strategy']",2.8K,CAN
+500,Helltaker,"May 11, 2020",3.3,419,"['Adventure', 'Indie', 'Puzzle']",7.5K,CAN
+501,Pokémon Sword,"Nov 15, 2019",2.9,837,"['Adventure', 'RPG']",9.7K,CAN
+502,Crash Bandicoot N. Sane Trilogy,"Jun 30, 2017",3.8,654,"['Adventure', 'Platform']",7.7K,AUS
+503,Tetris,"Nov 01, 1989",4.1,688,"['Arcade', 'Puzzle']",9.6K,JPN
+504,Valorant,"Jun 02, 2020",2.5,291,"['Shooter', 'Tactical']",8.2K,CAN
+505,Super Mario 3D World,"Nov 21, 2013",3.9,1.1K,"['Adventure', 'Platform']",9.6K,JPN
+506,Uncharted 3: Drake's Deception,"Nov 01, 2011",3.6,941,"['Adventure', 'Platform', 'Shooter']",11K,JPN
+507,Phoenix Wright: Ace Attorney - Trials and Tribulations,"Mar 31, 2006",4.4,995,"['Adventure', 'Visual Novel']",6.6K,JPN
+508,Yume Nikki,"Jun 26, 2004",4,770,"['Adventure', 'Indie']",4K,JPN
+509,Max Payne,"Jul 23, 2001",3.9,786,['Shooter'],6.3K,CAN
+510,Five Nights at Freddy's,"Aug 08, 2014",2.9,460,"['Adventure', 'Indie', 'Point-and-Click', 'Simulator', 'Strategy']",8.4K,AUS
+511,Donkey Kong Country 2: Diddy's Kong Quest,"Nov 21, 1995",4.2,1.2K,"['Adventure', 'Platform']",6.6K,JPN
+512,Sonic the Hedgehog 3 & Knuckles,"Oct 18, 1994",4.2,839,['Platform'],6K,USA
+513,Resident Evil 2,"Jan 21, 1998",4.2,1.1K,"['Adventure', 'Shooter']",5.5K,AUS
+514,Full Metal Daemon Muramasa,"Oct 30, 2009",4.3,229,"['Adventure', 'Visual Novel']",496,JPN
+515,Soma,"Sep 21, 2015",4,764,"['Adventure', 'Indie']",3.9K,JPN
+516,The Binding of Isaac: Rebirth,"Nov 04, 2014",4,492,"['Adventure', 'Arcade', 'Indie', 'RPG', 'Shooter']",8.2K,AUS
+517,Luigi's Mansion 3,"Oct 31, 2019",3.8,800,['Adventure'],5.6K,JPN
+518,Katamari Damacy Reroll,"Dec 06, 2018",4.1,576,"['Adventure', 'Puzzle']",4.3K,CAN
+519,Mario Kart 7,"Dec 02, 2011",3.5,593,['Racing'],10K,JPN
+520,Castle Crashers,"Aug 27, 2008",3.6,487,"['Adventure', 'Brawler', 'Indie', 'RPG']",9.4K,USA
+521,Rain World,"Mar 28, 2017",4.1,411,"['Adventure', 'Indie', 'Platform', 'RPG']",1.1K,JPN
+522,Mario Party Superstars,"Oct 28, 2021",3.7,517,['Card & Board Game'],3.8K,JPN
+523,Bully,"Oct 17, 2006",3.9,635,['Adventure'],6.7K,CAN
+524,Mario Kart 64,"Dec 14, 1996",3.5,725,['Racing'],9.7K,JPN
+525,Octopath Traveler II,"Feb 24, 2023",4.4,253,"['RPG', 'Turn Based Strategy']",258,AUS
+526,Norco,"Mar 24, 2022",3.9,386,"['Adventure', 'Indie', 'Point-and-Click', 'Puzzle']",809,CAN
+527,Resident Evil,"Mar 22, 2002",4.3,1K,"['Adventure', 'Puzzle']",4K,USA
+528,Assassin's Creed Odyssey,"Oct 05, 2018",3.4,772,"['Adventure', 'RPG']",6.8K,JPN
+529,Transistor,"May 20, 2014",3.8,784,"['Adventure', 'Indie', 'RPG', 'Strategy', 'Turn Based Strategy']",5.6K,USA
+530,The Evil Within,"Oct 14, 2014",3.4,629,"['Adventure', 'Shooter']",4.8K,AUS
+531,Metal: Hellsinger,"Sep 15, 2022",3.7,322,"['Adventure', 'Music', 'Shooter']",1.2K,CAN
+532,Pokémon White,"Sep 18, 2010",4.1,814,"['Adventure', 'RPG', 'Turn Based Strategy']",9K,JPN
+533,Outlast,"Sep 04, 2013",3.3,547,"['Adventure', 'Indie']",7.5K,AUS
+534,Hitman 3,"Jan 20, 2021",4.1,702,"['Adventure', 'Shooter', 'Tactical']",3.3K,AUS
+535,Sable,"Sep 23, 2021",3.5,433,"['Adventure', 'Indie', 'Platform', 'Puzzle', 'RPG']",1.3K,CAN
+536,Super Smash Bros. for Wii U,"Nov 21, 2014",3.5,684,"['Fighting', 'Platform']",11K,CAN
+537,Kirby's Adventure,"Mar 23, 1993",3.6,718,['Platform'],6K,USA
+538,Tekken 7,"Feb 18, 2015",3.8,663,['Fighting'],6.6K,JPN
+539,Umineko: When They Cry Chiru,"Sep 15, 2009",4.6,324,"['Adventure', 'Visual Novel']",1.7K,JPN
+540,Kingdom Hearts II Final Mix,"Mar 29, 2007",4.5,704,"['Adventure', 'Brawler', 'Platform', 'RPG', 'Shooter']",4.4K,CAN
+541,Superliminal,"Nov 12, 2019",3.6,487,"['Adventure', 'Indie', 'Puzzle', 'Shooter']",3.8K,USA
+542,Death Stranding: Director's Cut,"Sep 24, 2021",4.2,334,['Adventure'],1.3K,CAN
+543,Persona 4,"Jul 10, 2008",4,815,"['RPG', 'Simulator', 'Visual Novel']",5.7K,USA
+544,Wordle,"Jun 21, 2021",3.2,118,"['Puzzle', 'Quiz/Trivia']",3K,AUS
+545,The Sims 4,"Sep 02, 2014",3,458,"['RPG', 'Simulator']",8.3K,AUS
+546,Far Cry 4,"Nov 18, 2014",3.2,558,"['Adventure', 'Shooter', 'Tactical']",8.5K,CAN
+547,Sonic Forces,"Nov 07, 2017",1.9,650,"['Adventure', 'Platform', 'Strategy']",5K,USA
+548,To the Moon,"Nov 01, 2011",3.9,671,"['Adventure', 'Indie', 'Point-and-Click', 'Puzzle', 'RPG']",4.7K,USA
+549,Baba is You,"Mar 13, 2019",4,545,"['Indie', 'Puzzle', 'Strategy']",4.6K,USA
+550,The Witcher 3: Wild Hunt - Game of the Year Edition,"Aug 29, 2016",4.5,475,"['Adventure', 'RPG']",6K,JPN
+551,Super Smash Bros.,"Jan 21, 1999",3.4,688,"['Fighting', 'Platform']",9.8K,JPN
+552,Super Mario 64 DS,"Nov 21, 2004",3.6,614,"['Adventure', 'Platform']",9.1K,CAN
+553,Halo 4,"Nov 06, 2012",3,674,['Shooter'],7.6K,AUS
+554,Middle-earth: Shadow of Mordor,"Sep 30, 2014",3.4,524,"['Adventure', 'Brawler', 'RPG']",8.4K,JPN
+555,Mega Man 2,"Jun 02, 1989",3.6,857,"['Adventure', 'Platform']",6.1K,USA
+556,Phoenix Wright: Ace Attorney Trilogy,"Apr 17, 2014",4.3,516,"['Adventure', 'Puzzle', 'Simulator', 'Visual Novel']",4K,CAN
+557,Infamous: Second Son,"Mar 21, 2014",3.4,668,"['Adventure', 'Platform', 'Shooter']",7.6K,CAN
+558,Star Wars: Knights of the Old Republic,"Jul 15, 2003",4.2,839,"['Adventure', 'RPG']",5.3K,USA
+559,No More Heroes 2: Desperate Struggle,"Jan 26, 2010",3.5,608,"['Adventure', 'Brawler']",3.2K,AUS
+560,Kirby Super Star Ultra,"Sep 22, 2008",4.3,743,"['Adventure', 'Platform']",5.8K,CAN
+561,"Flower, Sun, and Rain","May 02, 2001",4.3,466,"['Adventure', 'Puzzle']",632,JPN
+562,Katamari Damacy,"Mar 18, 2004",4.2,939,"['Adventure', 'Puzzle']",4.1K,CAN
+563,Shadow the Hedgehog,"Nov 15, 2005",2.4,584,"['Adventure', 'Platform', 'Shooter']",5.6K,USA
+564,Ōkami HD,"Oct 30, 2012",4.2,527,"['Adventure', 'RPG']",3.3K,CAN
+565,Metroid: Samus Returns,"Sep 15, 2017",3.6,674,"['Adventure', 'Platform']",3.9K,USA
+566,Life is Strange: True Colors,"Sep 10, 2021",3.6,566,['Adventure'],2.3K,JPN
+567,Pokémon Black Version 2,"Jun 23, 2012",4.2,776,"['Adventure', 'RPG', 'Turn Based Strategy']",7.6K,USA
+568,Needy Streamer Overload,"Jan 21, 2022",3.5,216,"['Adventure', 'Indie', 'Point-and-Click', 'RPG', 'Simulator', 'Visual Novel']",1.2K,JPN
+569,Borderlands,"Oct 20, 2009",3.1,484,"['RPG', 'Shooter']",9.1K,JPN
+570,Hollow Knight: Voidheart Edition,"Sep 25, 2018",4.5,462,"['Adventure', 'Indie', 'Platform']",3.9K,AUS
+571,Klonoa: Door to Phantomile,"Dec 11, 1997",4.1,648,['Platform'],2.2K,CAN
+572,Halo: The Master Chief Collection,"Nov 11, 2014",4.2,356,['Shooter'],5.1K,JPN
+573,Pokémon Crystal,"Dec 14, 2000",3.9,716,"['Adventure', 'RPG']",7.2K,AUS
+574,Uncharted: The Lost Legacy,"Aug 22, 2017",3.8,758,"['Adventure', 'Shooter']",4.7K,JPN
+575,Resident Evil 3: Nemesis,"Sep 22, 1999",3.8,849,"['Adventure', 'Shooter']",4.3K,USA
+576,Sea of Thieves,"Mar 20, 2018",3.3,354,"['Adventure', 'Simulator']",5.3K,CAN
+577,F.E.A.R.,"Oct 17, 2005",3.8,564,['Shooter'],3.6K,CAN
+578,Mafia: Definitive Edition,"Sep 24, 2020",3.7,420,"['Adventure', 'Shooter']",2.7K,USA
+579,NieR,"Apr 22, 2010",4.2,743,"['Adventure', 'RPG', 'Shooter', 'Simulator', 'Strategy']",2.9K,AUS
+580,The Walking Dead: Season Two,"Dec 17, 2013",3.5,559,"['Adventure', 'Point-and-Click', 'Puzzle']",6.7K,USA
+581,Forspoken,"Jan 24, 2023",2.3,211,"['Adventure', 'RPG']",252,AUS
+582,Max Payne 2: The Fall of Max Payne,"Oct 14, 2003",4.1,553,['Shooter'],4.1K,CAN
+583,Shin Megami Tensei: Devil Summoner - Soul Hackers,"Nov 13, 1997",3.8,470,"['Adventure', 'RPG']",1.2K,USA
+584,Dusk,"Dec 10, 2018",4,487,"['Adventure', 'Indie', 'Shooter']",2.5K,USA
+585,The Elder Scrolls III: Morrowind,"May 01, 2002",4,549,"['Adventure', 'RPG']",3.7K,USA
+586,Rollerdrome,"Aug 16, 2022",3.7,260,"['Adventure', 'Indie', 'Shooter', 'Sport']",431,CAN
+587,Final Fantasy XVI,"Jun 22, 2023",,422,['RPG'],37,AUS
+588,Pokémon Sun,"Nov 18, 2016",3.3,600,"['Adventure', 'RPG', 'Strategy', 'Turn Based Strategy']",7.6K,USA
+589,Yu-Gi-Oh! Master Duel,"Jan 18, 2022",3.2,170,"['Card & Board Game', 'Simulator', 'Strategy']",2.1K,JPN
+590,Injustice: Gods Among Us,"Apr 16, 2013",3,364,"['Adventure', 'Fighting']",7.1K,USA
+591,Pac-Man,"May 22, 1980",3.4,427,['Arcade'],5.2K,JPN
+592,Final Fantasy X/X-2 HD Remaster,"Dec 26, 2013",4.1,368,"['RPG', 'Strategy']",3.2K,USA
+593,Mortal Kombat X,"Apr 13, 2015",3.3,430,['Fighting'],7.1K,AUS
+594,Shin Megami Tensei: Digital Devil Saga,"Jul 15, 2004",4.1,657,['RPG'],2K,CAN
+595,Star Wars: The Force Unleashed,"Sep 16, 2008",3.2,417,"['Adventure', 'Brawler', 'RPG']",7.4K,CAN
+596,Shovel Knight: Treasure Trove,"Dec 09, 2019",4.3,445,"['Adventure', 'Indie', 'Platform']",3.8K,USA
+597,Ghost of Tsushima: Director's Cut,"Aug 20, 2021",4.2,345,"['Adventure', 'RPG']",1.8K,JPN
+598,Donkey Kong Country Returns,"Nov 21, 2010",3.9,521,"['Adventure', 'Platform']",5.3K,JPN
+599,Street Fighter III: 3rd Strike,"May 12, 1999",4.2,763,"['Arcade', 'Fighting']",3.7K,JPN
+600,Return to Monkey Island,"Sep 19, 2022",4,237,"['Adventure', 'Point-and-Click', 'Puzzle']",538,AUS
+601,Deus Ex: Human Revolution,"Aug 23, 2011",3.8,559,"['RPG', 'Shooter']",5.8K,USA
+602,Spyro Reignited Trilogy,"Nov 13, 2018",3.9,552,"['Adventure', 'Platform']",4.5K,JPN
+603,Chicory: A Colorful Tale,"Jun 10, 2021",4.1,521,"['Adventure', 'Indie', 'Puzzle', 'RPG']",984,CAN
+604,Sin and Punishment,"Nov 21, 2000",4,459,['Shooter'],1.1K,USA
+605,Outer Wilds: Echoes of the Eye,"Sep 28, 2021",4.5,238,"['Adventure', 'Indie', 'Puzzle', 'Simulator', 'Strategy']",1.6K,JPN
+606,New Super Mario Bros. 2,"Jul 28, 2012",2.9,581,"['Adventure', 'Platform']",6.1K,JPN
+607,Wolfenstein II: The New Colossus,"Oct 26, 2017",3.5,540,"['Adventure', 'Shooter']",4.7K,USA
+608,PokÃ©mon Diamond,"Sep 28, 2006",3.6,581,"['Adventure', 'RPG', 'Turn Based Strategy']",9.3K,JPN
+609,Into the Breach,"Feb 27, 2018",3.9,535,"['Card & Board Game', 'Indie', 'Puzzle', 'RPG', 'Simulator', 'Strategy', 'Turn Based Strategy']",3.4K,CAN
+610,Marvel Snap,"Oct 18, 2022",3.7,241,"['Card & Board Game', 'Strategy']",847,CAN
+611,Nier: Automata - Game of the Yorha Edition,"Feb 21, 2019",4.4,315,"['Adventure', 'RPG']",2.8K,USA
+612,Five Nights at Freddy's 2,"Nov 10, 2014",3,270,"['Adventure', 'Indie', 'Point-and-Click', 'Simulator', 'Strategy']",5.4K,USA
+613,Mortal Kombat 11,"Apr 22, 2019",3.4,490,['Fighting'],5K,USA
+614,Witch on the Holy Night,"Dec 07, 2022",4.5,98,"['Adventure', 'Visual Novel']",244,CAN
+615,Dying Light 2: Stay Human,"Feb 03, 2022",3.1,290,"['Adventure', 'RPG']",1.4K,CAN
+616,Asura's Wrath,"Feb 21, 2012",3.7,432,['Brawler'],2.1K,AUS
+617,Tales of Berseria,"Aug 18, 2016",3.7,555,['RPG'],3.3K,JPN
+618,Ender Lilies: Quietus of the Knights,"Jun 21, 2021",3.8,275,"['Adventure', 'Indie', 'Platform', 'RPG']",1.2K,JPN
+619,Moon: Remix RPG Adventure,"Oct 16, 1997",4.4,572,"['Adventure', 'Puzzle', 'RPG']",663,AUS
+620,Prince of Persia: The Sands of Time,"Nov 06, 2003",3.6,480,"['Adventure', 'Platform']",5.5K,USA
+621,Assassin's Creed Syndicate,"Oct 23, 2015",3,562,['Adventure'],5.6K,USA
+622,Sunset Overdrive,"Oct 28, 2014",3.5,445,"['Adventure', 'Platform', 'Shooter']",3.6K,JPN
+623,Metal Gear Solid: Peace Walker,"Apr 29, 2010",3.5,498,"['Shooter', 'Strategy']",4K,USA
+624,Code Vein,"Sep 26, 2019",3,325,"['Adventure', 'RPG']",3.3K,AUS
+625,Vagrant Story,"Feb 10, 2000",4,503,"['Adventure', 'RPG']",1K,AUS
+626,Amnesia: The Dark Descent,"Sep 08, 2010",3.5,525,"['Adventure', 'Indie', 'Puzzle']",4.7K,USA
+627,Monster Hunter Rise: Sunbreak,"Jun 29, 2022",4.3,217,"['Brawler', 'RPG']",1.1K,JPN
+628,Super Mario Maker 2,"Jun 28, 2019",3.7,689,['Platform'],6.6K,AUS
+629,Fire Emblem: The Blazing Blade,"Apr 25, 2003",3.7,609,"['RPG', 'Strategy', 'Tactical']",3.9K,JPN
+630,LEGO Marvel Super Heroes,"Sep 30, 2013",3.6,522,"['Adventure', 'Brawler', 'Puzzle']",6K,AUS
+631,Sonic Colors,"Nov 11, 2010",3.4,609,"['Adventure', 'Platform']",5.1K,AUS
+632,Mario Strikers: Battle League,"Jun 10, 2022",2.7,248,['Sport'],932,USA
+633,Limbus Company,"Feb 27, 2023",3.9,24,"['Adventure', 'RPG', 'Strategy']",104,JPN
+634,Resident Evil Village: Winters' Expansion,"Oct 28, 2022",3.3,107,['Shooter'],477,USA
+635,Tony Hawk's Pro Skater 1+2,"Sep 04, 2020",4.1,498,"['Simulator', 'Sport']",2.8K,CAN
+636,Need for Speed: Unbound,"Nov 29, 2022",3.5,84,['Racing'],294,AUS
+637,Zero Escape: Zero Time Dilemma,"Jun 28, 2016",3,350,"['Adventure', 'Puzzle', 'RPG', 'Strategy', 'Visual Novel']",2.9K,CAN
+638,Deus Ex: Mankind Divided,"Aug 23, 2016",3.5,387,"['Adventure', 'RPG', 'Shooter']",3.4K,CAN
+639,Guitar Hero III: Legends of Rock,"Oct 28, 2007",3.9,489,"['Music', 'Simulator']",6.9K,USA
+640,Sid Meier's Civilization VI,"Oct 20, 2016",3.7,343,"['Simulator', 'Strategy', 'Turn Based Strategy']",4.6K,AUS
+641,Nioh 2,"Mar 13, 2020",4,365,"['Adventure', 'Brawler', 'RPG']",1.4K,AUS
+642,Gears of War,"Nov 07, 2006",3.5,522,['Shooter'],5.3K,JPN
+643,Final Fantasy Tactics,"Jun 20, 1997",4.2,506,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']",2.1K,USA
+644,Deltarune,"Sep 09, 2022",4.3,313,"['Adventure', 'Indie', 'Music', 'Puzzle', 'RPG']",1.3K,USA
+645,Tekken 3,"Mar 22, 1997",3.9,564,['Fighting'],4.2K,AUS
+646,Far Cry 6,"Oct 07, 2021",2.7,298,"['Adventure', 'Shooter']",1.6K,USA
+647,Horizon Zero Dawn: Complete Edition,"Dec 06, 2017",3.8,327,"['Adventure', 'RPG', 'Shooter']",2.9K,CAN
+648,Persona 4 Golden,"Jun 13, 2020",4.4,53,"['Adventure', 'RPG', 'Simulator', 'Visual Novel']",350,JPN
+649,Death Stranding 2,"Jun 05, 2021",,105,"['Adventure', 'Shooter']",3,JPN
+650,Xenosaga Episode I: Der Wille zur Macht,"Feb 28, 2002",3.7,412,"['Adventure', 'RPG']",1.2K,CAN
+651,Everhood,"Mar 03, 2021",3.8,317,"['Adventure', 'Indie', 'Music', 'RPG']",1.4K,USA
+652,Don't Starve Together,"Apr 21, 2016",3.4,227,"['Adventure', 'Indie', 'Simulator', 'Strategy']",5.2K,USA
+653,South Park: The Fractured But Whole,"Oct 17, 2017",3.7,369,"['Adventure', 'RPG', 'Strategy']",3.5K,JPN
+654,God of War III: Remastered,"Jul 14, 2015",4,323,"['Adventure', 'Brawler']",2.7K,JPN
+655,Pokémon Ruby,"Nov 21, 2002",3.7,494,"['Adventure', 'RPG', 'Turn Based Strategy']",7K,JPN
+656,Fire Emblem: The Sacred Stones,"Oct 07, 2004",3.7,503,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']",3.7K,JPN
+657,Library of Ruina,"Aug 10, 2021",4.4,151,"['Indie', 'RPG', 'Simulator', 'Strategy', 'Turn Based Strategy']",454,USA
+658,Uncharted: The Nathan Drake Collection,"Oct 07, 2015",4.1,363,"['Adventure', 'Platform', 'Shooter']",4.3K,USA
+659,Persona 3 Portable,"Jan 19, 2023",4,39,"['Adventure', 'RPG', 'Strategy', 'Visual Novel']",210,AUS
+660,Pyre,"Jul 25, 2017",4,484,"['Adventure', 'Indie', 'RPG', 'Visual Novel']",1.8K,USA
+661,Paladins,"May 02, 2017",2.6,167,"['Shooter', 'Strategy']",5.2K,AUS
+662,Dead Space 3,"Feb 05, 2013",2.6,309,"['Adventure', 'Shooter']",3.2K,CAN
+663,Devil May Cry HD Collection,"Mar 22, 2012",3.9,230,"['Brawler', 'Platform']",2.2K,AUS
+664,Bayonetta Origins: Cereza and the Lost Demon,"Mar 17, 2023",4,116,"['Adventure', 'Puzzle']",48,AUS
+665,Armored Core,"Jul 10, 1997",3.4,197,"['Shooter', 'Simulator']",522,JPN
+666,Persona 4 Arena Ultimax,"Nov 28, 2013",3.7,382,['Fighting'],2.9K,AUS
+667,Wanted: Dead,"Feb 14, 2023",2.6,81,"['Adventure', 'Brawler', 'Shooter']",100,JPN
+668,Luigi's Mansion: Dark Moon,"Mar 20, 2013",3.3,377,['Adventure'],4.3K,JPN
+669,Gorogoa,"Dec 13, 2017",3.8,386,"['Adventure', 'Indie', 'Point-and-Click', 'Puzzle']",2K,CAN
+670,Valkyrie Elysium,"Sep 28, 2022",3,139,"['Brawler', 'RPG']",218,USA
+671,Castlevania: Order of Ecclesia,"Oct 21, 2008",4,483,"['Adventure', 'Brawler', 'Platform', 'RPG']",2K,JPN
+672,Deadly Premonition,"Feb 23, 2010",3.9,431,"['Adventure', 'Shooter']",1.4K,AUS
+673,LEGO Batman 2: DC Super Heroes,"Jun 19, 2012",3.5,446,"['Adventure', 'Brawler', 'Platform']",4.6K,CAN
+674,Lunistice,"Nov 10, 2022",3.6,132,"['Adventure', 'Indie', 'Platform']",305,AUS
+675,Sonic Advance,"Dec 20, 2001",3.2,446,['Platform'],4K,AUS
+676,Metal Slug,"Jan 24, 1996",3.6,353,"['Arcade', 'Platform', 'Shooter']",3.8K,USA
+677,Just Cause 3,"Nov 30, 2015",3.1,269,['Adventure'],4.9K,JPN
+678,Suikoden II,"Dec 17, 1998",4.4,433,"['RPG', 'Strategy']",1.1K,USA
+679,LittleBigPlanet,"Oct 27, 2008",3.6,405,['Platform'],6K,AUS
+680,EarthBound Beginnings,"Jun 14, 2015",3.2,395,"['Adventure', 'RPG']",1.8K,JPN
+681,Wario Land 3,"Mar 21, 2000",3.8,284,"['Adventure', 'Platform', 'Puzzle']",1.2K,CAN
+682,Faith: The Unholy Trinity,"Oct 21, 2022",4,85,"['Adventure', 'Indie']",253,USA
+683,Tales of Symphonia,"Aug 29, 2003",3.9,512,['RPG'],2.8K,AUS
+684,Final Fantasy VII,"Aug 14, 2012",4.2,103,"['RPG', 'Turn Based Strategy']",1.2K,CAN
+685,The Dark Pictures Anthology: Man of Medan,"Aug 29, 2019",2.5,355,['Adventure'],2.3K,JPN
+686,Saya no Uta,"Dec 26, 2003",3.3,249,['Visual Novel'],1.7K,AUS
+687,River City Girls,"Sep 04, 2019",3.6,279,"['Adventure', 'Arcade', 'Brawler', 'Fighting']",1.9K,CAN
+688,Sonic Origins,"Jun 22, 2022",3.4,121,"['Adventure', 'Platform']",558,JPN
+689,Kuru Kuru Kururin,"Mar 21, 2001",3.4,138,"['Arcade', 'Puzzle']",439,AUS
+690,Pikmin 2,"Apr 29, 2004",4.1,530,"['Adventure', 'Real Time Strategy']",2.7K,JPN
+691,Wonderful Everyday: Down the Rabbit-Hole,"Mar 26, 2010",4.1,269,"['Adventure', 'Visual Novel']",982,AUS
+692,Paper Mario: The Origami King,"Jul 17, 2020",3.5,525,"['Adventure', 'RPG']",2.4K,JPN
+693,Conker's Bad Fur Day,"Mar 05, 2001",3.6,426,"['Adventure', 'Platform', 'Shooter']",2.7K,AUS
+694,Fire Emblem: Radiant Dawn,"Feb 22, 2007",4,459,"['RPG', 'Strategy', 'Tactical']",1.8K,JPN
+695,Need for Speed: Heat,"Nov 08, 2019",3.1,180,"['Adventure', 'Racing', 'Sport']",1.6K,JPN
+696,Skate 3,"May 11, 2010",4,318,['Sport'],4.1K,CAN
+697,Braid,"Aug 06, 2008",3.4,380,"['Adventure', 'Indie', 'Platform', 'Puzzle', 'Strategy']",3.5K,CAN
+698,Metro 2033,"Mar 16, 2010",3.5,328,"['RPG', 'Shooter']",3.7K,USA
+699,Another Pokémon Game,"Feb 15, 2023",3,19,"['Adventure', 'RPG']",59,AUS
+700,Super Mario Party,"Oct 05, 2018",2.8,336,"['Card & Board Game', 'Platform', 'Puzzle']",5.3K,JPN
+701,Kentucky Route Zero,"Jan 07, 2013",4.1,474,"['Adventure', 'Indie', 'Point-and-Click']",1.2K,CAN
+702,The Legend of Zelda: Twilight Princess HD,"Mar 04, 2016",4.2,447,"['Adventure', 'Platform', 'Puzzle']",2.5K,JPN
+703,We Love Katamari,"Jul 06, 2005",4.3,429,"['Adventure', 'Puzzle']",1.4K,USA
+704,Serial Experiments Lain,"Nov 26, 1998",4,173,['Adventure'],397,USA
+705,Kirby's Dream Land 2,"Mar 21, 1995",3.2,414,['Platform'],2.3K,JPN
+706,Harvestella,"Nov 04, 2022",3.4,103,"['Adventure', 'RPG', 'Simulator']",160,JPN
+707,Dishonored: Death of the Outsider,"Sep 14, 2017",3.6,328,"['Adventure', 'RPG']",1.8K,CAN
+708,Life is Strange 2,"Sep 26, 2018",3.3,421,['Adventure'],2.6K,JPN
+709,Banjo-Tooie,"Nov 20, 2000",3.8,443,"['Adventure', 'Platform']",3K,CAN
+710,The Legend of Zelda: Oracle of Ages,"Feb 27, 2001",3.7,512,"['Adventure', 'RPG']",2.8K,JPN
+711,Lobotomy Corporation,"Apr 09, 2018",4.1,134,"['Indie', 'Simulator']",621,JPN
+712,Saints Row 2,"Oct 14, 2008",3.7,412,"['Adventure', 'Racing', 'Shooter']",3.6K,USA
+713,Final Fantasy VII Rebirth,"Dec 31, 2023",,192,[],20,JPN
+714,Castlevania: Bloodlines,"Mar 17, 1994",3.7,447,"['Adventure', 'Platform']",1.8K,AUS
+715,Tiny Tina's Wonderlands,"Mar 25, 2022",3.4,224,"['Adventure', 'RPG', 'Shooter']",738,CAN
+716,Utawarerumono: Mask of Truth,"Sep 21, 2016",4.4,182,"['Adventure', 'RPG', 'Simulator', 'Strategy', 'Tactical', 'Visual Novel']",442,USA
+717,Hitman World of Assassination,"Jan 26, 2023",4.6,38,"['Adventure', 'Shooter', 'Tactical']",167,CAN
+718,Just Cause 2,"Mar 23, 2010",3.2,302,"['Adventure', 'Racing', 'Shooter']",5.1K,CAN
+719,Lies of P,"Aug 01, 2023",,175,['RPG'],5,AUS
+720,Final Fantasy V,"Dec 06, 1992",3.8,532,"['Adventure', 'RPG']",2.3K,CAN
+721,Jet Set Radio Future,"Feb 22, 2002",4.3,448,"['Music', 'Platform', 'Racing', 'Sport']",1.4K,CAN
+722,Overcooked!,"Aug 03, 2016",3.5,376,"['Arcade', 'Indie', 'Simulator', 'Strategy']",4.6K,CAN
+723,Shin Megami Tensei IV: Apocalypse,"Feb 10, 2016",3.6,442,"['Adventure', 'RPG']",1.8K,JPN
+724,Muse Dash,"Jun 15, 2018",3.5,185,"['Indie', 'Music']",2.7K,JPN
+725,Fire Emblem: Genealogy of the Holy War,"May 14, 1996",4,468,"['RPG', 'Strategy', 'Turn Based Strategy']",1.3K,CAN
+726,Judas,"Mar 31, 2025",,90,"['Adventure', 'Shooter']",1,CAN
+727,Half-Life: Opposing Force,"Nov 10, 1999",3.7,298,"['Platform', 'Puzzle', 'Shooter']",3K,USA
+728,Bloodborne PSX,"Jan 31, 2022",3.5,106,"['Adventure', 'RPG']",577,USA
+729,Prototype,"Jun 09, 2009",3,225,"['Adventure', 'Brawler', 'Platform']",4.5K,AUS
+730,Pokémon Gold,"Nov 21, 1999",3.8,495,"['Adventure', 'RPG', 'Turn Based Strategy']",5.5K,JPN
+731,Valheim,"Feb 02, 2021",3.6,210,"['Adventure', 'Indie', 'RPG']",2.5K,AUS
+732,Your Turn To Die: Death Game By Majority,"Aug 28, 2017",4.1,221,"['Adventure', 'Indie', 'Visual Novel']",1.3K,JPN
+733,Gal Guardians: Demon Purge,"Feb 23, 2023",3.4,39,"['Adventure', 'Platform']",69,USA
+734,Mortal Shell,"Aug 18, 2020",2.7,192,"['Indie', 'RPG']",847,USA
+735,Kingdom Come: Deliverance,"Feb 13, 2018",3.6,238,"['Adventure', 'RPG']",1.8K,AUS
+736,Live A Live,"Sep 02, 1994",4.2,307,['RPG'],555,JPN
+737,Sleeping Dogs: Definitive Edition,"Oct 10, 2014",3.8,250,"['Adventure', 'Brawler', 'Racing', 'Shooter']",2.6K,JPN
+738,Resident Evil 4: Ultimate HD Edition,"Feb 28, 2014",4.4,148,"['Adventure', 'Shooter']",889,CAN
+739,LEGO Builder's Journey,"Dec 20, 2019",3.2,138,"['Adventure', 'Indie', 'Puzzle']",484,JPN
+740,Guilty Gear Xrd: Rev 2,"Mar 30, 2017",4.1,379,['Fighting'],3K,USA
+741,Super Kiwi 64,"Dec 02, 2022",3.4,79,"['Adventure', 'Arcade', 'Platform']",239,CAN
+742,Infamous 2,"Jun 07, 2011",3.7,409,"['Adventure', 'Brawler', 'Puzzle']",4.4K,USA
+743,Fallout 3: Game of the Year Edition,"Oct 13, 2009",3.6,188,"['Adventure', 'RPG', 'Shooter']",2.6K,CAN
+744,Melatonin,"Dec 15, 2022",3.7,104,"['Arcade', 'Indie', 'Music', 'Puzzle']",185,JPN
+745,Gungrave G.O.R.E,"Nov 22, 2022",2.1,85,"['Adventure', 'Fighting', 'Shooter', 'Simulator', 'Strategy']",186,CAN
+746,Like a Dragon Gaiden: The Man Who Erased His Name,"Dec 31, 2023",,118,"['Adventure', 'Brawler', 'RPG']",2,AUS
+747,Garten of Banban,"Jan 06, 2023",1.2,26,"['Adventure', 'Indie', 'Puzzle']",130,CAN
+748,Hitman: Blood Money,"May 26, 2006",4,414,['Shooter'],3.2K,AUS
+749,Professor Layton and the Unwound Future,"Nov 27, 2008",4.3,378,"['Point-and-Click', 'Puzzle', 'Visual Novel']",2.4K,JPN
+750,The Dark Pictures Anthology: The Devil in Me,"Nov 18, 2022",2.9,123,['Adventure'],332,AUS
+751,Donkey Kong Country: Tropical Freeze,"May 04, 2018",4.2,373,['Platform'],2.1K,JPN
+752,Fire Emblem: Thracia 776,"Sep 01, 1999",4.1,329,"['RPG', 'Strategy', 'Tactical']",820,CAN
+753,Moonlighter,"May 29, 2018",3.2,280,"['Adventure', 'Brawler', 'Indie', 'RPG', 'Simulator']",2.2K,CAN
+754,Pikmin 3,"Jul 13, 2013",4,388,"['Adventure', 'Real Time Strategy']",2.7K,USA
+755,Five Nights at Freddy's 4,"Jul 23, 2015",2.8,199,"['Adventure', 'Indie', 'Point-and-Click', 'Simulator', 'Strategy']",3.3K,USA
+756,Chaos;Head Noah,"Feb 26, 2009",4,84,"['Adventure', 'Simulator', 'Visual Novel']",199,USA
+757,Nier: Automata - The End of Yorha Edition,"Oct 06, 2022",4.5,68,"['Adventure', 'RPG']",370,CAN
+758,Phoenix Wright: Ace Attorney - Spirit of Justice,"Jun 09, 2016",3.7,402,"['Adventure', 'Point-and-Click', 'Puzzle', 'RPG', 'Visual Novel']",2.4K,JPN
+759,Crysis,"Nov 13, 2007",3.2,224,"['Adventure', 'Shooter']",3K,CAN
+760,Fallout Shelter,"Jun 14, 2015",2.4,172,"['RPG', 'Simulator', 'Strategy']",5.3K,JPN
+761,Sonic and the Secret Rings,"Feb 20, 2007",1.9,362,['Platform'],3.1K,AUS
+762,FTL: Faster Than Light,"Sep 14, 2012",3.8,325,"['Indie', 'RPG', 'Simulator', 'Strategy']",3.8K,USA
+763,Mario Party 2,"Dec 17, 1999",3.7,348,['Card & Board Game'],3.9K,AUS
+764,Attack of the Friday Monsters! A Tokyo Tale,"Jul 17, 2013",3.7,178,"['Adventure', 'Simulator']",393,USA
+765,Animal Crossing,"Dec 14, 2001",3.9,533,['Simulator'],3.9K,JPN
+766,Fire Emblem Fates: Revelation,"Jul 09, 2015",2.3,296,"['RPG', 'Strategy', 'Turn Based Strategy']",2.5K,AUS
+767,Bloodstained: Curse of the Moon,"May 23, 2018",3.6,341,"['Adventure', 'Indie', 'Platform']",2.3K,JPN
+768,Final Fantasy XIII-2,"Dec 15, 2011",3.3,482,"['Adventure', 'RPG']",2.3K,USA
+769,Agar.io,"Apr 28, 2015",2.2,81,"['Indie', 'Strategy']",4.4K,AUS
+770,Fatal Frame II: Crimson Butterfly,"Nov 27, 2003",4.2,398,['Adventure'],1K,AUS
+771,World of Warcraft,"Nov 23, 2004",3.5,369,"['Adventure', 'RPG']",4.5K,JPN
+772,The Legend of Heroes: Trails of Cold Steel II,"Sep 25, 2014",3.7,401,"['Adventure', 'RPG', 'Turn Based Strategy']",1.7K,JPN
+773,Gang Beasts,"Dec 12, 2017",3.1,207,"['Fighting', 'Indie']",3.2K,AUS
+774,Armored Core 3,"Apr 01, 2002",3.7,115,"['Shooter', 'Strategy']",297,CAN
+775,Star Wars: The Force Unleashed II,"Oct 26, 2010",2.8,242,"['Adventure', 'Brawler', 'RPG']",4.1K,AUS
+776,Elden Ring,"Feb 25, 2022",4.5,3.9K,"['Adventure', 'RPG']",17K,JPN
+777,Hades,"Dec 10, 2019",4.3,2.9K,"['Adventure', 'Brawler', 'Indie', 'RPG']",21K,USA
+778,The Legend of Zelda: Breath of the Wild,"Mar 03, 2017",4.4,4.3K,"['Adventure', 'RPG']",30K,JPN
+779,Undertale,"Sep 15, 2015",4.2,3.5K,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",28K,USA
+780,Hollow Knight,"Feb 24, 2017",4.4,3K,"['Adventure', 'Indie', 'Platform']",21K,AUS
+781,Minecraft,"Nov 18, 2011",4.3,2.3K,"['Adventure', 'Simulator']",33K,CAN
+782,Omori,"Dec 25, 2020",4.2,1.6K,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",7.2K,JPN
+783,Metroid Dread,"Oct 07, 2021",4.3,2.1K,"['Adventure', 'Platform']",9.2K,JPN
+784,Among Us,"Jun 15, 2018",3,867,"['Indie', 'Strategy']",25K,CAN
+785,NieR: Automata,"Feb 23, 2017",4.3,2.9K,"['Brawler', 'RPG']",18K,JPN
+786,Persona 5 Royal,"Oct 31, 2019",4.4,2.7K,"['Adventure', 'RPG', 'Turn Based Strategy']",12K,AUS
+787,Stray,"Jul 19, 2022",3.7,1.5K,"['Adventure', 'Indie']",7.7K,USA
+788,God of War,"Apr 20, 2018",4.2,2.9K,"['Adventure', 'Brawler', 'RPG']",21K,USA
+789,Portal 2,"Apr 18, 2011",4.4,2.9K,"['Adventure', 'Platform', 'Puzzle', 'Shooter']",29K,AUS
+790,Bloodborne,"Mar 24, 2015",4.5,3.4K,"['Adventure', 'RPG']",17K,JPN
+791,Celeste,"Jan 25, 2018",4.2,2.8K,"['Adventure', 'Indie', 'Platform']",20K,CAN
+792,Yakuza 0,"Mar 12, 2015",4.4,2.7K,"['Adventure', 'Brawler', 'RPG', 'Simulator']",15K,JPN
+793,Red Dead Redemption 2,"Oct 26, 2018",4.4,2.9K,"['Adventure', 'RPG', 'Shooter']",19K,AUS
+794,Portal,"Oct 10, 2007",4.1,2K,"['Platform', 'Puzzle', 'Shooter']",28K,USA
+795,Super Mario Odyssey,"Oct 27, 2017",4.2,2.9K,"['Adventure', 'Platform']",25K,JPN
+796,Pokémon Legends: Arceus,"Jan 28, 2022",3.7,1.6K,"['Adventure', 'RPG', 'Turn Based Strategy']",9.1K,JPN
+797,Hi-Fi Rush,"Jan 25, 2023",4.3,926,"['Adventure', 'Brawler', 'Music', 'Platform']",3K,CAN
+798,Metal Gear Rising: Revengeance,"Feb 19, 2013",4.1,2.1K,"['Adventure', 'Brawler', 'Shooter', 'Strategy']",14K,USA
+799,Grand Theft Auto V,"Sep 17, 2013",3.8,2.1K,"['Adventure', 'Shooter']",30K,CAN
+800,Cyberpunk 2077,"Dec 09, 2020",3.3,1.5K,"['Adventure', 'RPG', 'Shooter']",13K,CAN
+801,God of War Ragnarök,"Nov 09, 2022",4.4,1.7K,"['Adventure', 'Brawler']",5.3K,USA
+802,Xenoblade Chronicles 3,"Jul 29, 2022",4.4,1.4K,"['Adventure', 'RPG']",3.9K,AUS
+803,Kirby and the Forgotten Land,"Mar 25, 2022",4.2,1.6K,"['Adventure', 'Platform']",5.9K,USA
+804,Disco Elysium: The Final Cut,"May 01, 2020",4.6,1.1K,"['Adventure', 'Indie', 'RPG']",6K,AUS
+805,Marvel's Spider-Man,"Sep 07, 2018",4.1,2.5K,"['Adventure', 'Brawler']",21K,JPN
+806,Dark Souls III,"Mar 24, 2016",4.2,2.4K,"['Adventure', 'RPG']",19K,JPN
+807,NieR Replicant ver.1.22474487139...,"Apr 22, 2021",4.2,1.5K,"['Adventure', 'RPG']",6.7K,CAN
+808,Super Mario 64,"Jun 23, 1996",4.1,2.6K,"['Adventure', 'Platform']",21K,JPN
+809,Super Smash Bros. Ultimate,"Dec 07, 2018",4.1,2.5K,"['Fighting', 'Platform']",25K,JPN
+810,Cuphead,"Sep 29, 2017",4.1,1.9K,"['Arcade', 'Indie', 'Platform', 'Shooter']",18K,USA
+811,Sekiro: Shadows Die Twice,"Mar 22, 2019",4.4,2.3K,"['Adventure', 'Brawler']",14K,JPN
+812,Final Fantasy VII,"Jan 31, 1997",4.2,2.9K,"['Adventure', 'RPG', 'Turn Based Strategy']",15K,USA
+813,Persona 4 Golden,"Jun 15, 2012",4.2,1.9K,"['Adventure', 'RPG', 'Simulator', 'Visual Novel']",13K,CAN
+814,Genshin Impact,"Sep 28, 2020",2.6,653,"['Adventure', 'RPG']",14K,CAN
+815,Signalis,"Oct 27, 2022",4.2,820,"['Adventure', 'Indie']",2.2K,CAN
+816,Resident Evil Village,"May 06, 2021",3.9,1.8K,"['Adventure', 'Shooter']",9.9K,USA
+817,Super Mario Galaxy,"Nov 01, 2007",4.3,2.7K,"['Adventure', 'Platform']",21K,USA
+818,Fallout: New Vegas,"Oct 19, 2010",4.3,2K,"['RPG', 'Shooter']",16K,AUS
+819,Outer Wilds,"May 28, 2019",4.6,1.8K,"['Adventure', 'Indie', 'Puzzle', 'Simulator']",7.7K,CAN
+820,Resident Evil 2,"Jan 25, 2019",4.3,2.5K,"['Adventure', 'Shooter']",15K,JPN
+821,Doom,"May 12, 2016",4,1.8K,['Shooter'],18K,AUS
+822,Shin Megami Tensei V,"Nov 12, 2021",3.8,1.1K,"['Adventure', 'RPG', 'Turn Based Strategy']",4.1K,JPN
+823,Bayonetta,"Oct 29, 2009",3.9,1.7K,"['Brawler', 'Shooter']",13K,JPN
+824,Stardew Valley,"Feb 26, 2016",4.1,1.7K,"['Indie', 'RPG', 'Simulator', 'Strategy']",20K,JPN
+825,The Last of Us Part II,"Jun 19, 2020",4.1,2.5K,"['Adventure', 'Shooter']",13K,CAN
+826,Silent Hill 2,"Sep 24, 2001",4.5,2.2K,"['Adventure', 'Puzzle']",8.6K,AUS
+827,The Witcher 3: Wild Hunt,"May 19, 2015",4.3,2K,"['Adventure', 'RPG']",17K,CAN
+828,Persona 5,"Sep 15, 2016",4.1,1.8K,"['Adventure', 'RPG', 'Turn Based Strategy']",16K,USA
+829,Doom Eternal,"Mar 19, 2020",4.2,1.9K,['Shooter'],12K,USA
+830,The Elder Scrolls V: Skyrim,"Nov 10, 2011",3.7,1.7K,"['Adventure', 'RPG']",22K,USA
+831,Neon White,"Jun 16, 2022",4.1,868,"['Indie', 'Platform', 'Shooter', 'Visual Novel']",2.9K,USA
+832,Devil May Cry 5,"Mar 08, 2019",4.3,1.9K,"['Adventure', 'Brawler']",12K,AUS
+833,Overwatch 2,"Oct 04, 2022",2.7,491,['Shooter'],6.6K,CAN
+834,Resident Evil 4,"Jan 11, 2005",4.3,2.3K,['Shooter'],14K,JPN
+835,Final Fantasy VII Remake,"Apr 10, 2020",4.1,2K,"['Adventure', 'RPG']",12K,AUS
+836,Sonic Frontiers,"Nov 08, 2022",3.6,974,"['Adventure', 'Platform']",2.9K,CAN
+837,Inscryption,"Oct 19, 2021",4.1,1K,"['Adventure', 'Card & Board Game', 'Indie', 'Puzzle', 'Strategy']",5.4K,AUS
+838,Tunic,"Mar 16, 2022",3.9,891,"['Adventure', 'Indie', 'Puzzle', 'RPG']",3.4K,AUS
+839,Dark Souls,"Sep 22, 2011",4.3,2.1K,"['Adventure', 'RPG']",14K,JPN
+840,The Legend of Zelda: Ocarina of Time,"Nov 21, 1998",4.3,2.2K,"['Adventure', 'RPG']",17K,JPN
+841,Vampire Survivors,"Dec 17, 2021",3.7,836,"['Arcade', 'Indie', 'RPG']",6.1K,JPN
+842,Fortnite,"Jul 25, 2017",2.8,827,"['Adventure', 'RPG', 'Shooter', 'Strategy']",17K,CAN
+843,Fall Guys,"Aug 04, 2020",3,874,"['Indie', 'Platform', 'Sport']",16K,CAN
+844,It Takes Two,"Mar 25, 2021",4.2,1.3K,"['Adventure', 'Platform', 'Puzzle']",8.1K,USA
+845,BioShock,"Aug 21, 2007",4,1.8K,"['Adventure', 'RPG', 'Shooter']",17K,AUS
+846,Metal Gear Solid,"Sep 03, 1998",4.2,1.9K,"['Adventure', 'Tactical']",12K,JPN
+847,Yakuza: Like a Dragon,"Jan 16, 2020",4.3,1.6K,"['Adventure', 'RPG', 'Turn Based Strategy']",6K,JPN
+848,Animal Crossing: New Horizons,"Mar 19, 2020",3.6,1.6K,['Simulator'],20K,AUS
+849,BioShock Infinite,"Feb 26, 2013",3.5,1.5K,"['Adventure', 'Shooter']",18K,JPN
+850,Deltarune: Chapter 2,"Sep 17, 2021",4.3,737,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",7.5K,JPN
+851,Chrono Trigger,"Mar 11, 1995",4.5,1.9K,"['Adventure', 'RPG']",9.1K,AUS
+852,Sonic Mania,"Aug 15, 2017",4,1.3K,"['Adventure', 'Platform']",12K,AUS
+853,Horizon Zero Dawn,"Feb 28, 2017",3.6,1.2K,"['Adventure', 'RPG', 'Shooter']",13K,JPN
+854,Left 4 Dead 2,"Nov 17, 2009",3.9,1.1K,['Shooter'],19K,CAN
+855,League of Legends,"Oct 27, 2009",2.1,484,"['MOBA', 'RPG', 'Strategy']",13K,CAN
+856,Control,"Aug 27, 2019",3.6,1.3K,"['Adventure', 'Shooter']",9.6K,JPN
+857,Doki Doki Literature Club!,"Sep 22, 2017",3.3,783,"['Adventure', 'Indie', 'Visual Novel']",14K,AUS
+858,Batman: Arkham City,"Oct 18, 2011",4.1,1.6K,"['Adventure', 'Brawler']",16K,AUS
+859,Yakuza Kiwami,"Jan 21, 2016",3.7,1.2K,"['Adventure', 'Brawler', 'RPG']",9.7K,AUS
+860,Phoenix Wright: Ace Attorney,"Sep 15, 2005",4.1,1.3K,"['Adventure', 'Point-and-Click', 'Puzzle', 'Visual Novel']",12K,JPN
+861,Team Fortress 2,"Oct 09, 2007",3.9,955,['Shooter'],16K,CAN
+862,Xenoblade Chronicles 2,"Dec 01, 2017",3.9,1.4K,"['Adventure', 'RPG']",7.4K,AUS
+863,Splatoon 3,"Sep 09, 2022",4.1,840,"['Platform', 'Shooter']",3.5K,JPN
+864,Chrome Dino,"Sep 01, 2014",3.5,124,['Arcade'],14K,JPN
+865,Katana Zero,"Apr 18, 2019",4.1,1.1K,"['Adventure', 'Arcade', 'Indie', 'Platform', 'Strategy']",9.3K,AUS
+866,Life is Strange,"Jan 29, 2015",3.4,1.4K,"['Adventure', 'RPG']",15K,CAN
+867,Dark Souls II: Scholar of the First Sin,"Apr 02, 2015",3.5,988,"['Adventure', 'RPG']",11K,JPN
+868,Deathloop,"Sep 14, 2021",3.5,897,"['Adventure', 'Shooter']",4.2K,AUS
+869,Shadow of the Colossus,"Oct 18, 2005",4.4,1.5K,"['Adventure', 'Platform', 'Puzzle']",10K,USA
+870,Teenage Mutant Ninja Turtles: Shredder's Revenge,"Jun 16, 2022",3.8,880,"['Arcade', 'Brawler', 'Indie']",3.5K,CAN
+871,Psychonauts,"Apr 19, 2005",4,1.2K,"['Adventure', 'Platform']",7.1K,AUS
+872,Fallout 4,"Nov 09, 2015",3.1,1K,"['RPG', 'Shooter']",16K,USA
+873,Uncharted 4: A Thief's End,"May 10, 2016",4.1,1.8K,"['Adventure', 'Shooter']",14K,CAN
+874,The Legend of Zelda: A Link to the Past,"Nov 21, 1991",4.1,1.7K,"['Adventure', 'Puzzle', 'RPG']",13K,CAN
+875,Silent Hill,"Feb 23, 1999",4.1,1.3K,"['Adventure', 'Puzzle']",6.8K,CAN
+876,Super Smash Bros. Brawl,"Jan 31, 2008",3.8,1.3K,"['Fighting', 'Platform']",19K,JPN
+877,Borderlands 2,"Sep 18, 2012",3.5,1.1K,"['RPG', 'Shooter']",16K,CAN
+878,No More Heroes,"Dec 06, 2007",4,1.2K,"['Adventure', 'Brawler']",5.6K,JPN
+879,Ghost of Tsushima,"Jul 17, 2020",4.1,1.4K,"['Adventure', 'Brawler', 'RPG']",8.5K,CAN
+880,Sifu,"Feb 08, 2022",3.8,633,"['Brawler', 'Indie']",2.7K,CAN
+881,Super Mario Bros. 3,"Oct 23, 1988",4,1.6K,['Platform'],14K,AUS
+882,Dishonored,"Oct 09, 2012",3.9,1.1K,"['Adventure', 'RPG']",14K,AUS
+883,Metal Gear Solid 3: Snake Eater,"Nov 17, 2004",4.5,1.5K,"['Adventure', 'Shooter', 'Tactical']",9.2K,CAN
+884,Journey,"Mar 13, 2012",3.9,1.5K,"['Adventure', 'Platform']",12K,JPN
+885,Kingdom Hearts,"Mar 28, 2002",3.6,1.3K,"['Adventure', 'RPG']",12K,JPN
+886,Titanfall 2,"Oct 28, 2016",4.1,1.3K,"['Adventure', 'Shooter']",12K,JPN
+887,Doom,"Dec 10, 1993",4,1.4K,['Shooter'],11K,AUS
+888,Live A Live,"Jul 22, 2022",4.1,555,['RPG'],1.1K,AUS
+889,The Last of Us Remastered,"Jul 26, 2014",4.3,1.1K,"['Adventure', 'Shooter']",12K,AUS
+890,Sonic the Hedgehog,"Jun 23, 1991",3.1,1.1K,['Platform'],12K,USA
+891,Rocket League,"Jul 06, 2015",3.4,917,"['Indie', 'Racing', 'Sport']",17K,USA
+892,Batman: Arkham Knight,"Jun 23, 2015",3.7,1.2K,"['Adventure', 'Brawler']",13K,AUS
+893,Bayonetta 3,"Oct 28, 2022",3.7,690,['Brawler'],1.6K,USA
+894,Disco Elysium,"Oct 15, 2019",4.6,1.1K,"['Adventure', 'RPG', 'Turn Based Strategy']",4K,USA
+895,Guilty Gear: Strive,"Jun 11, 2021",3.9,810,['Fighting'],5.5K,JPN
+896,Wii Sports,"Nov 19, 2006",3.7,775,"['Simulator', 'Sport']",18K,JPN
+897,Hogwarts Legacy,"Feb 10, 2023",3.5,474,"['Adventure', 'RPG']",1.4K,AUS
+898,Mario Kart Wii,"Apr 10, 2008",3.9,1K,['Racing'],19K,JPN
+899,Resident Evil 3,"Apr 03, 2020",3.2,1.3K,"['Adventure', 'Shooter']",8.4K,CAN
+900,Unpacking,"Nov 02, 2021",3.6,751,"['Indie', 'Point-and-Click', 'Puzzle', 'Simulator']",4.9K,JPN
+901,Red Dead Redemption,"May 18, 2010",4.2,1.5K,"['Adventure', 'RPG', 'Shooter']",13K,USA
+902,Tales of Arise,"Sep 10, 2021",3.6,650,"['Adventure', 'RPG']",3.1K,JPN
+903,Deltarune: Chapter 1,"Oct 31, 2018",3.9,591,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",11K,JPN
+904,Dead Space,"Jan 27, 2023",4.3,501,"['Adventure', 'RPG', 'Shooter']",1.3K,AUS
+905,Tomb Raider,"Mar 04, 2013",3.5,896,"['Adventure', 'Platform', 'Puzzle', 'Shooter']",15K,AUS
+906,Super Mario Galaxy 2,"May 23, 2010",4.3,1.8K,"['Adventure', 'Platform']",13K,AUS
+907,Donkey Kong Country,"Nov 18, 1994",3.9,1.3K,"['Adventure', 'Platform']",11K,CAN
+908,What Remains of Edith Finch,"Apr 24, 2017",4,1.4K,"['Adventure', 'Indie', 'Puzzle']",8.6K,USA
+909,Monster Hunter Rise,"Mar 26, 2021",4,789,"['Adventure', 'Brawler', 'RPG']",5.7K,AUS
+910,Pokémon Emerald,"Sep 16, 2004",4,1.2K,"['Adventure', 'RPG', 'Turn Based Strategy']",16K,JPN
+911,NEO: The World Ends with You,"Jul 26, 2021",4.2,725,"['Brawler', 'RPG']",2.5K,AUS
+912,Mirror's Edge,"Nov 11, 2008",3.5,788,"['Adventure', 'Platform', 'Shooter']",12K,USA
+913,Bayonetta 2,"Sep 20, 2014",4.1,1.1K,['Brawler'],6K,JPN
+914,Sonic Generations,"Nov 01, 2011",3.8,1.1K,"['Adventure', 'Platform']",9.9K,USA
+915,Shin Megami Tensei: Nocturne,"Feb 20, 2003",4.2,1.1K,['RPG'],4.1K,CAN
+916,Death's Door,"Jul 20, 2021",3.8,738,"['Adventure', 'Brawler', 'Indie', 'RPG']",3.3K,CAN
+917,Devil May Cry 3: Dante's Awakening - Special Edition,"Jan 24, 2006",4.4,852,"['Adventure', 'Brawler', 'Shooter']",6.5K,JPN
+918,Assassin's Creed IV Black Flag,"Oct 29, 2013",3.7,1.2K,"['Adventure', 'Platform']",13K,USA
+919,The Legend of Zelda: Twilight Princess,"Nov 19, 2006",4,899,"['Adventure', 'RPG']",10K,JPN
+920,Crisis Core: Final Fantasy VII - Reunion,"Dec 13, 2022",3.8,409,['RPG'],1.3K,USA
+921,Metroid Prime,"Nov 17, 2002",4.3,1.4K,"['Adventure', 'Platform', 'Shooter']",6.8K,JPN
+922,Sonic the Hedgehog 2,"Nov 21, 1992",3.7,1.2K,"['Adventure', 'Platform']",10K,CAN
+923,Metal Gear Solid 4: Guns of the Patriots,"Jun 12, 2008",3.9,1.2K,"['Adventure', 'Shooter', 'Tactical']",7.7K,USA
+924,Atomic Heart,"Feb 21, 2023",3,363,"['Adventure', 'RPG', 'Shooter']",983,CAN
+925,Minecraft,"Sep 20, 2017",4.2,571,"['Adventure', 'Simulator']",11K,JPN
+926,Resident Evil 5,"Mar 05, 2009",3.1,1K,"['Adventure', 'Shooter']",10K,AUS
+927,The World Ends with You,"Jul 26, 2007",4.2,1K,"['Arcade', 'RPG']",5.2K,AUS
+928,A Hat in Time,"Oct 05, 2017",4,898,"['Adventure', 'Indie', 'Platform']",7.2K,CAN
+929,Scorn,"Oct 14, 2022",3,348,"['Adventure', 'Indie', 'Puzzle']",1.4K,USA
+930,Fire Emblem: Awakening,"Apr 19, 2012",3.8,1.2K,"['Adventure', 'RPG', 'Strategy']",9.5K,AUS
+931,Cuphead: The Delicious Last Course,"Jun 30, 2022",4.3,398,"['Adventure', 'Indie', 'Platform']",2.2K,USA
+932,Ori and the Will of the Wisps,"Mar 10, 2020",4.3,1.2K,"['Adventure', 'Platform']",6K,JPN
+933,Mass Effect,"Nov 20, 2007",3.8,1K,"['RPG', 'Shooter']",10K,CAN
+934,Return of the Obra Dinn,"Oct 18, 2018",4.3,1K,"['Adventure', 'Indie', 'Puzzle']",4.7K,CAN
+935,Kingdom Hearts III,"Jan 25, 2019",3.5,1.1K,"['Adventure', 'Brawler', 'RPG']",8.1K,JPN
+936,Fallout 3,"Oct 28, 2008",3.4,894,"['RPG', 'Shooter']",12K,JPN
+937,Uncharted: Drake's Fortune,"Nov 16, 2007",3.1,882,"['Adventure', 'Platform', 'Shooter']",12K,AUS
+938,"Zero Escape: Nine Hours, Nine Persons, Nine Doors","Dec 10, 2009",4.2,949,"['Adventure', 'Point-and-Click', 'Puzzle', 'Visual Novel']",6.1K,USA
+939,Lost Judgment,"Sep 24, 2021",4.3,790,"['Adventure', 'Brawler', 'RPG']",1.7K,AUS
+940,Super Mario 3D Land,"Nov 03, 2011",3.5,1K,['Platform'],12K,USA
+941,Gris,"Dec 13, 2018",3.6,911,"['Adventure', 'Indie', 'Platform', 'Puzzle']",6.6K,JPN
+942,Silent Hill 3,"May 23, 2003",4.2,1.1K,"['Adventure', 'Puzzle']",4.9K,CAN
+943,Call of Duty: Modern Warfare 2,"Nov 10, 2009",3.8,1K,['Shooter'],14K,AUS
+944,The Walking Dead: Season One,"Apr 24, 2012",4,1.2K,"['Adventure', 'Point-and-Click']",12K,USA
+945,Mario Kart DS,"Nov 14, 2005",3.8,857,['Racing'],15K,USA
+946,Apex Legends,"Feb 04, 2019",3.1,624,['Shooter'],12K,AUS
+947,Devil May Cry 2,"Jan 25, 2003",1.6,620,"['Adventure', 'Brawler']",6.4K,CAN
+948,The Legend of Zelda: Ocarina of Time 3D,"Jun 16, 2011",4.2,1K,"['Adventure', 'Puzzle', 'RPG']",11K,CAN
+949,Twelve Minutes,"Aug 19, 2021",2.4,526,"['Adventure', 'Indie', 'Point-and-Click', 'Puzzle']",4K,JPN
+950,Demon's Souls,"Feb 05, 2009",4.1,1.2K,"['Adventure', 'RPG']",5.5K,JPN
+951,Persona 3 Portable,"Nov 01, 2009",4,825,"['Adventure', 'RPG', 'Strategy', 'Visual Novel']",5.5K,CAN
+952,Rayman Legends,"Aug 30, 2013",4,921,"['Adventure', 'Platform']",9.8K,USA
+953,Uncharted 2: Among Thieves,"Oct 13, 2009",3.9,1.4K,"['Adventure', 'Platform', 'Shooter']",12K,CAN
+954,Monster Hunter: World,"Jan 26, 2018",3.8,856,"['Adventure', 'RPG']",10K,CAN
+955,Milk inside a bag of milk inside a bag of milk,"Aug 26, 2020",3.3,503,"['Adventure', 'Indie', 'Visual Novel']",3.2K,USA
+956,The Legend of Zelda: A Link Between Worlds,"Nov 22, 2013",4.1,1.3K,"['Adventure', 'Puzzle', 'RPG']",10K,JPN
+957,Final Fantasy XIV: Endwalker,"Dec 07, 2021",4.6,426,"['Adventure', 'RPG']",2.5K,AUS
+958,The Legend of Zelda: The Minish Cap,"Nov 04, 2004",3.9,1.1K,"['Adventure', 'RPG']",8.7K,JPN
+959,Pokémon Go,"Jul 06, 2016",2.7,400,"['RPG', 'Simulator']",14K,JPN
+960,Night in the Woods,"Feb 21, 2017",4,1.1K,"['Adventure', 'Indie', 'Platform']",6K,AUS
+961,Shin Megami Tensei IV,"May 23, 2013",4.1,949,['RPG'],4.3K,AUS
+962,Kingdom Hearts II,"Dec 22, 2005",4.3,1.2K,"['Adventure', 'RPG']",9.6K,JPN
+963,Castlevania: Aria of Sorrow,"May 06, 2003",4.2,1K,"['Adventure', 'Platform', 'RPG']",5.1K,JPN
+964,Halo: Reach,"Sep 14, 2010",4,1.2K,['Shooter'],11K,CAN
+965,Grand Theft Auto: Vice City,"Oct 27, 2002",3.8,1K,"['Adventure', 'Arcade', 'Racing', 'Shooter']",12K,JPN
+966,A Short Hike,"Jul 30, 2019",4.1,1.1K,"['Adventure', 'Indie', 'Platform']",5.4K,JPN
+967,Ori and the Blind Forest,"Mar 11, 2015",3.9,780,"['Adventure', 'Platform', 'Puzzle']",7.9K,JPN
+968,Demon's Souls,"Nov 12, 2020",3.9,880,"['Adventure', 'RPG']",4.1K,USA
+969,A Plague Tale: Innocence,"May 14, 2019",3.7,852,"['Adventure', 'RPG']",5.4K,CAN
+970,The Legend of Zelda: Link's Awakening,"Sep 20, 2019",3.9,1.1K,['Adventure'],7.6K,JPN
+971,Assassin's Creed,"Nov 13, 2007",2.9,801,"['Adventure', 'Platform']",13K,CAN
+972,The Legend of Zelda: Tears of the Kingdom,"May 12, 2023",,581,"['Adventure', 'RPG']",72,JPN
+973,Assassin's Creed III,"Oct 30, 2012",3,707,"['Adventure', 'Strategy']",12K,JPN
+974,Castlevania,"Sep 26, 1986",3.4,845,"['Adventure', 'Platform']",5.7K,JPN
+975,Milk outside a bag of milk outside a bag of milk,"Dec 16, 2021",3.7,344,"['Adventure', 'Indie', 'Visual Novel']",1.5K,JPN
+976,Lisa,"Dec 15, 2014",4.3,761,"['Adventure', 'Indie', 'RPG']",2.9K,CAN
+977,Crash Bandicoot,"Sep 09, 1996",3.5,660,['Platform'],8.7K,USA
+978,The Legend of Zelda: The Wind Waker HD,"Sep 26, 2013",4.3,887,"['Adventure', 'Puzzle']",6.7K,JPN
+979,The Outer Worlds,"Oct 25, 2019",3.2,582,"['Adventure', 'RPG', 'Shooter']",6.6K,CAN
+980,The Legend of Zelda: Majora's Mask 3D,"Feb 12, 2015",4.1,797,"['Adventure', 'RPG']",6.7K,JPN
+981,The Callisto Protocol,"Dec 02, 2022",2.9,266,"['Adventure', 'Shooter']",737,USA
+982,The Wolf Among Us,"Oct 11, 2013",3.9,837,"['Adventure', 'Point-and-Click']",8.1K,AUS
+983,Dead Space 2,"Jan 25, 2011",4,775,"['Adventure', 'Shooter']",6K,CAN
+984,Super Mario Bros. 2,"Oct 09, 1988",3.1,864,"['Adventure', 'Platform']",8.4K,JPN
+985,Until Dawn,"Aug 25, 2015",3.4,812,['Adventure'],8K,CAN
+986,Kid Icarus: Uprising,"Mar 22, 2012",4.1,860,"['Brawler', 'Shooter']",5.4K,JPN
+987,Chained Echoes,"Dec 08, 2022",4.2,191,"['Adventure', 'Indie', 'RPG', 'Strategy', 'Turn Based Strategy']",445,JPN
+988,BioShock Remastered,"Sep 14, 2016",4,509,"['Adventure', 'RPG', 'Shooter']",4.8K,CAN
+989,Sonic Unleashed,"Nov 20, 2008",3.3,728,"['Adventure', 'Brawler', 'Platform']",6.5K,JPN
+990,Yakuza 5 Remastered,"Jun 20, 2019",4.1,665,['Adventure'],2.9K,CAN
+991,Metal Gear Solid 3: Subsistence,"Dec 22, 2005",4.6,641,"['Adventure', 'Shooter', 'Tactical']",3.7K,AUS
+992,Super Mario World 2: Yoshi's Island,"Aug 05, 1995",4.1,1.1K,['Platform'],7.1K,USA
+993,Devil May Cry 4,"Jan 31, 2008",3.6,511,"['Adventure', 'Brawler']",6.5K,JPN
+994,Donut County,"Aug 28, 2018",3.4,695,"['Adventure', 'Indie', 'Puzzle']",5.6K,AUS
+995,Assassin's Creed Origins,"Oct 26, 2017",3.4,788,"['Adventure', 'RPG']",7.2K,CAN
+996,Ghostwire: Tokyo,"Mar 24, 2022",3.1,387,['Adventure'],1.2K,AUS
+997,Yakuza 4 Remastered,"Jan 17, 2019",3.7,655,"['Adventure', 'Brawler']",3.5K,CAN
+998,Call of Duty: Modern Warfare II,"Oct 28, 2022",3.3,347,['Shooter'],1.6K,AUS
+999,Crash Bandicoot 4: It's About Time,"Oct 02, 2020",3.8,699,['Platform'],3.2K,JPN
+1000,Grand Theft Auto III,"Oct 22, 2001",3.3,711,"['Adventure', 'Racing', 'Shooter', 'Simulator']",7.8K,AUS
+1001,Dead by Daylight,"Jun 14, 2016",3,451,"['Indie', 'Strategy']",7.1K,CAN
+1002,Abzu,"Aug 02, 2016",3.4,714,"['Adventure', 'Indie', 'Puzzle', 'Simulator']",5.4K,USA
+1003,Batman: Arkham Origins,"Oct 16, 2013",3.4,642,"['Adventure', 'Brawler']",7.8K,USA
+1004,Splatoon 2,"Jul 21, 2017",3.8,736,"['Platform', 'Shooter']",8.9K,JPN
+1005,Pokémon HeartGold,"Sep 12, 2009",4.2,892,"['Adventure', 'RPG', 'Turn Based Strategy']",9.5K,AUS
+1006,Kena: Bridge of Spirits,"Sep 20, 2021",3.6,491,"['Adventure', 'Indie']",2K,USA
+1007,Final Fantasy VIII,"Feb 11, 1999",3.6,982,"['Adventure', 'RPG']",5.1K,CAN
+1008,The Elder Scrolls IV: Oblivion,"Mar 20, 2006",3.7,725,"['Adventure', 'RPG']",8.1K,JPN
+1009,The Silver Case,"Oct 07, 2016",4.2,641,"['Adventure', 'Puzzle', 'Visual Novel']",1.4K,AUS
+1010,Marvel's Spider-Man Remastered,"Nov 12, 2020",4.2,335,"['Adventure', 'Brawler']",2.8K,CAN
+1011,Alan Wake,"May 14, 2010",3.6,702,"['Adventure', 'Shooter']",6.2K,JPN
+1012,A Way Out,"Mar 23, 2018",3.6,620,['Adventure'],6.4K,AUS
+1013,LEGO Batman: The Video Game,"Apr 18, 2008",3.6,643,"['Adventure', 'Brawler', 'Platform']",8.8K,JPN
+1014,Borderlands 3,"Sep 13, 2019",3.2,530,"['RPG', 'Shooter']",5.7K,USA
+1015,Dragon Ball FighterZ,"Jan 26, 2018",3.7,603,['Fighting'],7.8K,CAN
+1016,Ico,"Sep 24, 2001",4,671,"['Adventure', 'Platform', 'Puzzle']",3.5K,CAN
+1017,Shin Megami Tensei III: Nocturne - HD Remaster,"Oct 28, 2020",4,457,"['RPG', 'Turn Based Strategy']",1.8K,USA
+1018,The Witness,"Jan 26, 2016",3.6,651,"['Adventure', 'Indie', 'Puzzle']",5.3K,AUS
+1019,Animal Crossing: New Leaf,"Nov 08, 2012",4,813,['Simulator'],9.9K,JPN
+1020,Wo Long: Fallen Dynasty,"Mar 03, 2023",3.5,284,"['Adventure', 'RPG']",513,CAN
+1021,Final Fantasy VII Remake Intergrade,"Jun 10, 2021",4.2,445,"['Adventure', 'RPG']",2.4K,JPN
+1022,Sonic Adventure 2,"Jun 23, 2001",3.6,842,"['Adventure', 'Platform']",5.1K,JPN
+1023,Destiny 2,"Sep 06, 2017",2.9,507,"['Adventure', 'RPG', 'Shooter']",8.7K,JPN
+1024,Kirby's Dream Land,"Apr 27, 1992",3.2,691,['Platform'],5.3K,CAN
+1025,Sonic the Hedgehog 3 & Knuckles,"Oct 18, 1994",4.2,839,['Platform'],6K,USA
+1026,Resident Evil 2,"Jan 21, 1998",4.2,1.1K,"['Adventure', 'Shooter']",5.5K,AUS
+1027,Full Metal Daemon Muramasa,"Oct 30, 2009",4.3,229,"['Adventure', 'Visual Novel']",496,AUS
+1028,Soma,"Sep 21, 2015",4,764,"['Adventure', 'Indie']",3.9K,AUS
+1029,The Binding of Isaac: Rebirth,"Nov 04, 2014",4,492,"['Adventure', 'Arcade', 'Indie', 'RPG', 'Shooter']",8.2K,CAN
+1030,Luigi's Mansion 3,"Oct 31, 2019",3.8,800,['Adventure'],5.6K,JPN
+1031,Katamari Damacy Reroll,"Dec 06, 2018",4.1,576,"['Adventure', 'Puzzle']",4.3K,AUS
+1032,Friday Night Funkin',"Nov 01, 2020",2.8,203,['Music'],4.5K,AUS
+1033,Osu!,"Sep 16, 2007",3.1,187,"['Indie', 'Music']",7.3K,AUS
+1034,The Legend of Zelda: Twilight Princess,"Nov 19, 2006",4.1,642,"['Adventure', 'RPG']",6K,JPN
+1035,Bloodborne: The Old Hunters,"Nov 24, 2015",4.6,266,"['Adventure', 'RPG']",4.4K,JPN
+1036,Fire Emblem Warriors: Three Hopes,"Jun 24, 2022",3.6,360,"['Brawler', 'RPG', 'Simulator', 'Strategy', 'Tactical']",1.1K,JPN
+1037,Super Smash Bros. for Nintendo 3DS,"Sep 13, 2014",3.3,545,['Fighting'],10K,JPN
+1038,The Legend of Heroes: Trails to Azure,"Sep 29, 2011",4.5,519,"['Adventure', 'RPG', 'Strategy', 'Turn Based Strategy']",1.4K,JPN
+1039,Super Mario RPG: Legend of the Seven Stars,"Mar 09, 1996",4,832,"['Adventure', 'Platform', 'RPG']",4.4K,CAN
+1040,Astral Chain,"Aug 30, 2019",3.6,568,"['Adventure', 'Brawler']",3.6K,USA
+1041,DmC: Devil May Cry,"Jan 15, 2013",3,432,"['Adventure', 'Brawler']",6.3K,AUS
+1042,Dragon Age: Origins,"Nov 03, 2009",4,712,['RPG'],6.1K,AUS
+1043,Mario Kart 8,"May 29, 2014",3.9,643,"['Arcade', 'Racing']",9.3K,JPN
+1044,Xenoblade Chronicles,"Jun 10, 2010",4.2,828,"['Adventure', 'RPG']",3.9K,JPN
+1045,The Forgotten City,"Jul 28, 2021",3.9,471,"['Adventure', 'Indie', 'RPG']",1.7K,USA
+1046,Untitled Goose Game,"Sep 20, 2019",3.6,642,"['Adventure', 'Indie', 'Puzzle', 'Simulator']",6.5K,JPN
+1047,Sonic Adventure 2: Battle,"Dec 20, 2001",3.7,742,"['Adventure', 'Platform']",6.8K,USA
+1048,Saints Row: The Third,"Nov 15, 2011",3.4,482,"['Adventure', 'Racing', 'Shooter']",9.4K,USA
+1049,Call of Duty: Black Ops III,"Nov 06, 2015",3.1,550,"['Adventure', 'Shooter']",8.2K,AUS
+1050,Pokémon Red,"Feb 27, 1996",3.4,734,"['Adventure', 'RPG', 'Turn Based Strategy']",8.8K,JPN
+1051,Tinykin,"Aug 30, 2022",4,416,"['Adventure', 'Arcade', 'Indie', 'Platform', 'Puzzle', 'RPG']",753,USA
+1052,Dragon's Dogma: Dark Arisen,"Apr 23, 2013",3.8,458,"['Adventure', 'RPG']",3.3K,USA
+1053,Brawlhalla,"Apr 30, 2014",2.6,295,"['Arcade', 'Fighting', 'Indie', 'Platform']",6.9K,JPN
+1054,Pokémon Unite,"Jul 20, 2021",2.7,285,['MOBA'],4.5K,AUS
+1055,Black Mesa,"Mar 06, 2020",4.1,459,"['Adventure', 'Indie', 'Platform', 'Shooter']",3.7K,AUS
+1056,The Messenger,"Aug 30, 2018",3.8,613,"['Adventure', 'Arcade', 'Indie', 'Platform']",3.7K,JPN
+1057,Jet Set Radio,"Sep 18, 2012",3.7,504,['Platform'],3.5K,USA
+1058,Pathologic 2,"May 23, 2019",4.3,513,"['Adventure', 'Indie', 'RPG']",1.3K,JPN
+1059,Tactics Ogre: Reborn,"Nov 11, 2022",4.1,206,"['RPG', 'Simulator', 'Strategy', 'Tactical']",279,JPN
+1060,Hyper Light Drifter,"Mar 31, 2016",3.8,599,"['Adventure', 'Indie', 'Platform', 'RPG']",4K,AUS
+1061,Left 4 Dead,"Nov 17, 2008",3.6,488,['Shooter'],8.6K,JPN
+1062,The 25th Ward: The Silver Case,"Mar 13, 2018",4.4,482,"['Adventure', 'Puzzle', 'Visual Novel']",751,USA
+1063,Darkest Dungeon,"Jan 19, 2016",3.6,476,"['Adventure', 'Indie', 'RPG', 'Strategy', 'Turn Based Strategy']",5.2K,JPN
+1064,Roblox,"Sep 01, 2006",2.8,187,"['Adventure', 'Platform', 'Simulator']",5.1K,AUS
+1065,The Last Guardian,"Dec 06, 2016",3.7,658,"['Adventure', 'Platform', 'Puzzle']",3.2K,USA
+1066,Drakengard 3,"Dec 19, 2013",3.8,503,"['Adventure', 'Brawler', 'RPG', 'Strategy']",1.9K,USA
+1067,Half-Life 2: Episode One,"Jun 01, 2006",3.7,469,['Shooter'],7K,AUS
+1068,Assassin's Creed Revelations,"Nov 14, 2011",3.3,628,['Adventure'],8.7K,USA
+1069,Half-Life 2: Episode Two,"Oct 09, 2007",4.1,517,"['Puzzle', 'Shooter']",6.9K,AUS
+1070,Mega Man,"Dec 17, 1987",2.8,639,"['Adventure', 'Platform']",5.4K,JPN
+1071,PowerWash Simulator,"May 19, 2021",3.7,304,"['Indie', 'Simulator']",1.7K,USA
+1072,Cave Story,"Dec 20, 2004",4.2,543,"['Adventure', 'Indie', 'Platform', 'Shooter']",3.7K,CAN
+1073,Final Fantasy XIV: Shadowbringers,"Jul 02, 2019",4.6,401,['RPG'],3K,AUS
+1074,Days Gone,"Apr 26, 2019",3.2,610,"['Adventure', 'Shooter']",3.9K,CAN
+1075,Tom Clancy's Rainbow Six Siege,"Dec 01, 2015",3.2,424,"['Shooter', 'Tactical']",7.9K,JPN
+1076,Trek to Yomi,"May 05, 2022",2.7,262,"['Adventure', 'Brawler', 'Indie']",1K,CAN
+1077,Sonic CD,"Sep 23, 1993",3.4,629,['Platform'],4.9K,USA
+1078,Mario Kart: Double Dash!!,"Nov 07, 2003",3.9,808,['Racing'],8.4K,CAN
+1079,Rayman Origins,"Nov 15, 2011",3.8,547,"['Adventure', 'Platform']",6.2K,JPN
+1080,Klonoa Phantasy Reverie Series,"Jul 08, 2022",3.8,197,"['Adventure', 'Platform']",647,JPN
+1081,Hitman 2,"Nov 13, 2018",4,605,"['Adventure', 'Shooter', 'Tactical']",5K,AUS
+1082,Max Payne 3,"May 15, 2012",3.7,593,['Shooter'],5.6K,USA
+1083,Catherine: Full Body,"Feb 14, 2019",3.8,451,"['Adventure', 'Platform', 'Puzzle', 'Simulator', 'Strategy']",2.6K,CAN
+1084,Kirby: Planet Robobot,"Apr 28, 2016",4.2,669,"['Adventure', 'Platform']",3.6K,USA
+1085,Battlefield 1,"Oct 21, 2016",3.4,513,['Shooter'],7.2K,AUS
+1086,Kirby’s Return to Dream Land Deluxe,"Feb 24, 2023",4.2,230,"['Adventure', 'Platform']",408,JPN
+1087,Persona 2: Eternal Punishment,"Jun 29, 2000",4.1,594,"['Adventure', 'RPG']",1.6K,JPN
+1088,Star Wars Battlefront II,"Nov 17, 2017",3.1,534,"['Adventure', 'Shooter']",7.8K,USA
+1089,Super Paper Mario,"Apr 09, 2007",3.8,688,"['Adventure', 'Platform', 'RPG']",6.2K,JPN
+1090,The Great Ace Attorney 2: Resolve,"Aug 03, 2017",4.6,386,"['Adventure', 'Point-and-Click', 'Puzzle', 'Visual Novel']",1.1K,CAN
+1091,Bugsnax,"Nov 12, 2020",3.6,625,"['Adventure', 'Indie', 'Puzzle']",2.7K,USA
+1092,Star Wars: Battlefront II,"Oct 31, 2005",4,650,['Shooter'],7.7K,JPN
+1093,Pokémon Shield,"Nov 15, 2019",2.9,548,"['Adventure', 'RPG', 'Turn Based Strategy']",6.3K,AUS
+1094,Super Castlevania IV,"Oct 31, 1991",3.7,627,"['Adventure', 'Platform']",3.7K,JPN
+1095,Brothers: A Tale of Two Sons,"Aug 07, 2013",3.5,511,"['Adventure', 'Indie', 'Puzzle']",4K,USA
+1096,Call of Duty: Modern Warfare,"Oct 25, 2019",3.4,525,['Shooter'],5.1K,AUS
+1097,GoldenEye 007,"Aug 23, 1997",3.6,610,['Shooter'],4.5K,JPN
+1098,"WarioWare, Inc.: Mega Microgames!","Mar 21, 2003",3.9,523,['Arcade'],3.5K,JPN
+1099,Evil West,"Nov 22, 2022",3.3,148,"['Adventure', 'Brawler', 'Shooter']",335,CAN
+1100,Gravity Rush 2,"Jan 18, 2017",3.9,516,"['Adventure', 'Platform']",2.1K,AUS
+1101,Metroid Prime 2: Echoes,"Nov 15, 2004",4,606,"['Adventure', 'Platform', 'Shooter']",3K,USA
+1102,The Forest,"Apr 30, 2018",3.2,293,"['Adventure', 'Indie', 'Puzzle', 'Simulator']",4.5K,JPN
+1103,CrossCode,"Sep 20, 2018",4,351,"['Adventure', 'Indie', 'Puzzle', 'RPG']",1.5K,JPN
+1104,Sekiro: Shadows Die Twice - GOTY Edition,"Oct 28, 2020",4.6,173,"['Adventure', 'Brawler', 'RPG']",1.4K,AUS
+1105,Saints Row IV,"Aug 19, 2013",3.1,386,"['Adventure', 'Shooter']",7.2K,CAN
+1106,Fallout 2,"Oct 29, 1998",4.1,532,"['RPG', 'Turn Based Strategy']",2.4K,USA
+1107,Chrono Cross,"Nov 18, 1999",4,554,['RPG'],1.7K,USA
+1108,Fire Emblem: Path of Radiance,"Apr 20, 2005",4.2,703,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']",2.9K,USA
+1109,Kingdom Hearts Final Mix,"Dec 26, 2002",3.8,428,['RPG'],3.7K,JPN
+1110,Professor Layton and the Curious Village,"Feb 15, 2007",3.7,439,"['Point-and-Click', 'Puzzle', 'Visual Novel']",4.2K,JPN
+1111,Ys VIII: Lacrimosa of Dana,"Jul 21, 2016",4.2,620,"['Adventure', 'RPG']",1.9K,JPN
+1112,Hotel Dusk: Room 215,"Jan 22, 2007",4,439,"['Adventure', 'Point-and-Click', 'Puzzle', 'Visual Novel']",1.6K,JPN
+1113,Postal 2,"Apr 13, 2003",3.4,338,"['Adventure', 'Indie', 'Shooter']",3.4K,CAN
+1114,Fez,"Apr 13, 2012",3.6,493,"['Adventure', 'Indie', 'Platform', 'Puzzle']",4.4K,USA
+1115,Marvel's Midnight Suns,"Dec 02, 2022",3.9,172,"['RPG', 'Strategy', 'Tactical']",280,CAN
+1116,Streets of Rage 4,"Apr 30, 2020",3.9,620,"['Arcade', 'Brawler', 'Fighting', 'Indie']",2.9K,AUS
+1117,Shin Megami Tensei: Persona,"Oct 22, 2009",2.9,416,['RPG'],2.5K,AUS
+1118,Kirby's Return to Dream Land,"Oct 24, 2011",4,509,"['Adventure', 'Platform']",4.1K,USA
+1119,BioShock 2 Remastered,"Sep 14, 2016",3.7,295,"['RPG', 'Shooter']",2.4K,USA
+1120,God of War: Chains of Olympus,"Mar 04, 2008",3.2,396,"['Adventure', 'Brawler']",4K,CAN
+1121,Splatoon,"May 28, 2015",3.7,509,"['Platform', 'Shooter']",6.1K,JPN
+1122,Nickelodeon All-Star Brawl,"Oct 05, 2021",2.5,251,"['Arcade', 'Fighting']",1.9K,CAN
+1123,The Great Ace Attorney: Adventures,"Jul 09, 2015",4.1,385,"['Adventure', 'Point-and-Click', 'Puzzle', 'Visual Novel']",1.6K,USA
+1124,Sonic Rush,"Nov 15, 2005",3.6,536,['Platform'],4.6K,JPN
+1125,Chrono Trigger,"Nov 20, 2008",4.4,295,['Adventure'],2.4K,CAN
+1126,Street Fighter V,"Feb 15, 2016",3,377,"['Arcade', 'Fighting']",5K,USA
+1127,Somerville,"Nov 15, 2022",2.8,169,['Adventure'],442,JPN
+1128,Bully: Scholarship Edition,"Feb 04, 2008",4,330,['Adventure'],3.9K,AUS
+1129,Borderlands: The Pre-Sequel,"Oct 14, 2014",2.9,375,"['RPG', 'Shooter']",5.3K,CAN
+1130,Star Wars Jedi: Survivor,"Apr 28, 2023",,250,['Adventure'],13,JPN
+1131,Alice: Madness Returns,"Jun 14, 2011",3.5,358,"['Adventure', 'Brawler', 'Platform']",2.8K,AUS
+1132,Super Mario 3D All-Stars,"Sep 18, 2020",3.5,422,"['Adventure', 'Platform']",4.7K,JPN
+1133,S.T.A.L.K.E.R.: Shadow of Chernobyl,"Mar 20, 2007",3.9,426,"['RPG', 'Shooter']",2.5K,AUS
+1134,JoJo’s Bizarre Adventure: All-Star Battle R,"Sep 01, 2022",3.4,122,"['Adventure', 'Fighting']",796,JPN
+1135,Geometry Dash,"Aug 12, 2013",3.1,197,"['Adventure', 'Arcade', 'Indie', 'Music', 'Platform']",5.1K,JPN
+1136,Mario + Rabbids Sparks of Hope,"Oct 20, 2022",3.9,253,"['Adventure', 'Strategy', 'Tactical', 'Turn Based Strategy']",356,AUS
+1137,Back 4 Blood,"Oct 12, 2021",2.5,284,['Shooter'],2.9K,USA
+1138,Half-Life: Alyx,"Mar 23, 2020",4.6,515,"['Adventure', 'Puzzle', 'Shooter']",1.9K,JPN
+1139,Hyper Demon,"Sep 19, 2022",4.1,99,"['Indie', 'Shooter']",245,USA
+1140,Mortal Kombat,"Apr 19, 2011",3.6,468,['Fighting'],6.6K,JPN
+1141,Resident Evil,"Mar 22, 1996",3.7,688,"['Adventure', 'Puzzle']",3.4K,AUS
+1142,Call of Duty: Ghosts,"Nov 05, 2013",2.4,411,['Shooter'],6.5K,JPN
+1143,Ridge Racer Type 4,"Dec 03, 1998",4.2,465,['Racing'],1K,USA
+1144,Lil Gator Game,"Dec 14, 2022",4.1,137,"['Adventure', 'Indie', 'Platform']",247,CAN
+1145,Oxenfree,"Jan 14, 2016",3.6,592,"['Adventure', 'Indie']",3.9K,USA
+1146,Overcooked! 2,"Aug 07, 2018",3.6,414,"['Arcade', 'Indie', 'Simulator', 'Strategy', 'Tactical']",4.9K,AUS
+1147,Before Your Eyes,"Apr 08, 2021",4.2,421,"['Adventure', 'Indie']",1.2K,USA
+1148,Sly Cooper and the Thievius Raccoonus,"Sep 23, 2002",3.7,525,"['Adventure', 'Platform']",3.7K,JPN
+1149,Nobody Saves the World,"Jan 18, 2022",3.5,256,"['Adventure', 'Brawler', 'Indie', 'RPG']",949,USA
+1150,Crazy Taxi,"Feb 12, 1999",3.6,425,"['Arcade', 'Racing']",4.8K,JPN
+1151,Chrono Cross: The Radical Dreamers Edition,"Apr 07, 2022",3.6,130,"['Adventure', 'RPG']",358,CAN
+1152,Spore,"Sep 04, 2008",3.3,238,"['Adventure', 'Real Time Strategy', 'RPG', 'Simulator', 'Strategy']",6K,AUS
+1153,Dwarf Fortress,"Dec 06, 2022",4.6,48,"['Indie', 'RPG', 'Simulator', 'Strategy']",225,USA
+1154,Klonoa 2: Lunatea's Veil,"Mar 22, 2001",4.2,379,"['Adventure', 'Platform', 'Sport']",1.1K,USA
+1155,Pokémon Blue,"Oct 15, 1996",3.6,549,"['Adventure', 'RPG', 'Turn Based Strategy']",5.9K,JPN
+1156,Planescape: Torment,"Dec 12, 1999",4.3,417,"['RPG', 'Strategy']",1.1K,USA
+1157,Far Cry 3: Blood Dragon,"May 01, 2013",3.4,329,"['Adventure', 'Shooter']",4.4K,CAN
+1158,BattleBlock Theater,"Apr 03, 2013",3.5,272,"['Adventure', 'Indie', 'Platform', 'Puzzle']",5.5K,USA
+1159,The Beginner's Guide,"Oct 01, 2015",4,443,"['Adventure', 'Indie']",2.7K,AUS
+1160,We Love Katamari Reroll + Royal Reverie,"Jun 02, 2023",,51,"['Adventure', 'Puzzle']",3,JPN
+1161,Naruto Shippuden: Ultimate Ninja Storm 4,"Feb 04, 2016",3.5,264,"['Adventure', 'Fighting']",4.8K,JPN
+1162,Mega Man 3,"Sep 28, 1990",3.4,599,"['Adventure', 'Platform']",3.8K,USA
+1163,Ni no Kuni: Wrath of the White Witch,"Nov 17, 2011",3.7,438,"['Adventure', 'RPG']",2.4K,JPN
+1164,Fortnite: Chapter 4,"Dec 04, 2022",3.5,70,"['RPG', 'Shooter', 'Strategy']",365,JPN
+1165,Danganronpa Another Episode: Ultra Despair Girls,"Sep 01, 2015",2.7,276,"['Adventure', 'Brawler', 'Puzzle', 'Shooter']",3.4K,JPN
+1166,The Artful Escape,"Sep 09, 2021",3.3,346,"['Adventure', 'Indie', 'Music', 'Platform']",1.1K,AUS
+1167,Dishonored: Definitive Edition,"Oct 08, 2013",4.1,229,"['Adventure', 'Shooter']",1.6K,CAN
+1168,Pac-Man World Re-Pac,"Aug 25, 2022",3.5,161,"['Adventure', 'Arcade', 'Platform', 'Racing', 'Shooter']",368,JPN
+1169,Ib,"Apr 11, 2022",4,114,"['Adventure', 'Indie', 'Puzzle', 'RPG']",787,AUS
+1170,Castlevania: Circle of the Moon,"Mar 21, 2001",3,362,"['Adventure', 'Platform', 'RPG']",2.1K,USA
+1171,Higurashi: When They Cry,"Aug 10, 2002",4.2,311,"['Adventure', 'Visual Novel']",1.1K,USA
+1172,Life is Strange: Before the Storm,"Aug 31, 2017",3.3,468,['Adventure'],4K,AUS
+1173,Darkwood,"Aug 17, 2017",3.9,262,"['Adventure', 'Indie', 'RPG']",836,AUS
+1174,Beyond Good & Evil,"Nov 11, 2003",3.9,436,"['Adventure', 'Shooter']",2.3K,CAN
+1175,Metroid II: Return of Samus,"Aug 26, 1991",3.1,445,"['Adventure', 'Platform', 'Shooter']",2.1K,JPN
+1176,Shenmue,"Dec 29, 1999",3.8,496,"['Adventure', 'Brawler', 'RPG', 'Simulator']",1.6K,JPN
+1177,Project Zomboid,"Nov 08, 2013",3.6,133,"['Indie', 'RPG', 'Simulator']",1.7K,USA
+1178,Crash Team Racing,"Sep 30, 1999",4,455,['Racing'],4.8K,AUS
+1179,Carrion,"Jul 23, 2020",3.3,432,"['Adventure', 'Indie', 'Platform']",2.8K,CAN
+1180,Gears of War 2,"Nov 07, 2008",3.7,504,['Shooter'],4.6K,AUS
+1181,Phoenix Wright: Ace Attorney - Dual Destinies,"Jul 25, 2013",3.4,430,"['Adventure', 'Puzzle', 'RPG', 'Simulator', 'Visual Novel']",3.3K,CAN
+1182,The Legend of Zelda: Oracle of Seasons,"Feb 27, 2001",3.7,544,"['Adventure', 'RPG']",3.1K,JPN
+1183,Wild Hearts,"Feb 16, 2023",3.2,103,['Adventure'],73,CAN
+1184,God of War: Ascension,"Mar 12, 2013",2.9,318,"['Adventure', 'Brawler']",2.7K,JPN
+1185,Xenosaga Episode III: Also sprach Zarathustra,"Jul 06, 2006",4.3,399,"['Adventure', 'RPG']",762,JPN
+1186,Kirby's Dream Land 3,"Nov 27, 1997",3.4,469,"['Adventure', 'Platform']",2.6K,JPN
+1187,Castlevania: Harmony of Dissonance,"Jun 06, 2002",3.2,399,"['Adventure', 'Platform', 'RPG']",2K,USA
+1188,Shantae and the Pirate's Curse,"Oct 22, 2014",3.8,392,"['Adventure', 'Indie', 'Platform', 'RPG']",2.2K,CAN
+1189,Happy Wheels,"Jun 04, 2010",2.8,124,"['Adventure', 'Platform', 'Racing']",5.1K,CAN
+1190,Guilty Gear XX Accent Core Plus R,"Sep 20, 2012",4.1,423,"['Arcade', 'Fighting']",2.5K,AUS
+1191,Fire Emblem Fates: Birthright,"Jun 25, 2015",2.7,405,"['RPG', 'Strategy', 'Turn Based Strategy']",4.3K,USA
+1192,Final Fantasy IV,"Jul 19, 1991",3.7,530,['RPG'],2.7K,AUS
+1193,Devil May Cry 5: Special Edition,"Nov 10, 2020",4.5,265,['Brawler'],1K,AUS
+1194,Castlevania III: Dracula's Curse,"Sep 01, 1990",3.6,501,"['Adventure', 'Platform']",2.4K,CAN
+1195,Gloomwood,"Sep 05, 2022",4,141,"['Adventure', 'Indie', 'Shooter']",265,AUS
+1196,Call of Duty: Advanced Warfare,"Nov 03, 2014",2.5,415,['Shooter'],5.2K,JPN
+1197,The Legend of Heroes: Trails of Cold Steel,"Sep 26, 2013",3.7,499,"['Adventure', 'RPG', 'Turn Based Strategy']",2.1K,AUS
+1198,Metal Gear Solid 3: Snake Eater HD Edition,"Nov 08, 2011",4.6,293,"['Adventure', 'Shooter']",2.5K,AUS
+1199,Mario Kart: Super Circuit,"Jul 21, 2001",2.8,389,['Racing'],3.7K,JPN
+1200,Pokémon Shining Pearl,"Nov 18, 2021",2.9,281,"['Adventure', 'RPG', 'Turn Based Strategy']",1.9K,JPN
+1201,PUBG: Battlegrounds,"Dec 20, 2017",2.4,299,['Shooter'],5.2K,AUS
+1202,Earthblade,"Dec 31, 2024",,83,"['Adventure', 'Indie', 'RPG']",0,CAN
+1203,Tetris,"May 14, 1989",4,197,['Puzzle'],2.5K,JPN
+1204,Rule of Rose,"Jan 19, 2006",3.8,394,"['Adventure', 'Puzzle']",727,JPN
+1205,Lollipop Chainsaw,"Jun 12, 2012",3.4,295,['Brawler'],1.6K,USA
+1206,Pokémon LeafGreen,"Jan 29, 2004",3.8,413,"['Adventure', 'RPG', 'Turn Based Strategy']",5.9K,JPN
+1207,Bowser's Fury,"Feb 12, 2021",3.9,497,"['Adventure', 'Platform']",2.1K,JPN
+1208,ZeroRanger,"Sep 28, 2018",4.3,317,"['Arcade', 'Indie', 'Shooter']",561,JPN
+1209,Labyrinth of Galleria: The Moon Society,"Nov 26, 2020",4.3,49,"['Adventure', 'RPG', 'Strategy']",67,AUS
+1210,Street Fighter II,"Feb 01, 1991",3.5,433,"['Arcade', 'Fighting']",4.3K,AUS
+1211,Resident Evil: Revelations,"Jan 26, 2012",3.2,469,"['Adventure', 'Shooter']",2.9K,CAN
+1212,Shin Megami Tensei,"Oct 30, 1992",3.3,433,['RPG'],1.3K,AUS
+1213,Tomb Raider,"Oct 25, 1996",3.3,395,"['Adventure', 'Platform', 'Puzzle', 'Shooter']",2.7K,CAN
+1214,FIFA 23,"Sep 29, 2022",2.6,47,"['Simulator', 'Sport']",523,CAN
+1215,Battlefield: Bad Company 2,"Mar 02, 2010",3.6,288,"['Adventure', 'Shooter', 'Simulator', 'Strategy']",4.2K,CAN
+1216,The Walking Dead: A New Frontier,"Dec 20, 2016",2.8,345,"['Adventure', 'Point-and-Click']",2.9K,AUS
+1217,Ninja Gaiden Black,"Sep 20, 2005",4.3,294,"['Adventure', 'Brawler']",992,CAN
+1218,Sid Meier's Civilization V,"Sep 21, 2010",3.9,320,"['Simulator', 'Strategy', 'Turn Based Strategy']",5.4K,AUS
+1219,World of Horror,"Feb 20, 2020",3.7,257,"['Adventure', 'Indie', 'Point-and-Click', 'RPG', 'Turn Based Strategy']",871,AUS
+1220,Fire Emblem: Shadow Dragon,"Aug 07, 2008",3.2,361,"['RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']",1.9K,USA
+1221,Tomodachi Life,"Apr 18, 2013",3.7,281,"['Adventure', 'Simulator']",3.4K,AUS
+1222,Downwell,"Oct 14, 2015",3.5,363,"['Adventure', 'Arcade', 'Indie', 'Platform', 'Shooter']",3.7K,AUS
+1223,SpongeBob SquarePants: Battle For Bikini Bottom,"Oct 31, 2003",3.8,326,"['Adventure', 'Platform']",3.4K,JPN
+1224,LEGO Harry Potter: Years 1-4,"Jun 25, 2010",3.2,349,"['Adventure', 'Platform', 'Puzzle']",4.1K,AUS
+1225,Dragon Quest V: Hand of the Heavenly Bride,"Jul 17, 2008",4.2,371,['RPG'],1.4K,USA
+1226,Fear & Hunger,"Dec 11, 2018",3.8,48,"['Indie', 'RPG']",110,AUS
+1227,For Honor,"Feb 13, 2017",2.8,236,"['Brawler', 'Fighting']",4.1K,JPN
+1228,Sonic Lost World,"Oct 18, 2013",2.5,395,"['Adventure', 'Platform']",2.5K,JPN
+1229,Bug Fables: The Everlasting Sapling,"Nov 21, 2019",4.1,357,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",1K,USA
+1230,Hyrule Warriors: Age of Calamity,"Nov 19, 2020",3.5,531,"['Adventure', 'Brawler', 'Fighting']",2.7K,CAN
+1231,LEGO Batman 3: Beyond Gotham,"Nov 11, 2014",3.1,373,"['Adventure', 'Platform', 'Puzzle']",2.9K,CAN
+1232,Moonscars,"Sep 27, 2022",2.9,97,"['Adventure', 'Brawler', 'Indie', 'Platform']",248,AUS
+1233,The Witcher 3: Wild Hunt - Hearts of Stone,"Oct 12, 2015",4.4,159,"['Adventure', 'RPG']",3.1K,AUS
+1234,Remnant: From the Ashes,"Aug 20, 2019",3.2,304,"['Adventure', 'RPG', 'Shooter']",2.1K,JPN
+1235,Halo 5: Guardians,"Oct 27, 2015",2.5,500,['Shooter'],3.5K,AUS
+1236,Hearthstone,"Mar 11, 2014",2.9,212,"['Card & Board Game', 'Strategy', 'Turn Based Strategy']",5.5K,JPN
+1237,Ultimate Spider-Man,"Sep 21, 2005",3.6,300,['Brawler'],3.7K,JPN
+1238,Chop Goblins,"Dec 12, 2022",3.5,56,"['Indie', 'Shooter']",195,JPN
+1239,Secret of Mana,"Aug 06, 1993",3.3,413,['RPG'],1.9K,JPN
+1240,428: Shibuya Scramble,"Dec 04, 2008",4.2,249,"['Adventure', 'Visual Novel']",676,USA
+1241,Potion Craft,"Sep 21, 2021",3.2,77,"['Indie', 'Point-and-Click', 'Puzzle', 'RPG', 'Simulator']",471,CAN
+1242,Mega Man Legends,"Dec 18, 1997",3.7,361,"['Adventure', 'RPG', 'Shooter']",1.4K,USA
+1243,Xenoblade Chronicles: Future Connected,"May 29, 2020",3.5,232,['RPG'],1.9K,JPN
+1244,Crab Game,"Oct 29, 2021",2.5,96,"['Arcade', 'Fighting', 'Indie', 'Racing', 'Strategy']",2.3K,JPN
+1245,NEET Girl Date Night,"Oct 21, 2022",2.7,21,['Visual Novel'],106,USA
+1246,Dante's Inferno,"Feb 04, 2010",3.2,321,"['Adventure', 'Brawler']",2.6K,USA
+1247,Haunting Ground,"Apr 21, 2005",3.8,281,['Adventure'],597,CAN
+1248,Assassin's Creed Rogue,"Nov 11, 2014",3.2,384,"['Adventure', 'RPG']",3.4K,AUS
+1249,Garten of Banban 2,"Mar 03, 2023",1.5,16,"['Adventure', 'Indie']",55,CAN
+1250,Pokémon Stadium,"Apr 30, 1999",3.3,340,"['RPG', 'Turn Based Strategy']",5.4K,AUS
+1251,Outlast II,"Apr 25, 2017",2.8,279,"['Adventure', 'Indie']",2.7K,CAN
+1252,Elden Ring: Shadow of the Erdtree,"Dec 21, 2008",4.8,18,"['Adventure', 'RPG']",1,JPN
+1253,Fire Emblem: Thracia 776,"Sep 01, 1999",4.1,329,"['RPG', 'Strategy', 'Tactical']",820,USA
+1254,Moonlighter,"May 29, 2018",3.2,280,"['Adventure', 'Brawler', 'Indie', 'RPG', 'Simulator']",2.2K,AUS
+1255,Pikmin 3,"Jul 13, 2013",4,388,"['Adventure', 'Real Time Strategy']",2.7K,CAN
+1256,Five Nights at Freddy's 4,"Jul 23, 2015",2.8,199,"['Adventure', 'Indie', 'Point-and-Click', 'Simulator', 'Strategy']",3.3K,AUS
+1257,Chaos;Head Noah,"Feb 26, 2009",4,84,"['Adventure', 'Simulator', 'Visual Novel']",199,AUS
+1258,Nier: Automata - The End of Yorha Edition,"Oct 06, 2022",4.5,68,"['Adventure', 'RPG']",370,USA
+1259,Phoenix Wright: Ace Attorney - Spirit of Justice,"Jun 09, 2016",3.7,402,"['Adventure', 'Point-and-Click', 'Puzzle', 'RPG', 'Visual Novel']",2.4K,CAN
+1260,Crysis,"Nov 13, 2007",3.2,224,"['Adventure', 'Shooter']",3K,CAN
+1261,Fallout Shelter,"Jun 14, 2015",2.4,172,"['RPG', 'Simulator', 'Strategy']",5.3K,AUS
+1262,Sonic and the Secret Rings,"Feb 20, 2007",1.9,362,['Platform'],3.1K,JPN
+1263,FTL: Faster Than Light,"Sep 14, 2012",3.8,325,"['Indie', 'RPG', 'Simulator', 'Strategy']",3.8K,CAN
+1264,Mario Party 2,"Dec 17, 1999",3.7,348,['Card & Board Game'],3.9K,AUS
+1265,Attack of the Friday Monsters! A Tokyo Tale,"Jul 17, 2013",3.7,178,"['Adventure', 'Simulator']",393,AUS
+1266,Animal Crossing,"Dec 14, 2001",3.9,533,['Simulator'],3.9K,JPN
+1267,Fire Emblem Fates: Revelation,"Jul 09, 2015",2.3,296,"['RPG', 'Strategy', 'Turn Based Strategy']",2.5K,USA
+1268,Bloodstained: Curse of the Moon,"May 23, 2018",3.6,341,"['Adventure', 'Indie', 'Platform']",2.3K,AUS
+1269,Final Fantasy XIII-2,"Dec 15, 2011",3.3,482,"['Adventure', 'RPG']",2.3K,JPN
+1270,Agar.io,"Apr 28, 2015",2.2,81,"['Indie', 'Strategy']",4.4K,JPN
+1271,Fatal Frame II: Crimson Butterfly,"Nov 27, 2003",4.2,398,['Adventure'],1K,CAN
+1272,Ni no Kuni II: Revenant Kingdom,"Mar 23, 2018",3.3,269,"['Adventure', 'RPG']",1.7K,JPN
+1273,Metal Gear,"Jul 13, 1987",2.9,344,"['Adventure', 'Shooter']",1.9K,USA
+1274,Disney's Aladdin,"Nov 21, 1993",3.4,203,"['Adventure', 'Arcade', 'Platform']",2.2K,USA
+1275,Fable II,"Oct 21, 2008",3.6,310,"['Adventure', 'RPG']",3.2K,USA
+1276,Celeste: Farewell,"Sep 09, 2019",4.5,58,['Platform'],648,JPN
+1277,Axiom Verge 2,"Aug 11, 2021",3.4,116,"['Adventure', 'Indie', 'Platform']",312,JPN
+1278,Lightning Returns: Final Fantasy XIII,"Nov 21, 2013",3.1,362,['RPG'],1.5K,AUS
+1279,Yakuza 2,"Dec 07, 2006",4,331,"['Adventure', 'Brawler', 'RPG', 'Simulator', 'Sport']",1K,JPN
+1280,F-Zero X,"Jul 14, 1998",3.9,354,"['Arcade', 'Racing']",1.7K,USA
+1281,Chibi-Robo!,"Jun 23, 2005",4.1,386,"['Adventure', 'Platform']",1K,JPN
+1282,Super Mario Sunshine,"Sep 18, 2020",3.7,19,"['Adventure', 'Platform']",340,AUS
+1283,RimWorld,"Oct 17, 2018",4.2,149,"['Indie', 'Real Time Strategy', 'Simulator', 'Strategy']",1.6K,AUS
+1284,Professor Layton and the Miracle Mask,"Feb 26, 2011",3.7,192,"['Point-and-Click', 'Puzzle', 'Visual Novel']",1.3K,AUS
+1285,Mega Man X5,"Nov 30, 2000",3.2,334,"['Adventure', 'Platform', 'Shooter']",2.2K,AUS
+1286,Tokyo Necro,"Jan 29, 2016",4.6,21,"['Adventure', 'Visual Novel']",14,AUS
+1287,Disney Dreamlight Valley,"Sep 06, 2022",3.5,130,"['Adventure', 'RPG', 'Simulator']",329,CAN
+1288,Mega Man 7,"Mar 24, 1995",3.5,405,"['Adventure', 'Platform', 'Shooter']",2.4K,USA
+1289,Figment,"Sep 22, 2017",2.8,124,"['Adventure', 'Indie', 'Music', 'Platform', 'Puzzle']",183,JPN
+1290,"Flower, Sun, and Rain: Murder and Mystery in Paradise","Mar 06, 2008",4.2,178,"['Adventure', 'Puzzle']",408,CAN
+1291,Professor Layton vs. Phoenix Wright: Ace Attorney,"Nov 29, 2012",3.6,275,"['Adventure', 'Puzzle', 'Strategy', 'Visual Novel']",1.8K,CAN
+1292,Metal Gear Solid: The Twin Snakes,"Mar 09, 2004",3.6,267,['Adventure'],1.9K,JPN
+1293,The Simpsons Game,"Oct 30, 2007",3,200,['Platform'],3.8K,AUS
+1294,Mega Man Zero 2,"May 02, 2003",3.7,317,"['Adventure', 'Platform', 'Shooter']",1.9K,AUS
+1295,Gears 5,"Sep 09, 2019",3.4,382,"['Adventure', 'Shooter']",2.1K,JPN
+1296,Crash of the Titans,"Oct 04, 2007",3,200,"['Adventure', 'Platform']",3.8K,USA
+1297,Alan Wake Remastered,"Oct 05, 2021",3.7,209,"['Adventure', 'Shooter']",690,JPN
+1298,Final Fantasy XV: Royal Edition,"Mar 06, 2018",3.7,225,"['Adventure', 'Fighting', 'RPG']",1.7K,USA
+1299,The Witcher,"Oct 26, 2007",3,220,"['Adventure', 'RPG']",1.6K,AUS
+1300,Final Fantasy III,"Aug 24, 2006",3.1,342,"['Adventure', 'RPG']",2.6K,USA
+1301,Snatcher,"Oct 23, 1992",4,242,"['Adventure', 'Point-and-Click', 'Shooter', 'Visual Novel']",547,AUS
+1302,Hello Charlotte Ep.3: Childhood's End,"Jan 05, 2018",4.3,137,"['Adventure', 'Indie', 'RPG', 'Visual Novel']",424,USA
+1303,Star Wars: Battlefront,"Sep 20, 2004",3.5,255,['Shooter'],4.1K,AUS
+1304,Ikaruga,"Dec 20, 2001",4,364,"['Arcade', 'Indie', 'Puzzle', 'Shooter']",1.3K,JPN
+1305,Diablo IV,"Jun 06, 2023",,148,"['Brawler', 'RPG']",19,JPN
+1306,Ys: The Oath in Felghana,"Jul 04, 2005",4,311,"['Adventure', 'RPG']",1K,USA
+1307,American McGee's Alice,"Dec 06, 2000",3.4,242,"['Adventure', 'Platform', 'Puzzle']",1.1K,CAN
+1308,Call of Duty,"Oct 29, 2003",3.3,274,['Shooter'],2.8K,AUS
+1309,Armored Core 2,"Oct 26, 2000",3.6,92,[],278,JPN
+1310,Clash of Clans,"Aug 02, 2012",2.5,73,"['Real Time Strategy', 'Strategy']",2.6K,AUS
+1311,Fate/stay night,"Jan 30, 2004",4,258,"['Adventure', 'Visual Novel']",1.9K,AUS
+1312,Tabletop Simulator,"Jun 05, 2015",3.7,147,"['Card & Board Game', 'Indie', 'RPG', 'Simulator', 'Strategy']",3.2K,AUS
+1313,Duskers,"May 18, 2016",3.6,51,"['Indie', 'Simulator', 'Strategy']",61,JPN
+1314,Control: Ultimate Edition,"Aug 27, 2020",4,233,"['Adventure', 'Shooter']",1.4K,JPN
+1315,Advance Wars,"Sep 10, 2001",3.7,266,"['Simulator', 'Strategy', 'Tactical', 'Turn Based Strategy']",1.9K,JPN
+1316,Touhou Koumakyou: The Embodiment of Scarlet Devil,"Aug 11, 2002",3.8,217,"['Indie', 'Shooter']",1.9K,AUS
+1317,Weird West,"Mar 31, 2022",3,156,"['Adventure', 'Indie', 'RPG', 'Simulator']",405,JPN
+1318,Pokémon Mystery Dungeon: Blue Rescue Team,"Nov 17, 2005",3.7,273,"['Adventure', 'RPG', 'Turn Based Strategy']",3.8K,USA
+1319,WarioWare Gold,"Jul 27, 2018",3.9,264,['Arcade'],1.7K,CAN
+1320,Dragon Ball: Xenoverse,"Feb 05, 2015",2.9,198,"['Fighting', 'RPG']",3.7K,USA
+1321,Call of Duty: Black Ops 4,"Oct 12, 2018",2.3,248,['Shooter'],3.5K,CAN
+1322,Bloodborne: Game of the Year Edition,"Nov 27, 2015",4.6,238,['RPG'],1.5K,JPN
+1323,Ape Out,"Feb 28, 2019",3.5,329,"['Adventure', 'Arcade', 'Fighting', 'Indie']",1.8K,CAN
+1324,WarioWare: Smooth Moves,"Dec 02, 2006",3.9,319,['Puzzle'],3.1K,AUS
+1325,Puyo Puyo Tetris,"Feb 06, 2014",3.8,233,"['Puzzle', 'Strategy']",3.1K,CAN
+1326,Prince of Persia: Warrior Within,"Nov 30, 2004",3.5,237,"['Adventure', 'Fighting', 'Platform']",2.8K,CAN
+1327,Kentucky Route Zero: TV Edition,"Jan 27, 2020",4.1,319,"['Adventure', 'Indie', 'Point-and-Click']",772,AUS
+1328,Factorio,"Aug 14, 2020",4.2,189,"['Indie', 'Simulator', 'Strategy']",1.6K,CAN
+1329,Scott Pilgrim vs. the World: The Game - Complete Edition,"Jan 14, 2021",3.6,229,"['Adventure', 'Brawler', 'Fighting']",1.2K,JPN
+1330,Monster Hunter 4 Ultimate,"Oct 11, 2014",4.2,260,"['Adventure', 'RPG']",2K,JPN
+1331,Fruit Ninja Classic,"Apr 20, 2010",2.7,54,['Arcade'],3.8K,USA
+1332,Doom,"Nov 10, 2017",3.9,80,['Shooter'],2.3K,USA
+1333,Tom Clancy's The Division,"Mar 07, 2016",2.8,239,"['Adventure', 'RPG', 'Shooter', 'Strategy', 'Tactical']",2.9K,CAN
+1334,Crysis 2,"Mar 22, 2011",3.1,180,"['Adventure', 'Shooter']",2.9K,CAN
+1335,Resident Evil 4: Wii Edition,"May 31, 2007",4.4,151,"['Adventure', 'Shooter']",1.1K,JPN
+1336,Nuclear Throne,"Dec 05, 2015",3.7,262,"['Adventure', 'Arcade', 'Indie', 'RPG', 'Shooter']",2.2K,JPN
+1337,Super Hexagon,"Aug 31, 2012",3.4,204,"['Arcade', 'Indie', 'Music']",2.3K,CAN
+1338,Condemned: Criminal Origins,"Nov 16, 2005",3.5,248,"['Adventure', 'Shooter']",1.3K,USA
+1339,PlayStation All-Stars Battle Royale,"Nov 20, 2012",2.4,208,"['Fighting', 'Platform']",2.6K,AUS
+1340,Dragon Quest,"Mar 01, 2004",3.1,349,"['Adventure', 'RPG']",1.8K,JPN
+1341,Pac-Man in a Tin,"Mar 22, 2023",,0,['Arcade'],1,AUS
+1342,Mount & Blade: Warband,"Mar 31, 2010",3.9,168,"['Adventure', 'RPG', 'Shooter', 'Simulator', 'Strategy']",2.4K,AUS
+1343,Monster Hunter Generations Ultimate,"Mar 18, 2017",4.2,179,"['Brawler', 'RPG']",1.5K,AUS
+1344,The Jackbox Party Pack 3,"Oct 18, 2016",3.8,152,"['Indie', 'Puzzle', 'Quiz/Trivia', 'Strategy']",2.7K,USA
+1345,Digimon World: Next Order,"Mar 17, 2016",3.1,66,"['Adventure', 'RPG', 'Simulator']",321,USA
+1346,Odin Sphere: Leifthrasir,"Jan 14, 2016",4.1,228,['RPG'],895,CAN
+1347,Bulletstorm,"Feb 22, 2011",3.2,159,['Shooter'],2.3K,USA
+1348,The Witcher 2: Assassins of Kings,"May 17, 2011",3.6,181,"['Adventure', 'RPG']",1.6K,JPN
+1349,Pokémon Añil,"Mar 23, 2023",,2,['RPG'],1,USA
+1350,Animal Crossing: City Folk,"Nov 16, 2008",3.4,232,['Simulator'],3.1K,JPN
+1351,Microsoft Minesweeper,"Oct 08, 1990",3.2,83,['Puzzle'],2.4K,USA
+1352,Sonic 3D Blast,"Nov 14, 1996",2.3,315,['Platform'],2.3K,AUS
+1353,Mario Party 4,"Oct 21, 2002",3.5,231,['Card & Board Game'],3K,USA
+1354,Mario Party 3,"Dec 07, 2000",3.7,219,['Card & Board Game'],2.8K,JPN
+1355,Peggle,"Feb 27, 2007",3.6,185,['Puzzle'],2.5K,JPN
+1356,Plague Inc: Evolved,"Sep 18, 2015",3.1,88,"['Indie', 'Simulator', 'Strategy', 'Tactical']",4K,JPN
+1357,Star Wars: Episode III - Revenge of the Sith,"May 05, 2005",3.1,141,"['Adventure', 'Brawler']",2.1K,USA
+1358,Prince of Persia,"Dec 02, 2008",3,201,"['Adventure', 'Platform', 'Puzzle']",2.5K,AUS
+1359,System Shock,"Sep 22, 1994",3.9,276,"['RPG', 'Shooter']",544,USA
+1360,Sonic Rush Adventure,"Sep 14, 2007",3.5,278,['Platform'],1.9K,JPN
+1361,Destroy All Humans!,"Jun 21, 2005",3.2,160,['Adventure'],2.2K,USA
+1362,Marvel vs. Capcom: Clash of Super Heroes,"Jan 12, 1998",3.7,269,['Fighting'],2K,CAN
+1363,The World Ends with You: Final Remix,"Sep 27, 2018",4,253,"['Adventure', 'RPG']",1.5K,CAN
+1364,Ristar,"Feb 16, 1995",3.6,233,"['Adventure', 'Platform']",1.2K,USA
+1365,Crash Team Racing Nitro-Fueled,"Jun 21, 2019",3.9,408,"['Arcade', 'Racing']",2.5K,AUS
+1366,Mega Man X6,"Nov 29, 2001",2.3,308,"['Adventure', 'Platform']",1.9K,USA
+1367,Slender: The Eight Pages,"Jun 26, 2012",2,123,"['Adventure', 'Indie']",2.7K,USA
+1368,Mark of the Ninja,"Sep 07, 2012",3.8,193,"['Adventure', 'Indie', 'Platform']",1.9K,JPN
+1369,Octodad: Dadliest Catch,"Jan 30, 2014",3.2,169,"['Adventure', 'Indie', 'Platform', 'Simulator', 'Strategy']",2.5K,USA
+1370,Dragon Ball Z: Budokai Tenkaichi,"Oct 06, 2005",2.9,96,['Fighting'],1.7K,AUS
+1371,The King of Fighters XV,"Feb 16, 2022",4,226,['Fighting'],718,AUS
+1372,Killing Floor 2,"Nov 18, 2016",3.1,195,['Shooter'],2.8K,USA
+1373,Ape Escape 3,"Jul 14, 2005",4.3,247,['Platform'],874,AUS
+1374,The Simpsons Arcade Game,"Mar 04, 1991",3.3,139,"['Arcade', 'Brawler']",1.5K,JPN
+1375,Toy Story 2: Buzz Lightyear to the Rescue!,"Nov 22, 1999",3.4,245,"['Adventure', 'Platform']",2.3K,USA
+1376,Rayman Raving Rabbids,"Nov 19, 2006",2.7,137,"['Adventure', 'Platform', 'Puzzle']",2.7K,JPN
+1377,Prototype 2,"Apr 24, 2012",3,140,"['Adventure', 'Brawler', 'Platform']",2.4K,JPN
+1378,MadWorld,"Mar 10, 2009",3.5,283,['Brawler'],1.1K,JPN
+1379,Call of Duty 3,"Nov 07, 2006",2.8,231,['Shooter'],2.9K,CAN
+1380,Shadow Warrior,"Sep 26, 2013",3.2,161,"['Adventure', 'Shooter']",1.7K,JPN
+1381,Warcraft III: The Frozen Throne,"Jul 01, 2003",4.3,159,"['Real Time Strategy', 'Strategy']",2.6K,JPN
+1382,Yakuza 4,"Mar 08, 2010",3.8,295,"['Adventure', 'Brawler', 'RPG', 'Simulator', 'Sport']",1.4K,USA
+1383,Megami Ibunroku Persona,"Sep 20, 1996",3.7,16,['RPG'],16,USA
+1384,Persona 4 Arena,"Mar 01, 2012",3.4,195,"['Adventure', 'Fighting', 'RPG']",1.9K,USA
+1385,Scribblenauts,"Sep 15, 2009",3.2,151,['Puzzle'],3.2K,AUS
+1386,Rock Band 2,"Sep 14, 2008",4,180,['Music'],2K,AUS
+1387,Armored Core 4,"Dec 21, 2006",3.7,92,['Fighting'],252,JPN
+1388,Rez Infinite,"Oct 13, 2016",4,222,"['Music', 'Shooter']",713,USA
+1389,Plants vs. Zombies 2: It's About Time,"Aug 15, 2013",2.7,80,"['Adventure', 'Real Time Strategy', 'Strategy', 'Tactical']",2.4K,AUS
+1390,Cadence of Hyrule: Crypt of the NecroDancer Featuring the Legend of Zelda,"Jun 13, 2019",3.6,269,"['Adventure', 'Music']",1.8K,JPN
+1391,100% Orange Juice,"Aug 15, 2009",3.4,112,"['Card & Board Game', 'Indie', 'Strategy', 'Turn Based Strategy']",1.8K,CAN
+1392,Tekken 6,"Nov 26, 2007",3.4,235,['Fighting'],2.3K,JPN
+1393,Mortal Kombat 3,"Apr 15, 1995",3.1,162,['Fighting'],1.7K,AUS
+1394,Pokémon Mystery Dungeon: Explorers of Time,"Sep 13, 2007",4,186,"['Adventure', 'RPG', 'Turn Based Strategy']",2.3K,JPN
+1395,Chulip,"Oct 03, 2002",4.1,296,"['Adventure', 'Puzzle']",308,AUS
+1396,Crash Nitro Kart,"Nov 11, 2003",3.1,141,['Racing'],1.7K,USA
+1397,Bubble Bobble,"Jun 16, 1986",3.3,187,"['Arcade', 'Platform', 'Puzzle', 'Strategy']",1.4K,AUS
+1398,Shantae: Half-Genie Hero,"Dec 20, 2016",3.4,196,"['Adventure', 'Indie', 'Platform']",1.5K,USA
+1399,Snake,"Dec 18, 1997",3.1,67,['Arcade'],2.4K,JPN
+1400,Tales of Vesperia,"Aug 07, 2008",3.9,196,['RPG'],1.1K,USA
+1401,Mega Man X8,"Dec 07, 2004",3.3,239,"['Adventure', 'Platform']",1.4K,USA
+1402,Fire Emblem: New Mystery of the Emblem,"Jul 15, 2010",3.7,246,"['RPG', 'Strategy', 'Turn Based Strategy']",848,USA
+1403,Mario & Luigi: Superstar Saga + Bowser's Minions,"Oct 05, 2017",3.9,201,"['Adventure', 'Platform', 'RPG']",1.1K,JPN
+1404,Suikoden,"Dec 15, 1995",3.6,270,['RPG'],933,JPN
+1405,Binary Domain,"Feb 16, 2012",3.5,234,['Shooter'],1.1K,CAN
+1406,Shin Megami Tensei: Devil Survivor,"Jan 15, 2009",3.9,219,"['RPG', 'Strategy', 'Tactical', 'Visual Novel']",1K,AUS
+1407,JoJo's Bizarre Adventure: Eyes of Heaven,"Dec 17, 2015",2.8,106,"['Arcade', 'Fighting']",1.7K,JPN
+1408,Audiosurf,"Feb 15, 2008",3.2,82,"['Indie', 'Music', 'Puzzle']",1.6K,CAN
+1409,Better Call Saul Kart,"Sep 30, 2022",4.2,8,['Racing'],26,USA
+1410,The Secret of Monkey Island,"Oct 01, 1990",4.1,312,"['Adventure', 'Point-and-Click', 'Puzzle']",1.4K,AUS
+1411,Resistance: Fall of Man,"Nov 11, 2006",3,194,"['Adventure', 'Shooter']",1.3K,CAN
+1412,Sniper Elite 4,"Feb 13, 2017",3.1,184,"['Adventure', 'Shooter', 'Tactical']",1.5K,CAN
+1413,Metal Gear Solid HD Collection,"Nov 08, 2011",4.5,118,"['Adventure', 'Strategy', 'Tactical']",1.5K,AUS
+1414,The Simpsons: Road Rage,"Nov 19, 2001",2.9,103,['Racing'],1.7K,AUS
+1415,Melty Blood Actress Again Current Code,"Jul 29, 2010",4.1,242,"['Arcade', 'Fighting']",1.9K,AUS
+1416,Path of Exile,"Oct 23, 2013",3.3,130,"['Adventure', 'Brawler', 'RPG']",2.4K,USA
+1417,Machinarium,"Oct 16, 2009",3.7,222,"['Adventure', 'Indie', 'Point-and-Click', 'Puzzle']",1.6K,JPN
+1418,Guacamelee!,"Apr 09, 2013",3.5,191,"['Adventure', 'Brawler', 'Indie', 'Platform']",1.8K,AUS
+1419,Tales of Zestiria,"Jan 22, 2015",2.7,273,['RPG'],1.7K,JPN
+1420,Black,"Feb 24, 2006",3.4,233,['Shooter'],2.1K,JPN
+1421,Mario Super Sluggers,"Jun 19, 2008",3.7,153,['Sport'],1.8K,CAN
+1422,Worms Armageddon,"Jan 29, 1999",3.8,180,"['Platform', 'Shooter', 'Strategy']",2.1K,JPN
+1423,Street Fighter II Turbo,"Jul 11, 1993",3.7,174,['Fighting'],1.6K,AUS
+1424,Tekken 4,"Jul 01, 2001",3.4,243,['Fighting'],1.9K,USA
+1425,Legacy of Kain: Soul Reaver,"Aug 16, 1999",3.7,260,['Adventure'],1.3K,AUS
+1426,Mega Man X7,"Jul 17, 2003",1.4,231,"['Adventure', 'Platform']",1.3K,AUS
+1427,Final Fantasy I & II: Dawn of Souls,"Jul 29, 2004",3.4,93,['RPG'],1.1K,JPN
+1428,Mega Man ZX,"Jul 06, 2006",3.7,239,"['Platform', 'Shooter']",1.3K,JPN
+1429,Metal Gear 2: Solid Snake,"Jul 20, 1990",3.5,306,['Adventure'],1.2K,JPN
+1430,The Missing: J.J. Macfield and the Island of Memories,"Oct 11, 2018",3.8,241,"['Adventure', 'Indie', 'Platform', 'Puzzle']",779,CAN
+1431,Silent Hill 2: Restless Dreams,"Dec 19, 2001",4.5,90,['Adventure'],514,USA
+1432,Friday the 13th: The Game,"May 25, 2017",2.6,170,['Indie'],2.2K,AUS
+1433,Quake II,"Dec 09, 1997",3.4,242,['Shooter'],1.5K,AUS
+1434,NBA Jam,"Jun 02, 1993",3.6,106,['Sport'],847,JPN
+1435,Final Fantasy X HD Remaster,"Dec 26, 2013",4.3,139,"['Adventure', 'RPG']",867,JPN
+1436,Mario vs. Donkey Kong,"May 24, 2004",3.3,171,"['Platform', 'Puzzle']",1.5K,JPN
+1437,Kenshi,"Dec 06, 2018",4,90,"['Indie', 'RPG', 'Simulator', 'Strategy']",527,JPN
+1438,Remember Me,"Jun 03, 2013",2.9,179,"['Adventure', 'Platform']",1.6K,USA
+1439,Alpha Protocol,"May 28, 2010",3.3,170,"['RPG', 'Shooter']",987,CAN
+1440,Indivisible,"Oct 08, 2019",3.1,211,"['Adventure', 'Indie', 'Platform', 'RPG']",969,JPN
+1441,Jazzpunk,"Feb 07, 2014",3.6,122,"['Adventure', 'Indie']",935,AUS
+1442,Need for Speed: Hot Pursuit,"Nov 16, 2010",3.3,148,['Racing'],2K,AUS
+1443,The House in Fata Morgana: A Requiem for Innocence,"Aug 16, 2015",4.3,123,"['Adventure', 'Visual Novel']",625,AUS
+1444,Phantom Brigade,"Feb 28, 2023",2.8,16,"['Indie', 'RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']",16,AUS
+1445,Altered Beast,"Aug 01, 1988",2.5,211,"['Brawler', 'Platform']",1.5K,JPN
+1446,Broken Age,"Jan 28, 2014",3.1,180,"['Adventure', 'Indie', 'Point-and-Click', 'Puzzle']",1.3K,AUS
+1447,Telling Lies,"Aug 23, 2019",2.8,186,"['Indie', 'Point-and-Click', 'Simulator']",646,CAN
+1448,Saints Row: Gat Out of Hell,"Jan 20, 2015",2.4,159,"['Adventure', 'Shooter']",2K,JPN
+1449,Ratchet & Clank: Size Matters,"Feb 13, 2007",2.8,172,"['Adventure', 'Platform', 'Shooter']",1.5K,CAN
+1450,Mario Hoops 3-on-3,"Jul 27, 2006",3.5,132,['Sport'],1.8K,JPN
+1451,Mario Power Tennis,"Oct 28, 2004",3.5,150,['Sport'],1.9K,JPN
+1452,Keep Talking and Nobody Explodes,"Jul 16, 2015",3.7,144,"['Card & Board Game', 'Indie', 'Puzzle', 'Simulator']",2K,JPN
+1453,The Swapper,"May 30, 2013",3.4,130,"['Adventure', 'Indie', 'Platform', 'Puzzle', 'Strategy']",1.1K,USA
+1454,Ms. Pac-Man,"Feb 03, 1982",3.6,198,['Arcade'],1.6K,JPN
+1455,Gun,"Nov 05, 2005",3.3,131,['Adventure'],1.4K,AUS
+1456,Naruto: Ultimate Ninja 3,"Dec 22, 2005",3.5,120,['Fighting'],1.9K,USA
+1457,The Ultimate Doom,"Apr 30, 1995",4.1,148,['Shooter'],1.2K,CAN
+1458,Superman: The New Superman Adventures,"May 31, 1999",0.7,69,"['Adventure', 'Shooter']",859,USA
+1459,Ruiner,"Sep 26, 2017",3.2,177,"['Adventure', 'Indie', 'Shooter', 'Strategy']",1.1K,JPN
+1460,The Lord of the Rings: The Two Towers,"Oct 21, 2002",3.3,100,"['Adventure', 'Brawler']",1.6K,USA
+1461,Dragon Quest II: Luminaries of the Legendary Line,"Dec 31, 2005",3,215,['RPG'],891,JPN
+1462,Chivalry: Medieval Warfare,"Oct 16, 2012",2.9,73,"['Brawler', 'Fighting', 'Indie']",1.6K,AUS
+1463,FIFA 14,"Sep 24, 2013",3.2,92,['Sport'],2.2K,CAN
+1464,Bit.Trip Runner,"May 14, 2010",3.1,58,"['Arcade', 'Indie', 'Music', 'Platform']",1.2K,AUS
+1465,Pokémon Pinball: Ruby & Sapphire,"Aug 01, 2003",3.5,135,"['Adventure', 'Arcade', 'Pinball']",1.6K,JPN
+1466,FIFA 13,"Sep 25, 2012",3.2,62,"['Simulator', 'Sport']",1.6K,USA
+1467,La-Mulana,"Jul 13, 2012",3.9,170,"['Adventure', 'Indie', 'Platform', 'Puzzle']",492,CAN
+1468,The Warriors,"Oct 17, 2005",3.9,182,"['Brawler', 'Fighting']",927,JPN
+1469,Mortal Kombat XL,"Mar 01, 2016",3.6,95,['Fighting'],1.1K,CAN
+1470,Anonymous;Code,"Jul 28, 2022",4.2,40,"['Adventure', 'Visual Novel']",8,AUS
+1471,Higurashi no Naku Koro ni: Chapter 2 - Watanagashi,"Dec 29, 2002",3.7,118,"['Adventure', 'Visual Novel']",1.2K,JPN
+1472,Aokana: Four Rhythms Across the Blue,"Jan 08, 2016",3.9,32,"['Adventure', 'Visual Novel']",164,JPN
+1473,Shantae and the Seven Sirens,"Mar 27, 2020",3.5,118,"['Adventure', 'Platform']",512,JPN
+1474,Mega Man ZX Advent,"Jul 12, 2007",3.6,173,"['Adventure', 'Platform', 'Shooter']",976,CAN
+1475,Peggle Deluxe,"Mar 06, 2007",3.7,69,[],939,JPN
+1476,Slither.io,"Mar 25, 2016",2.2,46,"['Arcade', 'Simulator']",2.1K,JPN
+1477,Twisted Metal,"Nov 05, 1995",3.1,117,"['Fighting', 'Racing', 'Shooter']",986,CAN
+1478,Dragon Age: Origins - Awakening,"Mar 16, 2010",3.9,50,"['RPG', 'Strategy']",1K,CAN
+1479,Parasite Eve II,"Dec 16, 1999",3.4,229,['RPG'],763,AUS
+1480,The Jackbox Party Pack,"Nov 18, 2014",2.9,102,"['Indie', 'Puzzle', 'Quiz/Trivia', 'Strategy']",1.4K,AUS
+1481,Tom Clancy's Splinter Cell: Pandora Tomorrow,"Mar 23, 2004",3.4,137,"['Shooter', 'Tactical']",1K,USA
+1482,Payday: The Heist,"Oct 18, 2011",2.9,55,['Shooter'],1.3K,AUS
+1483,Pokémon Rumble Blast,"Aug 11, 2011",2.9,96,"['Adventure', 'Brawler', 'Fighting', 'RPG']",1.2K,JPN
+1484,Nicktoons Unite!,"Oct 26, 2005",2.5,52,['Adventure'],785,USA
+1485,Ruined King: A League of Legends Story,"Nov 16, 2021",3.6,68,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",413,USA
+1486,Picross S3,"Apr 25, 2019",3.9,26,"['Puzzle', 'Strategy']",187,CAN
+1487,Lisa the Joyful,"Aug 24, 2015",3.7,126,"['Adventure', 'Indie', 'RPG', 'Turn Based Strategy']",1K,JPN
+1488,The King of Fighters '98,"Jul 23, 1998",3.9,231,['Fighting'],1.5K,JPN
+1489,Kingdoms of Amalur: Reckoning,"Feb 07, 2012",3.2,99,"['Brawler', 'RPG']",1.2K,CAN
+1490,Grand Theft Auto,"Oct 21, 1997",2.5,181,"['Adventure', 'Racing', 'Shooter']",1.6K,JPN
+1491,Europa Universalis IV,"Aug 13, 2013",3.8,135,"['Real Time Strategy', 'Simulator', 'Strategy']",1.3K,USA
+1492,Sonic the Hedgehog 2,"Oct 16, 1992",2.8,157,"['Adventure', 'Arcade', 'Platform']",1.4K,CAN
+1493,Guitar Hero 5,"Sep 01, 2009",3.2,63,['Music'],1.1K,USA
+1494,Silent Hill: Homecoming,"Sep 30, 2008",2.1,206,"['Adventure', 'Fighting']",1.3K,JPN
+1495,Mighty No. 9,"Jun 21, 2016",1.6,137,"['Adventure', 'Arcade', 'Platform', 'Shooter']",907,CAN
+1496,FIFA 13,"Sep 25, 2012",3.2,62,"['Simulator', 'Sport']",1.6K,AUS
+1497,Dragon Ball GT: Final Bout,"Aug 21, 1997",1.8,83,['Fighting'],1.2K,JPN
+1498,Killzone 3,"Feb 22, 2011",3.1,155,['Shooter'],1.3K,USA
+1499,WWE SmackDown vs. Raw 2008,"Nov 09, 2007",3.1,62,"['Fighting', 'Sport']",1.4K,JPN
+1500,Children of Morta,"Sep 03, 2019",3.4,153,"['Adventure', 'Indie', 'RPG']",727,JPN
+1501,The Godfather,"Mar 21, 2006",3.6,121,"['Adventure', 'Racing', 'Shooter']",1.1K,AUS
+1502,Billy Hatcher and the Giant Egg,"Sep 23, 2003",3.1,133,['Platform'],797,CAN
+1503,Tekken Tag Tournament 2,"Sep 14, 2011",3.8,211,['Fighting'],1.7K,JPN
+1504,Bloons TD 5,"Dec 14, 2011",3.6,62,"['Simulator', 'Strategy', 'Tactical']",1.6K,JPN
+1505,JoJo's Bizarre Adventure,"Oct 31, 1999",3.7,65,['Fighting'],634,USA
+1506,Another World,"Dec 31, 1991",3.3,232,"['Adventure', 'Platform', 'Puzzle']",939,AUS
+1507,Back to the Future: The Game,"Dec 22, 2010",3.2,94,"['Adventure', 'Point-and-Click']",763,JPN
+1508,Team Sonic Racing,"May 21, 2019",2.9,264,"['Arcade', 'Racing']",1.5K,AUS
+1509,Dragon's Dogma,"May 22, 2012",3.7,210,"['Brawler', 'RPG']",1.1K,CAN
+1510,Baldur's Gate 3,"Oct 06, 2020",4.1,165,"['Adventure', 'RPG', 'Strategy', 'Tactical', 'Turn Based Strategy']",269,AUS
+1511,The LEGO Movie Videogame,"Feb 04, 2014",2.8,184,"['Adventure', 'Puzzle']",1.7K,CAN

@@ -1,5 +1,4 @@
-package model;
-
+package produtos;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.io.*;
@@ -128,11 +127,11 @@ public byte[] toByteArray() throws IOException{
     dos.writeUTF(NumberOfReviews);
     //Escrever o tamanho do meu array
     dos.writeInt(genres != null ? genres.length : 0);
-    if(genres != null){
+ 
         for(String s : genres){
-            dos.writeUTF(s);
+            dos.writeUTF(s != null ? s : "");
         }
-    }
+
     dos.writeUTF(plays);
     dos.writeUTF(country);
     
