@@ -98,16 +98,14 @@ public class ImportadorCSV {
         if(lista == null || lista.isEmpty()){
             throw new Exception("Lista nula ou vazia, impossível continuar");}
         // cria um novo arquivo para a escrita de bytes
-        try (FileOutputStream fos = new FileOutputStream("games.db");
-             DataOutputStream dos = new DataOutputStream(fos)) {
+        try (RandomAccessFile raf = new RandomAccessFile("games.db", "rw")) {
         //Percorre todos os elementos da lista, usa o método para transformar em um array de bytes e escreve esses bytes no arquivo, junto com seu tamanho
         for(Jogo j : lista){         
             byte[] ba;
              ba = j.toByteArray();
              //Escreve o tamanho de cada 
-             dos.writeInt(ba.length);
-             dos.write(ba);  
-             dos.flush();
+             raf.writeInt(ba.length);
+             raf.write(ba);  
         }
 
         }catch(IOException e){
