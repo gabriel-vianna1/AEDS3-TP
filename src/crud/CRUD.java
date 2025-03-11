@@ -60,7 +60,49 @@ public class CRUD {
     return null;
   }
 
+  public boolean update(Jogo novoJogo){
 
+    try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
+    //Vai para o primeiro registro após o cabeçalho
+    raf.seek(4);
+    while(raf.getFilePointer() < raf.length()){
+    
+        long pos = raf.getFilePointer();
 
-  
+        if(raf.readByte() != '*'){
+            int tamRegistro = raf.readInt();
+    
+            byte[] ba  = new byte[tamRegistro];
+            //Uso o método readFully porque eu sei o tamanho do que vai ser lido
+            raf.readFully(ba);
+    
+            Jogo jogo = new Jogo();
+            jogo.fromByteArray(ba);
+
+            if(jogo.getId() == novoJogo.getId()){
+                byte[] novoObjeto = jogo.toByteArray();
+                if(novoObjeto.length <=  tamRegistro){
+                    //Aponta para o início do registro porém pula o byte que tem a indicação de lápide e pula também os 4 bytes que indicam o tamanho
+                    raf.seek(pos + 5);
+                    raf.write(novoObjeto);
+                    }
+                else{
+                 raf.seek(pos);
+                 //Como há mudança no tamanho para mais, faz a "exclusão" do registro para escreve-lo no final do arquivo
+                 raf.writeByte('*');    
+                 raf.seek(raf.length());
+                 //Escreve a indicação de que ele está váilido, seu tamanho e dps o registro
+                 raf.writeByte(' ');
+                 raf.writeInt(novoObjeto.length);
+                 raf.write(novoObjeto);
+                 }
+               return true;
+            }        
+         }
+      }
+    }catch(IOException e){
+        e.printStackTrace();
+    }
+    return false;
+  }
 }
