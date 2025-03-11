@@ -1,5 +1,6 @@
 package crud;
 
+
 import java.io.*;
 import produtos.*;
 
@@ -109,5 +110,38 @@ public class CRUD {
         e.printStackTrace();
     }
     return false;
+
+  }
+  public boolean delete(int id){
+
+    try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
+        raf.seek(4);//Pula o cabeçalho para a posição correspondente ao primeiro registro
+        while(raf.getFilePointer() < raf.length()){
+            long pos = raf.getFilePointer();
+
+            if(raf.readByte() != '*'){
+                int tamRegistro = raf.readInt();
+
+                byte[] ba  = new byte[tamRegistro];
+                //Uso o método readFully porque eu sei o tamanho do que vai ser lido
+                raf.readFully(ba);
+                Jogo jogo = new Jogo();
+                jogo.fromByteArray(ba);
+
+                //Quando achar o registro com o id indicado, vai marcar como excluído
+                if(jogo.getId() == id){
+                    raf.seek(pos);
+                    raf.writeByte('*');
+
+                    System.out.println("Registro removido com sucesso!");
+                    return true;
+                }
+            }
+        }
+
+    }catch(IOException e){
+        e.printStackTrace();
+    }
+   return false;
   }
 }
