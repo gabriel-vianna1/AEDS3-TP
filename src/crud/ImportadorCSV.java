@@ -35,7 +35,8 @@ public class ImportadorCSV {
         }catch(Exception e){
             e.printStackTrace();
         }
-
+        
+    
         return listaJogos;
     }
     
@@ -98,14 +99,17 @@ public class ImportadorCSV {
         if(lista == null || lista.isEmpty()){
             throw new Exception("Lista nula ou vazia, impossível continuar");}
         // cria um novo arquivo para a escrita de bytes
-        try (RandomAccessFile raf = new RandomAccessFile("games.db", "rw")) {
+        try (RandomAccessFile arq = new RandomAccessFile("games.db", "rw")) {
+        //Escreve, no ínicio do meu arquivo, o id do último registro q eu tenho
+        arq.writeInt(1511);
         //Percorre todos os elementos da lista, usa o método para transformar em um array de bytes e escreve esses bytes no arquivo, junto com seu tamanho
         for(Jogo j : lista){         
             byte[] ba;
              ba = j.toByteArray();
-             //Escreve o tamanho de cada 
-             raf.writeInt(ba.length);
-             raf.write(ba);  
+             arq.writeByte(' ');
+             //Escreve o tamanho de cada registro
+             arq.writeInt(ba.length);
+             arq.write(ba);  
         }
 
         }catch(IOException e){
