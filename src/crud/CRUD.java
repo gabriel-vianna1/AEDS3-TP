@@ -118,7 +118,7 @@ public class CRUD {
         while(raf.getFilePointer() < raf.length()){
             long pos = raf.getFilePointer();
 
-            if(raf.readByte() != ''){
+            if(raf.readByte() != '*'){
                 int tamRegistro = raf.readInt();
 
                 byte[] ba  = new byte[tamRegistro];
@@ -130,7 +130,7 @@ public class CRUD {
                 //Quando achar o registro com o id indicado, vai marcar como excluído
                 if(jogo.getId() == id){
                     raf.seek(pos);
-                    raf.writeByte('');
+                    raf.writeByte('*');
 
                     System.out.println("Registro removido com sucesso!");
                     return true;
