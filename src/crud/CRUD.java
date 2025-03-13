@@ -5,7 +5,7 @@ import produtos.*;
 
 public class CRUD {
     
-    public void create(Jogo jogo){
+    public static void create(Jogo jogo){
 
     try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
         // move o ponteiro para o inicio do arquivo, onde ele vai ler o id do ultimo registro
@@ -31,7 +31,7 @@ public class CRUD {
     }
   }
 
-  public Jogo read(int id){
+  public static Jogo read(int id){
 
     try(RandomAccessFile raf = new RandomAccessFile("games.db", "r")){
    
@@ -62,7 +62,7 @@ public class CRUD {
     return null;
   }
 
-  public boolean update(Jogo novoJogo){
+  public static boolean update(Jogo novoJogo){
 
     try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
     //Vai para o primeiro registro após o cabeçalho
@@ -111,7 +111,7 @@ public class CRUD {
     return false;
   }
 
-  public boolean delete(int id){
+  public static boolean delete(int id){
 
     try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
         raf.seek(4);//Pula o cabeçalho para a posição correspondente ao primeiro registro
