@@ -17,6 +17,7 @@ public class JogoMenu {
             System.out.println("2 - Atualizar");
             System.out.println("3 - Excluir");
             System.out.println("4 - Criar");
+            System.out.println("5 - Listar todos os jogos");
             System.out.println("0 - Encerrar o programa");
             System.out.print("Opção: ");
 
@@ -29,7 +30,7 @@ public class JogoMenu {
                 case 2 -> atualizaJogo();
                 case 3 -> excluirJogo();
                 case 4 -> criarJogo();
-
+                case 5 -> listarJogos();               
                 case 0 -> {
                     System.out.println("Encerrando");
                     break;
@@ -76,6 +77,7 @@ public class JogoMenu {
        jogo.setGenres(generos);
 
        System.out.println("Digite a quantidade de horas totais jogadas em média por jogador: ");
+       System.out.println("Obs: Caso esse número for maior que 1000, será representado como -> Exmp: 1500 = 1.5K");
        jogo.setPlays(entrada.nextLine());
 
        System.out.println("Digite o país onde esse jogo foi desenvolvido: Obs-> Canadá = CAN, Brasil = BRA, etc. ");
@@ -158,6 +160,10 @@ private static void atualizaJogo() {
         Jogo jogo = lerJogo();
         CRUD.create(jogo); // Chama o método create
 
+    }
+
+    private static void listarJogos(){
+        CRUD.list();
     }
 
 

@@ -98,7 +98,7 @@ public static LocalDate FormatDate(String date) {
 
         DateTimeFormatter format = DateTimeFormatter.ofPattern("MMM dd, yyyy", Locale.ENGLISH); // Formata com o padrão da  base de dados escolhida
         return LocalDate.parse(date, format);
-
+        
     } catch (DateTimeParseException e) {
         System.out.println("Erro ao processar a data: " + date);
         e.printStackTrace();

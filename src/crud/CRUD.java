@@ -154,4 +154,38 @@ public class CRUD {
     }
    return false;
   } 
+
+  public static void list(){
+
+    try(RandomAccessFile raf = new RandomAccessFile("games.db", "r")){
+     
+        int numRegistros = raf.readInt();
+
+    System.out.println("Número de jogos na lista: " + numRegistros);
+    
+   
+    while(raf.getFilePointer() < raf.length()){
+        byte status = raf.readByte();
+
+        int tam = raf.readInt();
+    
+        if(status != '*'){
+            Jogo jogo = new Jogo();
+         
+            byte[] ba =  new byte[tam];
+
+            raf.readFully(ba);
+            jogo.fromByteArray(ba);
+
+            System.out.println(jogo.toString());
+            }else{
+                raf.skipBytes(tam);
+            }
+          }
+
+        }catch (IOException e) {
+    e.printStackTrace();
+        }
+     }
+
 }
