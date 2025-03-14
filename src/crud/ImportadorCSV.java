@@ -105,7 +105,7 @@ public class ImportadorCSV {
         for(Jogo j : lista){         
             byte[] ba;
              ba = j.toByteArray();
-             arq.writeByte(' ');
+             arq.writeByte(' ');//Marca o registro como válido
              //Escreve o tamanho de cada registro
              arq.writeInt(ba.length);
              arq.write(ba);  

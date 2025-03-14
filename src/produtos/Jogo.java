@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Locale;
 //Implementação da classe Jogo
+import java.util.Arrays;
 
 public class Jogo{
 
@@ -112,7 +113,7 @@ public String toString(){
            "\nrelease_date: "+  releaseDate +
            "\nrating: "+ rating +
            "\nnumber_of_reviews: " + NumberOfReviews +
-           "\ngenres: " + genres +
+           "\ngenres: " + (genres != null ? Arrays.toString(genres) : "Nenhum gênero disponível") +
            "\nplays: " + plays +
            "\ncountry: " + country;
         }
@@ -162,8 +163,15 @@ public void fromByteArray(byte[] ba) throws IOException{
  NumberOfReviews = dis.readUTF();
  int genresSize = dis.readInt();
  genres = new String[genresSize];
+
  for (int i = 0; i < genresSize; i++) {
-    genres[i] = dis.readUTF();
+    String s = dis.readUTF();
+    if(s != null){
+        genres[i] = s;
+    }else{
+        genres[i] = "";
+    }
+ 
 }
  plays = dis.readUTF();
  country = dis.readUTF();

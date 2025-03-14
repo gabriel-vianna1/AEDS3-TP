@@ -51,7 +51,7 @@ public class JogoMenu {
         }
     
         else {
-        System.out.println("Jogo encontrado: " + jogo);
+        System.out.println("Jogo encontrado: " + jogo.toString());
          
      }
     }

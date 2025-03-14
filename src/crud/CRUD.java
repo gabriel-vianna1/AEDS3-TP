@@ -44,7 +44,7 @@ public class CRUD {
         int tamRegistro = raf.readInt();
 
         byte[] ba  = new byte[tamRegistro];
-        //Uso o método readFully porque eu sei o tamanho do que vai ser lido
+        //Uso do método readFully porque eu sei o tamanho do que vai ser lido
         raf.readFully(ba);
 
         Jogo jogo = new Jogo();
