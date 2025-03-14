@@ -73,7 +73,7 @@ public class JogoMenu {
         boolean deletado = CRUD.delete(idDeletar);
 
             if(deletado){
-                System.out.println("O jogo  " + jogo.getTitle() + "foi excluído com sucesso! ");
+                System.out.println("O jogo  " + jogo.getTitle() + " foi excluído com sucesso! ");
             }
         else {
             System.out.println("Não foi possível excluír o jogo. Verifique se a posição é existente ou se ele já não foi removido. ");
