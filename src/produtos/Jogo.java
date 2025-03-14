@@ -171,8 +171,7 @@ public void fromByteArray(byte[] ba) throws IOException{
     }else{
         genres[i] = "";
     }
- 
-}
+  }
  plays = dis.readUTF();
  country = dis.readUTF();
  }

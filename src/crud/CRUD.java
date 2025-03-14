@@ -39,9 +39,13 @@ public class CRUD {
     raf.seek(4); // Move o ponteiro para o byte logo após o cabeçalho
     //Vai fazer a leitura do arquivo até ele acabar
     while(raf.getFilePointer() < raf.length()){
-      
-    if(raf.readByte() != '*'){
-        int tamRegistro = raf.readInt();
+       // Salva a posição antes de ler o status
+
+        byte status = raf.readByte();
+        int tamRegistro = raf.readInt(); 
+        // Lê o status do registro
+        if (status != '*') { // Se o registro não estiver excluído
+            // Volta para a posição correta e pula só o status
 
         byte[] ba  = new byte[tamRegistro];
         //Uso do método readFully porque eu sei o tamanho do que vai ser lido
@@ -53,8 +57,11 @@ public class CRUD {
         if(jogo.getId() == id){
             return jogo;
         }
-      }
+      }else {
+        // Se o registro estiver excluído, pula todos os bytes que representam esse registro
+        raf.skipBytes(tamRegistro);
     }
+}
  }catch(IOException e){
         e.printStackTrace();
     }
@@ -99,8 +106,6 @@ public class CRUD {
                  raf.writeByte(' ');
                  raf.writeInt(novoObjeto.length);
                  raf.write(novoObjeto);
-           
-
                  }
                return true;
             }        
@@ -119,8 +124,10 @@ public class CRUD {
         raf.seek(4);//Pula o cabeçalho para a posição correspondente ao primeiro registro
         while(raf.getFilePointer() < raf.length()){
             long pos = raf.getFilePointer();
+            byte status = raf.readByte();
 
-            if(raf.readByte() != '*'){
+            if(status != '*'){
+                raf.seek(pos + 1);
                 int tamRegistro = raf.readInt();
 
                 byte[] ba  = new byte[tamRegistro];
@@ -133,8 +140,6 @@ public class CRUD {
                 if(jogo.getId() == id){
                     raf.seek(pos);
                     raf.writeByte('*');
-
-                
                     return true;
                 }
             }
@@ -144,6 +149,5 @@ public class CRUD {
         e.printStackTrace();
     }
    return false;
-  }
-  
+  } 
 }
