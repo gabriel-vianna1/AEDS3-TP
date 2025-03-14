@@ -91,7 +91,7 @@ public class CRUD {
             jogo.fromByteArray(ba);
 
             if(jogo.getId() == novoJogo.getId()){
-                byte[] novoObjeto = jogo.toByteArray();
+                byte[] novoObjeto = novoJogo.toByteArray();
                 if(novoObjeto.length <=  tamRegistro){
                     //Aponta para o início do registro porém pula o byte que tem a indicação de lápide e pula também os 4 bytes que indicam o tamanho
                     raf.seek(pos + 5);
