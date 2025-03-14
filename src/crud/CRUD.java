@@ -51,7 +51,6 @@ public class CRUD {
         jogo.fromByteArray(ba);
 
         if(jogo.getId() == id){
-            System.out.println("Registro lido com sucesso!");
             return jogo;
         }
       }
@@ -89,7 +88,7 @@ public class CRUD {
                     //Aponta para o início do registro porém pula o byte que tem a indicação de lápide e pula também os 4 bytes que indicam o tamanho
                     raf.seek(pos + 5);
                     raf.write(novoObjeto);
-                    System.out.println("Registro atualizado com sucesso!");
+             
                     }
                 else{
                  raf.seek(pos);
@@ -100,7 +99,7 @@ public class CRUD {
                  raf.writeByte(' ');
                  raf.writeInt(novoObjeto.length);
                  raf.write(novoObjeto);
-                 System.out.println("Registro atualizado com sucesso!");
+           
 
                  }
                return true;
@@ -135,7 +134,7 @@ public class CRUD {
                     raf.seek(pos);
                     raf.writeByte('*');
 
-                    System.out.println("Registro removido com sucesso!");
+                
                     return true;
                 }
             }
