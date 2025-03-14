@@ -1,15 +1,15 @@
 package menu;
 
 import crud.CRUD;
-import crud.ImportadorCSV;
-import produtos.Jogo;
 import java.util.Scanner;
+import produtos.Jogo;
 
 public class JogoMenu {
-    private int opcao;
-    private final Scanner entrada = new Scanner(System.in);
+    private static int opcao;
+    private static final Scanner entrada = new Scanner(System.in);
 
-    public void exibirMenu() {
+    public static void exibirMenu() {
+        
         do {
 
             System.out.println("\nEscolha a operação: ");
@@ -41,24 +41,46 @@ public class JogoMenu {
         } while (opcao != 0);
     }
 
-    private void procurarJogo() {
+    private static void procurarJogo() {
         System.out.println("Informe a posição do jogo que você deseja encontrar: ");
         int idProcurado = entrada.nextInt();
-        Jogo jogo = CRUD.read();
-        System.out.println("Procurando jogo...");
+        Jogo jogo = CRUD.read(idProcurado);
+        
+      if(jogo == null){
+            System.out.println("Não foi possível encontrar esse jogo. Verifique se ele não foi removido ou se essa posição existe");
+        }
+    
+        else {
+        System.out.println("Jogo encontrado: " + jogo);
+         
+     }
     }
 
-    private void atualizaJogo() {
+    private static void atualizaJogo() {
 
         System.out.println("Atualizando jogo...");
     }
 
-    private void excluirJogo() {
+    private static void excluirJogo() {
 
-        System.out.println("Excluindo jogo...");
+        System.out.println("Informe a posição do jogo que você deseja excluir: ");
+        
+        int idDeletar = entrada.nextInt();
+        entrada.nextLine();
+
+        Jogo jogo = CRUD.read(idDeletar);
+
+        boolean deletado = CRUD.delete(idDeletar);
+
+            if(deletado){
+                System.out.println("O jogo  " + jogo.getTitle() + "foi excluído com sucesso! ");
+            }
+        else {
+            System.out.println("Não foi possível excluír o jogo. Verifique se a posição é existente ou se ele já não foi removido. ");
+        }
     }
 
-    private void criarJogo() {
+    private static void criarJogo() {
 
         System.out.println("Criando jogo...");
     }

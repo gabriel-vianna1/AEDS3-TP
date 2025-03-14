@@ -1,7 +1,7 @@
 import crud.ImportadorCSV;
 import java.util.*;
+import menu.JogoMenu;
 import produtos.Jogo;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +14,7 @@ public class Main {
         e.printStackTrace();
     }
 
-
+    JogoMenu.exibirMenu();
+    
     }
 }
