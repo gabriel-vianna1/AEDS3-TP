@@ -2,6 +2,8 @@ package produtos;
 import java.io.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+import java.util.Locale;
 //Implementação da classe Jogo
 
 public class Jogo{
@@ -89,12 +91,19 @@ public void setCountry(String country){
  * padrão da classe usada, permitindo usar a classe LocalDate e facilitando o uso de datas
  */
 
-public static LocalDate FormatDate(String date){
-    
-    DateTimeFormatter format = DateTimeFormatter.ofPattern("MMM dd, yyyy");
-    LocalDate d = LocalDate.parse(date, format);
- 
-    return d; 
+public static LocalDate FormatDate(String date) { 
+
+    try {
+
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("MMM dd, yyyy", Locale.ENGLISH); // Formata com o padrão da  base de dados escolhida
+        return LocalDate.parse(date, format);
+
+    } catch (DateTimeParseException e) {
+        System.out.println("Erro ao processar a data: " + date);
+        e.printStackTrace();
+
+        return null;  
+    }
 }
 
 public String toString(){
