@@ -10,7 +10,7 @@ public class Main {
     
     try{
         ImportadorCSV.criaByteArq(listaJogos);
-    }catch(Exception e){
+    }catch(Exception e){    
         e.printStackTrace();
     }
 
