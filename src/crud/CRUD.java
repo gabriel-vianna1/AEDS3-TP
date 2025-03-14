@@ -32,7 +32,7 @@ public class CRUD {
     }
   }
 
-  public Jogo read(int id){
+  public Jogo read(int id){ 
 
     try(RandomAccessFile raf = new RandomAccessFile("games.db", "r")){
    
@@ -63,9 +63,10 @@ public class CRUD {
     return null;
   }
 
-  public boolean update(Jogo novoJogo){
+  public boolean update(Jogo novoJogo){ 
 
     try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
+
     //Vai para o primeiro registro após o cabeçalho
     raf.seek(4);
     while(raf.getFilePointer() < raf.length()){
@@ -115,7 +116,7 @@ public class CRUD {
   public boolean delete(int id){
 
     try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
-        raf.seek(4);//Pula o cabeçalho para a posição correspondente ao primeiro registro
+        raf.seek(4);  //Pula o cabeçalho para a posição correspondente ao primeiro registro
         while(raf.getFilePointer() < raf.length()){
             long pos = raf.getFilePointer();
 

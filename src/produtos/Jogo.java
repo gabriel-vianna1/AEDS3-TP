@@ -1,7 +1,7 @@
 package produtos;
+import java.io.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
-import java.io.*;
 //Implementação da classe Jogo
 
 public class Jogo{
@@ -119,7 +119,7 @@ public byte[] toByteArray() throws IOException{
     dos.writeInt(id);
     dos.writeUTF(title);
     /*
-     * A decisão de salvar a data como String é porque a calsse DataOutputStream só escreve tipos primitivos, dentro das alternativas
+     * A decisão de salvar a data como String é porque a classe DataOutputStream só escreve tipos primitivos, dentro das alternativas
      * achamos melhor o uso da String porque facilita a ligibilidade e a transformação entre eles é muito prática usando o LocalDate.
      */
     dos.writeUTF(releaseDate.toString());
@@ -139,12 +139,14 @@ public byte[] toByteArray() throws IOException{
 }
 
 // Lê as informações de um fluxo de Bytes
+
 public void fromByteArray(byte[] ba) throws IOException{
  ByteArrayInputStream bais = new ByteArrayInputStream(ba);
  DataInputStream dis = new DataInputStream(bais);
 
  id = dis.readInt();
  title = dis.readUTF();
+ 
  // Transforma a String em um LocalDate
  releaseDate = LocalDate.parse(dis.readUTF());
  rating = dis.readFloat();
