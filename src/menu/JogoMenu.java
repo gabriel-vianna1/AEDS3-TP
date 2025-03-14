@@ -44,7 +44,7 @@ public class JogoMenu {
     private void procurarJogo() {
         System.out.println("Informe a posição do jogo que você deseja encontrar: ");
         int idProcurado = entrada.nextInt();
-        Jogo jogo = CRUD.
+        Jogo jogo = CRUD.read();
         System.out.println("Procurando jogo...");
     }
 
