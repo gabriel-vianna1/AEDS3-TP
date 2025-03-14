@@ -78,10 +78,11 @@ public class CRUD {
     while(raf.getFilePointer() < raf.length()){
     
         long pos = raf.getFilePointer();
+        byte status = raf.readByte();
+        int tamRegistro = raf.readInt(); 
 
-        if(raf.readByte() != '*'){
-            int tamRegistro = raf.readInt();
-    
+        if(status != '*'){
+        
             byte[] ba  = new byte[tamRegistro];
             //Uso o método readFully porque eu sei o tamanho do que vai ser lido
             raf.readFully(ba);
@@ -109,7 +110,10 @@ public class CRUD {
                  }
                return true;
             }        
-         }
+         } else {
+            
+            raf.skipBytes(tamRegistro);
+        }
       }
     }catch(IOException e){
         e.printStackTrace();
