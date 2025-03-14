@@ -6,31 +6,42 @@ import produtos.*;
 
 public class CRUD {
     
-    public static void create(Jogo jogo){
-
-    try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
-        // move o ponteiro para o inicio do arquivo, onde ele vai ler o id do ultimo registro
+    /*
+     * Esse método vai receber o randomAccessFile como parametro porque ele que vai criar o arquivo primeiramente,
+     * então para não ter o custo de abrir o arquivo para cada registro do csv foi preferível implementar dessa maneira 
+     */
+    public static void create(Jogo jogo, RandomAccessFile raf)  {
+        // Move o ponteiro para o início do arquivo para ler o ID do último registro
+        try{
         raf.seek(0);
         int lastID = raf.readInt();
+        System.out.println(lastID);
+    
         jogo.setId(lastID + 1);
-        //voltar para o início para poder atualizar o valor do último id
+    
+        // Atualiza o cabeçalho com o novo último ID
         raf.seek(0);
         raf.writeInt(jogo.getId());
-        // transforma o novo registro em um array de bytes
+        System.out.println(jogo.getId());
+    
+        // Converte o jogo para bytes
         byte[] ba = jogo.toByteArray();
-        raf.seek(raf.length());
-        //Escreve o registro no final do arquivo
-        raf.writeByte(' ');
+        
+        
+   
+        raf.seek(raf.length());// Registro válido
+        raf.writeByte(' '); // Registro válido
         raf.writeInt(ba.length);
         raf.write(ba);
 
-        System.out.println("Registro adicionado com sucesso!");
-
-
-    }catch(IOException e){
-        e.printStackTrace();
+      
+        }catch(IOException e){
+            e.printStackTrace();
+        }
     }
-  }
+    
+    
+    
 
   public static Jogo read(int id){
 
@@ -166,7 +177,7 @@ public class CRUD {
    
     while(raf.getFilePointer() < raf.length()){
         byte status = raf.readByte();
-
+               
         int tam = raf.readInt();
     
         if(status != '*'){
@@ -178,6 +189,7 @@ public class CRUD {
             jogo.fromByteArray(ba);
 
             System.out.println(jogo.toString());
+            System.out.println(numRegistros);
             }else{
                 raf.skipBytes(tam);
             }

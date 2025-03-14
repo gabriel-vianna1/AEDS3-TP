@@ -97,24 +97,21 @@ public class ImportadorCSV {
     public static void criaByteArq(List<Jogo> lista)throws Exception{
         if(lista == null || lista.isEmpty()){
             throw new Exception("Lista nula ou vazia, impossível continuar");}
-        // cria um novo arquivo para a escrita de bytes
+       
+            // cria um novo arquivo para a escrita de bytes
         try (RandomAccessFile arq = new RandomAccessFile("games.db", "rw")) {
-        //Escreve, no ínicio do meu arquivo, o id do último registro q eu tenho
-        arq.writeInt(1511);
+    
+         if (arq.length() == 0) {
+                arq.writeInt(0);
+           }
         //Percorre todos os elementos da lista, usa o método para transformar em um array de bytes e escreve esses bytes no arquivo, junto com seu tamanho
         for(Jogo j : lista){         
-            byte[] ba;
-             ba = j.toByteArray();
-             arq.writeByte(' ');//Marca o registro como válido
-             //Escreve o tamanho de cada registro
-             arq.writeInt(ba.length);
-             arq.write(ba);  
+            CRUD.create(j, arq);
         }
-
-        }catch(IOException e){
+    }catch(IOException e){
          e.printStackTrace();   
         }
-
-
     }
+
+    
 }

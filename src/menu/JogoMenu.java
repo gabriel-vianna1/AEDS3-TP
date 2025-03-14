@@ -1,12 +1,16 @@
 package menu;
 
 import crud.CRUD;
+
+import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.util.Scanner;
 import produtos.Jogo;
 
 public class JogoMenu {
     private static int opcao;
     private static final Scanner entrada = new Scanner(System.in);
+   
 
     public static void exibirMenu() {
         
@@ -156,9 +160,17 @@ private static void atualizaJogo() {
     }
 
     private static void criarJogo() {
-
+        
+        try( RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
+            
         Jogo jogo = lerJogo();
-        CRUD.create(jogo); // Chama o método create
+        CRUD.create(jogo, raf); // Chama o método create
+
+
+        }catch(IOException e){
+            e.printStackTrace();
+        }  
+
 
     }
 
