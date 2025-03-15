@@ -5,6 +5,8 @@ import crud.CRUD;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.Scanner;
+
+import algoritmos.OrdenacaoExterna;
 import produtos.Jogo;
 
 public class JogoMenu {
@@ -34,7 +36,8 @@ public class JogoMenu {
                 case 2 -> atualizaJogo();
                 case 3 -> excluirJogo();
                 case 4 -> criarJogo();
-                case 5 -> listarJogos();               
+                case 5 -> listarJogos();    
+                case 6 -> ordenarJogos();           
                 case 0 -> {
                     System.out.println("Encerrando");
                     break;
@@ -176,6 +179,32 @@ private static void atualizaJogo() {
 
     private static void listarJogos(){
         CRUD.list();
+    }
+
+    public static void ordenarJogos(){
+             try {
+            // Definição dos parâmetros
+            String arquivoOriginal = "games.db";      // Arquivo de entrada (não ordenado)
+            String arquivoOrdenado = "games_sorted.db"; // Arquivo de saída (ordenado)
+            int numCaminhos;  
+            int tamanhoBloco;  
+            System.out.println("Digite qual o número de caminhos(arquivos) que serão usados para a ordenação: ");
+            numCaminhos = entrada.nextInt();
+             entrada.nextLine();
+
+            System.out.println("Qual o tamanho do bloco (número de registros) que será usado: ");
+            tamanhoBloco = entrada.nextInt();
+            entrada.nextLine();
+            // Criando e executando a ordenação externa
+            OrdenacaoExterna ordenacao = new OrdenacaoExterna(arquivoOriginal, arquivoOrdenado, numCaminhos, tamanhoBloco);
+            ordenacao.ordenarArquivo();
+            
+            System.out.println("Ordenação concluída! Arquivo ordenado salvo como: " + arquivoOrdenado);
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 
