@@ -61,6 +61,10 @@ public class OrdenacaoExterna {
     }
     
     private void intercalarArquivos(List<String> arquivosTemporarios) throws IOException {
+        /*
+         * Esse método foi criado com a ajuda de IA, estavamos tendo problemas na hora de implementar a intercalção
+         */
+
         PriorityQueue<ElementoIntercalacao> heap = new PriorityQueue<>(); // Usa uma fila de prioridade para sempre selecionar o menor id de registro.
         Map<String, RandomAccessFile> arquivos = new HashMap<>();
         
