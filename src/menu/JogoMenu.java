@@ -24,6 +24,7 @@ public class JogoMenu {
             System.out.println("3 - Excluir");
             System.out.println("4 - Criar");
             System.out.println("5 - Listar todos os jogos");
+            System.out.println("6 - Ordenar os registros");
             System.out.println("0 - Encerrar o programa");
             System.out.print("Opção: ");
 
