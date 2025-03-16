@@ -7,9 +7,6 @@ import produtos.*;
 
 
 public class ImportadorCSV {
-   // protected static String caminho = "games.csv";
-
-
     //Método que vai retornar todos os registros da nossa base dados em uma lista 
 
     public static List<Jogo> CriarLista(){
