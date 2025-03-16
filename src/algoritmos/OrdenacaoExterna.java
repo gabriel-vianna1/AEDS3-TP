@@ -31,13 +31,17 @@ public class OrdenacaoExterna {
             while (arq.getFilePointer() < arq.length()) {
                 List<Jogo> bloco = new ArrayList<>();
                 for (int i = 0; i < tamanhoBloco && arq.getFilePointer() < arq.length(); i++) {
-                    if (arq.readByte() != '*') {
+                    byte status = arq.readByte();
                     int tamanho = arq.readInt();
+                    
+                    if (status != '*') {
                     byte[] ba = new byte[tamanho];
                     arq.readFully(ba);
                     Jogo jogo = new Jogo();
                     jogo.fromByteArray(ba);
-                    bloco.add(jogo);}
+                    bloco.add(jogo);}else{
+                        arq.skipBytes(tamanho);
+                    }
                 }
                 Collections.sort(bloco, Comparator.comparingInt(Jogo::getId));
                 String nomeTemp = "temp_" + (numArquivo++) + ".db";
