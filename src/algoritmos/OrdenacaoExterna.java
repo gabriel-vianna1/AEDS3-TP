@@ -2,9 +2,6 @@ package algoritmos;
 
 import java.io.*;
 import produtos.Jogo;
-
-
-import java.io.*;
 import java.util.*;
 
 public class OrdenacaoExterna {
@@ -34,7 +31,7 @@ public class OrdenacaoExterna {
             while (arq.getFilePointer() < arq.length()) {
                 List<Jogo> bloco = new ArrayList<>();
                 for (int i = 0; i < tamanhoBloco && arq.getFilePointer() < arq.length(); i++) {
-                    if (arq.readByte() != ' ') {
+                    if (arq.readByte() != '*') {
                     int tamanho = arq.readInt();
                     byte[] ba = new byte[tamanho];
                     arq.readFully(ba);

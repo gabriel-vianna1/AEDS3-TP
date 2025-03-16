@@ -6,23 +6,23 @@ import produtos.*;
 
 public class CRUD {
     
-    /*
-     * Esse método vai receber o randomAccessFile como parametro porque ele que vai criar o arquivo primeiramente,
-     * então para não ter o custo de abrir o arquivo para cada registro do csv foi preferível implementar dessa maneira 
-     */
+ /*
+  * Todos os métodos dessa classe recebem um RandomAccessFile como parametro,
+  *isso acontece para facilitar o acesso aos arquivos, já que, ao longo do programa
+  * o arquivo em que as operações são realizadas pode ser mudada.
+  */
+
     public static void create(Jogo jogo, RandomAccessFile raf)  {
         // Move o ponteiro para o início do arquivo para ler o ID do último registro
         try{
         raf.seek(0);
         int lastID = raf.readInt();
-        System.out.println(lastID);
     
         jogo.setId(lastID + 1);
     
         // Atualiza o cabeçalho com o novo último ID
         raf.seek(0);
         raf.writeInt(jogo.getId());
-        System.out.println(jogo.getId());
     
         // Converte o jogo para bytes
         byte[] ba = jogo.toByteArray();
@@ -43,9 +43,9 @@ public class CRUD {
     
     
 
-  public static Jogo read(int id){
+  public static Jogo read(int id, RandomAccessFile raf){
 
-    try(RandomAccessFile raf = new RandomAccessFile("games.db", "r")){
+    try{
    
     raf.seek(4); // Move o ponteiro para o byte logo após o cabeçalho
     //Vai fazer a leitura do arquivo até ele acabar
@@ -80,9 +80,9 @@ public class CRUD {
     return null;
   }
 
-  public static boolean update(Jogo novoJogo){
+  public static boolean update(Jogo novoJogo, RandomAccessFile raf){
 
-    try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
+    try{
 
     //Vai para o primeiro registro após o cabeçalho
     raf.seek(4);
@@ -133,9 +133,9 @@ public class CRUD {
 
   }
 
-  public static boolean delete(int id){
+  public static boolean delete(int id, RandomAccessFile raf){
 
-    try(RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
+    try{
         raf.seek(4);//Pula o cabeçalho para a posição correspondente ao primeiro registro
         while(raf.getFilePointer() < raf.length()){
             long pos = raf.getFilePointer();
@@ -166,9 +166,9 @@ public class CRUD {
    return false;
   } 
 
-  public static void list(){
+  public static void list(RandomAccessFile raf){
 
-    try(RandomAccessFile raf = new RandomAccessFile("games.db", "r")){
+    try{
      
         int numRegistros = raf.readInt();
 

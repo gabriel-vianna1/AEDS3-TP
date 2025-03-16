@@ -12,6 +12,18 @@ import produtos.Jogo;
 public class JogoMenu {
     private static int opcao;
     private static final Scanner entrada = new Scanner(System.in);
+    private static boolean foiOrdenado = false;
+
+
+    /*
+     * Esse método vai decidir em qual arquivo as operações do nosso CRUD serão feitas.
+     * Caso já tenha sido feita uma ordenação ele vai abrir o ordenado, caso contrário, ele abre o outro
+     */
+    private static RandomAccessFile abrirArquivo() throws IOException {
+        String arquivo = foiOrdenado ? "games_sorted.db" : "games.db";
+        return new RandomAccessFile(arquivo, "rw");
+    }
+    
    
 
     public static void exibirMenu() {
@@ -96,12 +108,15 @@ public class JogoMenu {
     }
 
     private static void procurarJogo() {
+       
+        try{ // Vai fazer a verificação se o arquivo já foi ordenado para saber em qual arquivo atuar
+         RandomAccessFile raf = abrirArquivo();
 
         System.out.println("Informe a posição do jogo que você deseja encontrar: ");
         int idProcurado = entrada.nextInt();
 
     if(idProcurado > 0){ // Verifica o se o ID é válido
-        Jogo jogo = CRUD.read(idProcurado);
+        Jogo jogo = CRUD.read(idProcurado, raf);
         
       if(jogo == null){
             System.out.println("Não foi possível encontrar esse jogo. Verifique se ele não foi removido ou se essa posição existe");
@@ -112,11 +127,17 @@ public class JogoMenu {
          
      }
     }
+    raf.close();
+}catch(IOException e){
+    e.printStackTrace();
+}
   }
 
 private static void atualizaJogo() {
 
-    boolean atualizado;
+        boolean atualizado;
+        try{
+            RandomAccessFile raf = abrirArquivo();
 
         System.out.println("Informe a posição do jogo que você deseja atualizar");
         int idAtualizar = entrada.nextInt();
@@ -125,7 +146,7 @@ private static void atualizaJogo() {
     if(idAtualizar > 0){ // Verifica se o ID é valido.
         Jogo jogo = lerJogo(); // Chama o método lerJogo, que solicita os novos valores ao usuário.
         jogo.setId(idAtualizar);
-        atualizado = CRUD.update(jogo); // Chamamos o método update para atualizar e substituir os valores antigos pelos valores inseridos
+        atualizado = CRUD.update(jogo, raf); // Chamamos o método update para atualizar e substituir os valores antigos pelos valores inseridos
 
             if(atualizado){
                 System.out.println("Atualizado com sucesso! ");
@@ -138,10 +159,16 @@ private static void atualizaJogo() {
  }
     else{
         System.out.println("Favor inserir um valor válido! ");
-    }      
+    }
+    raf.close();
+}catch(IOException e){
+    e.printStackTrace();
+ }      
 }
 
     private static void excluirJogo() {
+        try{
+            RandomAccessFile raf = abrirArquivo();
 
         System.out.println("Informe a posição do jogo que você deseja excluir: "); // Pega a posição do ID
         
@@ -150,9 +177,9 @@ private static void atualizaJogo() {
     
     if(idDeletar > 0){
 
-        Jogo jogo = CRUD.read(idDeletar); // Lê o ID que vai ser deletado
+        Jogo jogo = CRUD.read(idDeletar, raf); // Lê o ID que vai ser deletado
 
-        boolean deletado = CRUD.delete(idDeletar); // Chama o método delete
+        boolean deletado = CRUD.delete(idDeletar, raf); // Chama o método delete
 
             if(deletado){
                 System.out.println("O jogo  " + jogo.getTitle() + " foi excluído com sucesso! ");
@@ -161,16 +188,21 @@ private static void atualizaJogo() {
             System.out.println("Não foi possível excluír o jogo. Verifique se a posição é existente ou se ele já não foi removido. ");
         }
       }
+      raf.close();
+    }catch(IOException e){
+        e.printStackTrace();
+    }
     }
 
     private static void criarJogo() {
+        try{
+
+        RandomAccessFile raf = abrirArquivo();
         
-        try( RandomAccessFile raf = new RandomAccessFile("games.db", "rw")){
-            
         Jogo jogo = lerJogo();
         CRUD.create(jogo, raf); // Chama o método create
 
-
+        raf.close();
         }catch(IOException e){
             e.printStackTrace();
         }  
@@ -179,7 +211,14 @@ private static void atualizaJogo() {
     }
 
     private static void listarJogos(){
-        CRUD.list();
+        try{
+         RandomAccessFile raf = abrirArquivo();
+
+        CRUD.list(raf);
+        raf.close();
+        }catch(IOException e ){
+            e.printStackTrace();
+        }
     }
 
     public static void ordenarJogos(){
@@ -201,6 +240,8 @@ private static void atualizaJogo() {
             ordenacao.ordenarArquivo();
             
             System.out.println("Ordenação concluída! Arquivo ordenado salvo como: " + arquivoOrdenado);
+
+            foiOrdenado = true;
             
         } catch (IOException e) {
             e.printStackTrace();
