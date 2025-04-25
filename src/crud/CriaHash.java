@@ -8,7 +8,7 @@ import produtos.*;
 
 public class CriaHash {
 
-    public static void main(String[] args) {
+    public static void Criar() {
         try {
             String nomeArquivoDados = "games.db";
             String nomeArquivoDiretorio = "diretorio.hash";

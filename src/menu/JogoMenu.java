@@ -1,6 +1,6 @@
 package menu;
 
-import crud.CRUD;
+import crud.*;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -13,6 +13,8 @@ public class JogoMenu {
     private static int opcao;
     private static final Scanner entrada = new Scanner(System.in);
     private static boolean foiOrdenado = false;
+    private static boolean indiceHashCriado = false;
+
 
 
     /*
@@ -37,6 +39,7 @@ public class JogoMenu {
             System.out.println("4 - Criar");
             System.out.println("5 - Listar todos os jogos");
             System.out.println("6 - Ordenar os registros");
+            System.out.println("7 - Criar arquivo de índice com Hash Extensível");
             System.out.println("0 - Encerrar o programa");
             System.out.print("Opção: ");
 
@@ -50,7 +53,8 @@ public class JogoMenu {
                 case 3 -> excluirJogo();
                 case 4 -> criarJogo();
                 case 5 -> listarJogos();    
-                case 6 -> ordenarJogos();           
+                case 6 -> ordenarJogos();   
+                case 7 -> CriarIndiceHash();        
                 case 0 -> {
                     System.out.println("Encerrando");
                     break;
@@ -108,107 +112,184 @@ public class JogoMenu {
     }
 
     private static void procurarJogo() {
-       
-        try{ // Vai fazer a verificação se o arquivo já foi ordenado para saber em qual arquivo atuar
-         RandomAccessFile raf = abrirArquivo();
-
-        System.out.println("Informe a posição do jogo que você deseja encontrar: ");
-        int idProcurado = entrada.nextInt();
-
-    if(idProcurado > 0){ // Verifica o se o ID é válido
-        Jogo jogo = CRUD.read(idProcurado, raf);
-        
-      if(jogo == null){
-            System.out.println("Não foi possível encontrar esse jogo. Verifique se ele não foi removido ou se essa posição existe");
-        }
-    
-        else {
-        System.out.println("Jogo encontrado: " + jogo.toString());
-         
-     }
-    }
-    raf.close();
-}catch(IOException e){
-    e.printStackTrace();
-}
-  }
-
-private static void atualizaJogo() {
-
-        boolean atualizado;
-        try{
+        try {
             RandomAccessFile raf = abrirArquivo();
+            if (indiceHashCriado) {
+                // Se o índice foi criado, instanciamos o HashExtensivel
+                String nomeArquivoDiretorio = "diretorio.hash";
+                String nomeArquivoCestos = "cestos.hash";
+                HashExtensivel<ParIDEndereco> indice = new HashExtensivel<>(ParIDEndereco.class.getConstructor(), 4, nomeArquivoDiretorio, nomeArquivoCestos);
+    
+                // Realiza a busca no índice
+                System.out.println("Informe o ID do jogo que você deseja encontrar: ");
+                int idProcurado = entrada.nextInt();
+    
+                if (idProcurado > 0) {
+                    ParIDEndereco ie = indice.read(idProcurado);
 
-        System.out.println("Informe a posição do jogo que você deseja atualizar");
-        int idAtualizar = entrada.nextInt();
-        entrada.nextLine(); // Limpa o buffer
+                    if (ie == null) {
+                        System.out.println("Jogo não encontrado ou já removido.");
+                    }else{
+                    long pos = ie.getEndereco();
+                    raf.seek(pos);
 
-    if(idAtualizar > 0){ // Verifica se o ID é valido.
-        Jogo jogo = lerJogo(); // Chama o método lerJogo, que solicita os novos valores ao usuário.
-        jogo.setId(idAtualizar);
-        atualizado = CRUD.update(jogo, raf); // Chamamos o método update para atualizar e substituir os valores antigos pelos valores inseridos
+                    byte status = raf.readByte();
+                    int tamRegistro = raf.readInt(); 
+                    
+                    byte[] ba  = new byte[tamRegistro];
+                    //Uso do método readFully porque eu sei o tamanho do que vai ser lido
+                    raf.readFully(ba);
+            
+                    Jogo jogo = new Jogo();
+                    jogo.fromByteArray(ba);
+                    
 
-            if(atualizado){
-                System.out.println("Atualizado com sucesso! ");
+                  
+                        System.out.println("Jogo encontrado: " + jogo.toString());
+                    }
+                }
+            } else {
+                // Se o índice não foi criado, usa o acesso sequencial
+             
+                System.out.println("Informe a posição do jogo que você deseja encontrar: ");
+                int idProcurado = entrada.nextInt();
+    
+                if (idProcurado > 0) {
+                    Jogo jogo = CRUD.read(idProcurado, raf);
+                    if (jogo == null) {
+                        System.out.println("Jogo não encontrado ou já removido.");
+                    } else {
+                        System.out.println("Jogo encontrado: " + jogo.toString());
+                    }
+                }
+                raf.close();
             }
- 
-        else{
-        System.out.println("Falha ao atualizar");
-
-     }
- }
-    else{
-        System.out.println("Favor inserir um valor válido! ");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-    raf.close();
-}catch(IOException e){
-    e.printStackTrace();
- }      
-}
+    
+
+    private static void atualizaJogo() {
+      
+        try {
+            RandomAccessFile raf = abrirArquivo();
+            if (indiceHashCriado) {
+                // Se o índice foi criado, instanciamos o HashExtensivel
+                String nomeArquivoDiretorio = "diretorio.hash";
+                String nomeArquivoCestos = "cestos.hash";
+                HashExtensivel<ParIDEndereco> indice = new HashExtensivel<>(ParIDEndereco.class.getConstructor(), 4, nomeArquivoDiretorio, nomeArquivoCestos);
+    
+                // Realiza a atualização no índice
+                System.out.println("Informe a posição do jogo que você deseja atualizar: ");
+                int idAtualizar = entrada.nextInt();
+                entrada.nextLine(); // Limpa o buffer
+    
+
+                if (idAtualizar > 0) {
+                    Jogo jogo = lerJogo();
+
+                    ParIDEndereco ie = new ParIDEndereco(jogo.getId(), raf.getFilePointer());
+                    jogo.setId(idAtualizar);
+                    boolean atualizado = indice.update(ie);
+                    if (atualizado) {
+                        System.out.println("Jogo atualizado com sucesso!");
+                    } else {
+                        System.out.println("Falha ao atualizar o jogo.");
+                    }
+                }
+            } else {
+                // Se o índice não foi criado, usa o acesso sequencial
+                
+                System.out.println("Informe a posição do jogo que você deseja atualizar: ");
+                int idAtualizar = entrada.nextInt();
+                entrada.nextLine(); // Limpa o buffer
+    
+                if (idAtualizar > 0) {
+                    Jogo jogo = lerJogo();
+                    jogo.setId(idAtualizar);
+                    boolean atualizado = CRUD.update(jogo, raf);
+                    if (atualizado) {
+                        System.out.println("Jogo atualizado com sucesso!");
+                    } else {
+                        System.out.println("Falha ao atualizar o jogo.");
+                    }
+                }
+                raf.close();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    
 
     private static void excluirJogo() {
-        try{
-            RandomAccessFile raf = abrirArquivo();
-
-        System.out.println("Informe a posição do jogo que você deseja excluir: "); // Pega a posição do ID
-        
-        int idDeletar = entrada.nextInt();
-        entrada.nextLine();
+        try {
+            if (indiceHashCriado) {
+                // Se o índice foi criado, instanciamos o HashExtensivel
+                String nomeArquivoDiretorio = "diretorio.hash";
+                String nomeArquivoCestos = "cestos.hash";
+                HashExtensivel<ParIDEndereco> indice = new HashExtensivel<>(ParIDEndereco.class.getConstructor(), 4, nomeArquivoDiretorio, nomeArquivoCestos);
     
-    if(idDeletar > 0){
-
-        Jogo jogo = CRUD.read(idDeletar, raf); // Lê o ID que vai ser deletado
-
-        boolean deletado = CRUD.delete(idDeletar, raf); // Chama o método delete
-
-            if(deletado){
-                System.out.println("O jogo  " + jogo.getTitle() + " foi excluído com sucesso! ");
+                // Realiza a exclusão no índice
+                System.out.println("Informe o ID do jogo que você deseja excluir: ");
+                int idDeletar = entrada.nextInt();
+    
+                if (idDeletar > 0) {
+                    boolean deletado = indice.delete(idDeletar);
+                    if (deletado) {
+                        System.out.println("Jogo excluído com sucesso!");
+                    } else {
+                        System.out.println("Falha ao excluir o jogo.");
+                    }
+                }
+            } else {
+                // Se o índice não foi criado, usa o acesso sequencial
+                RandomAccessFile raf = abrirArquivo();
+                System.out.println("Informe o ID do jogo que você deseja excluir: ");
+                int idDeletar = entrada.nextInt();
+    
+                if (idDeletar > 0) {
+                    Jogo jogo = CRUD.read(idDeletar, raf);
+                    boolean deletado = CRUD.delete(idDeletar, raf);
+                    if (deletado) {
+                        System.out.println("O jogo " + jogo.getTitle() + " foi excluído com sucesso!");
+                    } else {
+                        System.out.println("Falha ao excluir o jogo.");
+                    }
+                }
+                raf.close();
             }
-        else {
-            System.out.println("Não foi possível excluír o jogo. Verifique se a posição é existente ou se ele já não foi removido. ");
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-      }
-      raf.close();
-    }catch(IOException e){
-        e.printStackTrace();
     }
-    }
+    
 
     private static void criarJogo() {
-        try{
-
-        RandomAccessFile raf = abrirArquivo();
-        
-        Jogo jogo = lerJogo();
-        CRUD.create(jogo, raf); // Chama o método create
-
-        raf.close();
-        }catch(IOException e){
+        try {
+            RandomAccessFile raf = abrirArquivo();;
+            if (indiceHashCriado) {
+                // Se o índice foi criado, instanciamos o HashExtensivel
+                String nomeArquivoDiretorio = "diretorio.hash";
+                String nomeArquivoCestos = "cestos.hash";
+                HashExtensivel<ParIDEndereco> indice = new HashExtensivel<>(ParIDEndereco.class.getConstructor(), 4, nomeArquivoDiretorio, nomeArquivoCestos);
+    
+                // Cria o jogo e insere no índice
+                Jogo jogo = lerJogo();
+                ParIDEndereco par = new ParIDEndereco(jogo.getId(), raf.getFilePointer());
+                indice.create(par);
+            } else {
+                // Se o índice não foi criado, usa o acesso sequencial
+                Jogo jogo = lerJogo();
+                CRUD.create(jogo, raf);
+                raf.close();
+            }
+        } catch (Exception e) {
             e.printStackTrace();
-        }  
-
-
+        }
     }
+    
 
     private static void listarJogos(){
         try{
@@ -248,6 +329,14 @@ private static void atualizaJogo() {
         }
 
     }
+
+    private static void CriarIndiceHash(){
+
+        CriaHash.Criar();
+        indiceHashCriado = true;
+       
+
+      }
 
 
 }
