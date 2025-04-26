@@ -4,6 +4,7 @@ import crud.*;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import algoritmos.OrdenacaoExterna;
@@ -14,6 +15,7 @@ public class JogoMenu {
     private static final Scanner entrada = new Scanner(System.in);
     private static boolean foiOrdenado = false;
     private static boolean indiceHashCriado = false;
+    private static boolean indiceArvoreCriado = false;
 
 
 
@@ -54,7 +56,8 @@ public class JogoMenu {
                 case 4 -> criarJogo();
                 case 5 -> listarJogos();    
                 case 6 -> ordenarJogos();   
-                case 7 -> CriarIndiceHash();        
+                case 7 -> CriarIndiceHash();   
+                case 8 -> CriarIndiceArvore();     
                 case 0 -> {
                     System.out.println("Encerrando");
                     break;
@@ -115,42 +118,61 @@ public class JogoMenu {
         try {
             RandomAccessFile raf = abrirArquivo();
             if (indiceHashCriado) {
-                // Se o índice foi criado, instanciamos o HashExtensivel
                 String nomeArquivoDiretorio = "diretorio.hash";
                 String nomeArquivoCestos = "cestos.hash";
                 HashExtensivel<ParIDEndereco> indice = new HashExtensivel<>(ParIDEndereco.class.getConstructor(), 4, nomeArquivoDiretorio, nomeArquivoCestos);
     
-                // Realiza a busca no índice
                 System.out.println("Informe o ID do jogo que você deseja encontrar: ");
                 int idProcurado = entrada.nextInt();
     
                 if (idProcurado > 0) {
                     ParIDEndereco ie = indice.read(idProcurado);
-
+    
                     if (ie == null) {
                         System.out.println("Jogo não encontrado ou já removido.");
-                    }else{
-                    long pos = ie.getEndereco();
-                    raf.seek(pos);
-
-                    byte status = raf.readByte();
-                    int tamRegistro = raf.readInt(); 
-                    
-                    byte[] ba  = new byte[tamRegistro];
-                    //Uso do método readFully porque eu sei o tamanho do que vai ser lido
-                    raf.readFully(ba);
-            
-                    Jogo jogo = new Jogo();
-                    jogo.fromByteArray(ba);
-                    
-
-                  
+                    } else {
+                        long pos = ie.getEndereco();
+                        raf.seek(pos);
+    
+                        byte status = raf.readByte();
+                        int tamRegistro = raf.readInt();
+                        byte[] ba = new byte[tamRegistro];
+                        raf.readFully(ba);
+    
+                        Jogo jogo = new Jogo();
+                        jogo.fromByteArray(ba);
+    
+                        System.out.println("Jogo encontrado: " + jogo.toString());
+                    }
+                }
+            } else if (indiceArvoreCriado) {
+                String nomeArquivoArvore = "arvore.db";
+                ArvoreBMais<ParIntInt> arvore = new ArvoreBMais<>(ParIntInt.class.getConstructor(), 4, nomeArquivoArvore);
+    
+                System.out.println("Informe o ID do jogo que você deseja encontrar: ");
+                int idProcurado = entrada.nextInt();
+    
+                if (idProcurado > 0) {
+                    ParIntInt chave = new ParIntInt(idProcurado);
+                    ArrayList<ParIntInt> encontrado = arvore.read(chave);
+                     
+                    if (encontrado == null) {
+                        System.out.println("Jogo não encontrado ou já removido.");
+                    } else {
+                        raf.seek(encontrado.get(0).getNum2());
+    
+                        byte status = raf.readByte();
+                        int tamRegistro = raf.readInt();
+                        byte[] ba = new byte[tamRegistro];
+                        raf.readFully(ba);
+    
+                        Jogo jogo = new Jogo();
+                        jogo.fromByteArray(ba);
+    
                         System.out.println("Jogo encontrado: " + jogo.toString());
                     }
                 }
             } else {
-                // Se o índice não foi criado, usa o acesso sequencial
-             
                 System.out.println("Informe a posição do jogo que você deseja encontrar: ");
                 int idProcurado = entrada.nextInt();
     
@@ -162,14 +184,13 @@ public class JogoMenu {
                         System.out.println("Jogo encontrado: " + jogo.toString());
                     }
                 }
-                raf.close();
             }
+            raf.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
     
-
     private static void atualizaJogo() {
       
         try {
@@ -222,16 +243,13 @@ public class JogoMenu {
         }
     }
     
-
     private static void excluirJogo() {
         try {
             if (indiceHashCriado) {
-                // Se o índice foi criado, instanciamos o HashExtensivel
                 String nomeArquivoDiretorio = "diretorio.hash";
                 String nomeArquivoCestos = "cestos.hash";
                 HashExtensivel<ParIDEndereco> indice = new HashExtensivel<>(ParIDEndereco.class.getConstructor(), 4, nomeArquivoDiretorio, nomeArquivoCestos);
     
-                // Realiza a exclusão no índice
                 System.out.println("Informe o ID do jogo que você deseja excluir: ");
                 int idDeletar = entrada.nextInt();
     
@@ -243,8 +261,22 @@ public class JogoMenu {
                         System.out.println("Falha ao excluir o jogo.");
                     }
                 }
+            } else if (indiceArvoreCriado) {
+                String nomeArquivoArvore = "arvore.db";
+                ArvoreBMais<ParIntInt> arvore = new ArvoreBMais<>(ParIntInt.class.getConstructor(), 4, nomeArquivoArvore);
+    
+                System.out.println("Informe o ID do jogo que você deseja excluir: ");
+                int idDeletar = entrada.nextInt();
+    
+                if (idDeletar > 0) {
+                    boolean deletado = arvore.delete(new ParIntInt(idDeletar));
+                    if (deletado) {
+                        System.out.println("Jogo excluído com sucesso!");
+                    } else {
+                        System.out.println("Falha ao excluir o jogo.");
+                    }
+                }
             } else {
-                // Se o índice não foi criado, usa o acesso sequencial
                 RandomAccessFile raf = abrirArquivo();
                 System.out.println("Informe o ID do jogo que você deseja excluir: ");
                 int idDeletar = entrada.nextInt();
@@ -265,26 +297,30 @@ public class JogoMenu {
         }
     }
     
-
+    
     private static void criarJogo() {
         try {
-            RandomAccessFile raf = abrirArquivo();;
+            RandomAccessFile raf = abrirArquivo();
             if (indiceHashCriado) {
-                // Se o índice foi criado, instanciamos o HashExtensivel
                 String nomeArquivoDiretorio = "diretorio.hash";
                 String nomeArquivoCestos = "cestos.hash";
                 HashExtensivel<ParIDEndereco> indice = new HashExtensivel<>(ParIDEndereco.class.getConstructor(), 4, nomeArquivoDiretorio, nomeArquivoCestos);
     
-                // Cria o jogo e insere no índice
                 Jogo jogo = lerJogo();
                 ParIDEndereco par = new ParIDEndereco(jogo.getId(), raf.getFilePointer());
                 indice.create(par);
+            } else if (indiceArvoreCriado) {
+                String nomeArquivoArvore = "arvore.db";
+                ArvoreBMais<ParIntInt> arvore = new ArvoreBMais<>(ParIntInt.class.getConstructor(), 4, nomeArquivoArvore);
+    
+                Jogo jogo = lerJogo();
+                ParIntInt par = new ParIntInt(jogo.getId(), (int) raf.getFilePointer());
+                arvore.create(par);
             } else {
-                // Se o índice não foi criado, usa o acesso sequencial
                 Jogo jogo = lerJogo();
                 CRUD.create(jogo, raf);
-                raf.close();
             }
+            raf.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -334,6 +370,14 @@ public class JogoMenu {
 
         CriaHash.Criar();
         indiceHashCriado = true;
+       
+
+      }
+
+      private static void CriarIndiceArvore(){
+
+        CriaArvore.Criar();
+        indiceArvoreCriado = true;
        
 
       }
