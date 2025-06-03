@@ -158,6 +158,7 @@ public class LZW {
     }
 
     // DECODIFICAÇÃO POR LZW
+    @SuppressWarnings("unchecked")
     public static byte[] decodifica(byte[] msgCodificada) throws Exception {
 
         // Cria o vetor de bits a partir do vetor de bytes
