@@ -7,6 +7,7 @@ import java.io.RandomAccessFile;
 import java.util.Scanner;
 
 import algoritmos.OrdenacaoExterna;
+import algoritmos.compressao.Compressor;
 import produtos.Jogo;
 
 public class JogoMenu {
@@ -50,7 +51,8 @@ public class JogoMenu {
                 case 3 -> excluirJogo();
                 case 4 -> criarJogo();
                 case 5 -> listarJogos();    
-                case 6 -> ordenarJogos();           
+                case 6 -> ordenarJogos(); 
+                case 7 -> comprimir();          
                 case 0 -> {
                     System.out.println("Encerrando");
                     break;
@@ -248,6 +250,27 @@ private static void atualizaJogo() {
         }
 
     }
+
+     private static void comprimir() {
+        try{
+
+        String arqInicial = "games.db";
+        String huffArq = "gamesHuffman.db";
+        String lzwArq = "gamesLZW.db";
+
+        Compressor.Huffman(arqInicial, huffArq);
+        Compressor.LZW(arqInicial, lzwArq);
+        
+        
+
+        
+        }catch(IOException e){
+            e.printStackTrace();
+        }  
+
+
+    }
+
 
 
 }
