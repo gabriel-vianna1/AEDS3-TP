@@ -1,4 +1,4 @@
-package algoritmos;
+package algoritmos.ordenacao;
 
 import java.io.*;
 import produtos.Jogo;

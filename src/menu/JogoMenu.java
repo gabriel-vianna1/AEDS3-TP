@@ -7,9 +7,9 @@ import java.io.RandomAccessFile;
 import java.util.List;
 import java.util.Scanner;
 
-import algoritmos.OrdenacaoExterna;
 import algoritmos.compressao.Compressor;
 import algoritmos.compressao.Descompressor;
+import algoritmos.ordenacao.OrdenacaoExterna;
 import algoritmos.padroes.KMP;
 import produtos.Jogo;
 
