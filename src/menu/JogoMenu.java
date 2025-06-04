@@ -4,11 +4,13 @@ import crud.CRUD;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.util.List;
 import java.util.Scanner;
 
 import algoritmos.OrdenacaoExterna;
 import algoritmos.compressao.Compressor;
 import algoritmos.compressao.Descompressor;
+import algoritmos.padroes.KMP;
 import produtos.Jogo;
 
 public class JogoMenu {
@@ -40,6 +42,7 @@ public class JogoMenu {
             System.out.println("6 - Ordenar os registros");
             System.out.println("7 - Comprimir o arquivo");
             System.out.println("8 - Descomprimir o arquivo");
+            System.out.println("9 - Achar um padrão usando KMP");
             System.out.println("0 - Encerrar o programa");
             System.out.print("Opção: ");
 
@@ -56,6 +59,7 @@ public class JogoMenu {
                 case 6 -> ordenarJogos();
                 case 7 -> comprimir();
                 case 8 -> descomprimir();
+                case 9 -> kmp();
                 case 0 -> {
                     System.out.println("Encerrando");
                     break;
@@ -272,31 +276,54 @@ public class JogoMenu {
 
     }
 
-     private static void descomprimir() {
+    private static void descomprimir() {
         try {
 
             String arqInicial = "games.db";
             String huffArq = "gamesHuffman.db";
             String lzwArq = "gamesLZW.db";
 
-           int opcao;
-            
-           System.out.println("Deseja descomprimir o arquivo de huffman ou de LZW? Digite para Huffman: 1 LZW: 2");
-           opcao = entrada.nextInt();
+            int opcao;
 
-           if(opcao == 1){
+            System.out.println("Deseja descomprimir o arquivo de huffman ou de LZW? Digite para Huffman: 1 LZW: 2");
+            opcao = entrada.nextInt();
+
+            if (opcao == 1) {
                 Descompressor.Huffman(huffArq, arqInicial);
-            } 
-           else{
+            } else {
                 Descompressor.LZW(lzwArq, arqInicial);
-           }
+            }
 
         } catch (IOException e) {
             e.printStackTrace();
-        } catch(ClassNotFoundException ce){
-             ce.printStackTrace();
+        } catch (ClassNotFoundException ce) {
+            ce.printStackTrace();
         }
     }
 
+    private static void kmp() {
+        String padrao;
+
+        try (RandomAccessFile raf = abrirArquivo()) {
+            // tudo aqui dentro
+            System.out.print("Digite o padrão a ser buscado: ");
+            padrao = entrada.nextLine();
+            byte[] padraobytes = padrao.getBytes();
+
+            List<Long> ocorrencias = KMP.search(raf, padraobytes);
+
+            if (ocorrencias.isEmpty()) {
+                System.out.println("Padrão não encontrado.");
+            } else {
+                System.out.println("Padrão encontrado nas posições:");
+                for (long pos : ocorrencias) {
+                    System.out.println(pos);
+                }
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 }
