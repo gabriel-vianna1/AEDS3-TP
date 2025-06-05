@@ -5,11 +5,13 @@ import crud.CRUD;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.List;
+import java.util.Optional;
 import java.util.Scanner;
 
 import algoritmos.compressao.Compressor;
 import algoritmos.compressao.Descompressor;
 import algoritmos.ordenacao.OrdenacaoExterna;
+import algoritmos.padroes.BoyerMoore;
 import algoritmos.padroes.KMP;
 import produtos.Jogo;
 
@@ -43,6 +45,7 @@ public class JogoMenu {
             System.out.println("7 - Comprimir o arquivo");
             System.out.println("8 - Descomprimir o arquivo");
             System.out.println("9 - Achar um padrão usando KMP");
+            System.out.println("10 - Achar um padrão usando Boyer Moore");
             System.out.println("0 - Encerrar o programa");
             System.out.print("Opção: ");
 
@@ -60,6 +63,7 @@ public class JogoMenu {
                 case 7 -> comprimir();
                 case 8 -> descomprimir();
                 case 9 -> kmp();
+                case 10 -> boyerMoore();
                 case 0 -> {
                     System.out.println("Encerrando");
                     break;
@@ -317,6 +321,33 @@ public class JogoMenu {
             } else {
                 System.out.println("Padrão encontrado nas posições:");
                 for (long pos : ocorrencias) {
+                    System.out.println(pos);
+                }
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void boyerMoore() {
+        String padrao;
+
+        try (RandomAccessFile raf = abrirArquivo()) {
+            // tudo aqui dentro
+            System.out.print("Digite o padrão a ser buscado: ");
+            padrao = entrada.nextLine();
+            byte[] padraobytes = padrao.getBytes();
+
+      
+            Optional<List<Long>> ocorrencias = BoyerMoore.search(raf, padraobytes);
+
+
+            if (ocorrencias.isEmpty()) {
+                System.out.println("Padrão não encontrado.");
+            } else {
+                System.out.println("Padrão encontrado nas posições:");
+                for (Long pos : ocorrencias.get()) {
                     System.out.println(pos);
                 }
             }
