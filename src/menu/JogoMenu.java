@@ -321,7 +321,7 @@ public class JogoMenu {
             } else {
                 System.out.println("Padrão encontrado nas posições:");
                 for (long pos : ocorrencias) {
-                    System.out.println(pos);
+                    System.out.println("Endereço:" + pos);
                 }
             }
 
@@ -348,7 +348,7 @@ public class JogoMenu {
             } else {
                 System.out.println("Padrão encontrado nas posições:");
                 for (Long pos : ocorrencias.get()) {
-                    System.out.println(pos);
+                    System.out.println("Endereço:" + pos);
                 }
             }
 
