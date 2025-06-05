@@ -38,7 +38,7 @@ public class Huffman {
             HuffmanNode esquerdo = pq.poll();
             HuffmanNode direito = pq.poll();
 
-            HuffmanNode pai = new HuffmanNode((byte)0, esquerdo.frequencia + direito.frequencia);
+            HuffmanNode pai = new HuffmanNode((byte) 0, esquerdo.frequencia + direito.frequencia);
             pai.esquerdo = esquerdo;
             pai.direito = direito;
 
@@ -57,7 +57,7 @@ public class Huffman {
             return;
         }
 
-        if (no.b != 0) {
+        if (no.esquerdo == null && no.direito == null) {
             codigos.put(no.b, codigo);
         }
 

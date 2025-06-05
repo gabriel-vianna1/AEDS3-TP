@@ -40,7 +40,7 @@ public static void Huffman(String caminhoCompactado, String caminhoSaida) throws
     Duration dur = Duration.between(inicio, fim);
 
     System.out.println("Descompressão concluída.");
-    System.out.println("Tempo necessário: " + dur);
+    System.out.println("Tempo necessário (segundos): " + dur.toSeconds());
     System.out.println("Arquivo final tem " + dadosDecodificados.length + " bytes.");
 }
 
@@ -65,7 +65,7 @@ public static void LZW(String caminhoCompactado, String caminhoSaida) {
         Duration dur = Duration.between(inicio, fim);
 
         System.out.println("Descompressão concluída .");
-        System.out.println("Tempo necessário: " + dur);
+        System.out.println("Tempo necessário(segundos): " + dur.toSeconds());
         System.out.println("Tamanho do arquivo descomprimido: " + dadosDecodificados.length + " bytes");
     } catch (Exception e) {
         e.printStackTrace();

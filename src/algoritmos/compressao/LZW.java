@@ -17,48 +17,6 @@ public class LZW {
 
     public static final int BITS_POR_INDICE = 12; // Mínimo de 9 bits por índice (512 itens no dicionário)
 
-    public static void main(String[] args) {
-
-        try {
-
-            // Codificação
-            String msg = "O sabiá não sabia que o sábio sabia que o sabiá não sabia assobiar.";
-            byte[] msgBytes = msg.getBytes();
-            byte[] msgCodificada = codifica(msgBytes); // Vetor de bits que contém os índices
-
-            // Cria uma cópia dos índices, como se fosse uma leitura em um arquivo
-            // Assim, para armazenar o vetor em um arquivo, basta armazenar o vetor de bytes
-            byte[] copiaMsgCodificada = (byte[]) msgCodificada.clone();
-
-            // Decodificação - Cria uma nova string
-            byte[] msgBytes2 = decodifica(copiaMsgCodificada);
-            String msg2 = new String(msgBytes2);
-
-            // Relatório
-            int i;
-
-            System.out.println("\nMensagem já decodificada: ");
-            System.out.println(msg2);
-
-            System.out.println("\nBytes originais (" + msgBytes.length + "): ");
-            for (i = 0; i < msgBytes.length; i++) {
-                System.out.print(msgBytes[i] + " ");
-            }
-            System.out.println();
-
-            System.out.println("\nBytes compactados (" + msgCodificada.length + "): ");
-            for (i=0; i < msgCodificada.length; i++)
-                System.out.print(msgCodificada[i] + " ");
-            System.out.println();
-
-            System.out.println("Eficiência: " + (100 * (1 - (float) msgCodificada.length / (float) msgBytes.length)) + "%");
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
     // CODIFICAÇÃO POR LZW
     // Usa a mensagem na forma de um vetor de bytes, para
     // eliminar a variação da quantidade de bytes por caráter do UTF-8
@@ -146,12 +104,6 @@ public class LZW {
                 n /= 2;
             }
         }
-
-        // Imprime os índices
-        System.out.println("Índices: ");
-        System.out.println(saida);
-        System.out.println("Vetor de bits: ");
-        System.out.println(bits);
 
         // Retorna o vetor de bits
         return bits.toByteArray();

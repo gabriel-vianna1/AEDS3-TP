@@ -21,11 +21,11 @@ public class Compressor {
         HashMap<Byte, String> codigos = Huffman.codifica(dadosOriginais);
 
         // 3. Codificar
-        VetorDeBits bits = new VetorDeBits();
-        int i = 0;
-        for (byte b : dadosOriginais) {
-            String codigo = codigos.get(b);
-            for (char c : codigo.toCharArray()) {
+            VetorDeBits bits = new VetorDeBits();
+            int i = 0;
+            for (byte b : dadosOriginais) {
+                String codigo = codigos.get(b);
+                for (char c : codigo.toCharArray()) {
                 if (c == '1')
                     bits.set(i);
                 else
@@ -48,7 +48,7 @@ public class Compressor {
         Duration dur = Duration.between(inicio, fim);
 
         System.out.println("Compressão concluída.");
-        System.out.println("Tempo necessário: " + dur);
+        System.out.println("Tempo necessário (segundos): " + dur.toSeconds());
         tamHuff = dadosCompactados.length;
         System.out.println("Original: " + dadosOriginais.length + " bytes");
         System.out.println("Compactado: " + tamHuff + " bytes");
@@ -75,7 +75,7 @@ public class Compressor {
             Duration dur = Duration.between(inicio, fim);
 
             System.out.println("Compressão concluída.");
-            System.out.println("Tempo necessário: " + dur);
+            System.out.println("Tempo necessário (segundos): " + dur.toSeconds());
             tamLZW = dadosCompactados.length;
             System.out.println("Tamanho original: " + dadosOriginais.length + " bytes");
             System.out.println("Tamanho compactado: " + tamLZW + " bytes");
