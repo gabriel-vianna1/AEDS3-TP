@@ -10,6 +10,8 @@ import java.util.Scanner;
 
 import algoritmos.compressao.Compressor;
 import algoritmos.compressao.Descompressor;
+import algoritmos.criptografia.RSA;
+import algoritmos.criptografia.Substituicao;
 import algoritmos.ordenacao.OrdenacaoExterna;
 import algoritmos.padroes.BoyerMoore;
 import algoritmos.padroes.KMP;
@@ -46,6 +48,8 @@ public class JogoMenu {
             System.out.println("8 - Descomprimir o arquivo");
             System.out.println("9 - Achar um padrão usando KMP");
             System.out.println("10 - Achar um padrão usando Boyer Moore");
+            System.out.println("11 - Criptografar usando Substituição (Cifra de César)");
+            System.out.println("12 - Criptografas usando algoritmo RSA");
             System.out.println("0 - Encerrar o programa");
             System.out.print("Opção: ");
 
@@ -64,6 +68,8 @@ public class JogoMenu {
                 case 8 -> descomprimir();
                 case 9 -> kmp();
                 case 10 -> boyerMoore();
+                case 11 -> cifraCesar();
+                case 12 -> RSA();
                 case 0 -> {
                     System.out.println("Encerrando");
                     break;
@@ -339,9 +345,7 @@ public class JogoMenu {
             padrao = entrada.nextLine();
             byte[] padraobytes = padrao.getBytes();
 
-      
             Optional<List<Long>> ocorrencias = BoyerMoore.search(raf, padraobytes);
-
 
             if (ocorrencias.isEmpty()) {
                 System.out.println("Padrão não encontrado.");
@@ -352,6 +356,37 @@ public class JogoMenu {
                 }
             }
 
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void cifraCesar() {
+
+        String entrada = "games.db";
+        String saida = "gamesCesar.db";
+
+        try {
+
+            Substituicao.criptografarArquivo(entrada, saida);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void RSA() {
+
+        String saida = "criptografadoRSA.db";
+
+        try (RandomAccessFile inicial = abrirArquivo();
+        RandomAccessFile rafCriptografado = new RandomAccessFile(saida, "rw")) {
+
+        RSA rsa = new RSA();
+
+        rsa.criptografar(inicial, rafCriptografado);
+        System.out.println("Criptografado com sucesso!");
+     
         } catch (IOException e) {
             e.printStackTrace();
         }
